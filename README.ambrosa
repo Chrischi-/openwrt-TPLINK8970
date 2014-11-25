@@ -8,3 +8,22 @@ Il lavoro è basato sulle informazioni reperite in questo thread: http://www.hwu
 
 Un grazie a RyLoS per il suo eccellente lavoro di messa a punto del firmware nei mesi scorsi e per il rilascio dei vari file di customizzazione da lui creati.
 
+----
+
+La directory /RyLoS contiene i file di configurazione usati da RyLoS che gentilmente ha reso pubblici
+
+Lo script ./simple-compile.sh è utile per lanciare una compilazione condensando i vari (pochi) passaggi necessari.
+E' comunque compito dell'utente finale inizializzare la buildroot (una-tantum) prima della compilazione seguendo la guida http://wiki.openwrt.org/doc/howto/buildroot.exigence ma sostituendo i seguenti capoversi:
+
+2) Download the OpenWrt bleeding edge with git (see Downloading Sources for more options!):
+git clone https://github.com/ambrosa/openwrt-TPLINK8970.git
+
+
+3) (optional) Download and install all available "feeds" (see Downloading and Installing Feeds for more options!):
+
+cd openwrt-TPLINK8970
+./scripts/feeds update -a
+./scripts/feeds install -a
+
+----
+
