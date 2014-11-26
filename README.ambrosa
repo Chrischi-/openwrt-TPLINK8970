@@ -11,8 +11,7 @@ http://www.hwupgrade.it/forum/showthread.php?t=2643260
 Un grazie a RyLoS per il suo eccellente lavoro di messa a punto del firmware nei mesi scorsi e per il rilascio dei vari file di customizzazione da lui creati.
 Grazie anche a matteo85 per aver fornito alcune patch
 
-Le loro modifiche sono in /extrapatch.
-Alcune delle loro patch sono state applicate.
+Le loro modifiche sono in /extrapatch ed alcune sono state applicate a questo repository.
 
 ----
 
@@ -20,3 +19,5 @@ Lo script ./simple-compile.sh è utile per lanciare una compilazione condensando
 E' comunque compito dell'utente finale inizializzare la buildroot (una-tantum) prima della compilazione 
 seguendo la guida:
 http://wiki.openwrt.org/doc/howto/buildroot.exigence
+
+----
