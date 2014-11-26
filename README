@@ -1,3 +1,40 @@
+26 Novembre 2014  by ambrosa
+
+https://github.com/ambrosa/openwrt-TPLINK8970
+
+Questo mio personale fork di OpenWrt è stato creato con l'intento
+di fornire un pacchetto di sorgenti pronti alla compilazione per
+il modem/router adsl TP-LINK 8970
+Per quanto questo device sia supportato ufficialmente da OpenWrt,
+c'è spazio per alcuni piccoli miglioramenti.
+
+Le modifiche di questo repository sono basate sul lavoro di 
+RyLoS e matteo85 http://www.hwupgrade.it/forum/showthread.php?t=2643260
+che ringrazio per aver condiviso pubblicamente il loro lavoro.
+Il loro lavoro originale è posto in /extrapatch
+
+In /bin trovate il firmware/immagine pronta per l'installazione
+e i package da me compilati e caricati su GitHub ciclicamente
+
+In /files sono posti i vari custom files aggiunti al root filesystem del fw.
+In particolare i file firmware .BIN per il chipset ADSL (/lib/firmware) 
+
+
+Se volete compilare voi stessi l'immagine:
+
+1) clonate il presente repo con:
+git clone https://github.com/ambrosa/openwrt-TPLINK8970
+
+2) assicuratevi di avere settato la buildroot
+http://wiki.openwrt.org/doc/howto/buildroot.exigence
+
+3) lanciate /simple-compile.sh
+Viene comunque lanciato il menù di configurazione delle opzioni di compilazione:
+se non volete modificare nulla, semplicemente uscite (<exit>)
+Il log della compilazione lo trovate in /build.log
+
+--------------------Original README below------------------------
+
 This is the buildsystem for the OpenWrt Linux distribution.
 
 Please use "make menuconfig" to configure your appreciated

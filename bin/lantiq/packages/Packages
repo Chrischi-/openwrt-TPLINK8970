@@ -221,11 +221,11 @@ License: BSD-3-Clause
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 4420
+Installed-Size: 4421
 Filename: hostapd-common_2014-10-25-1_lantiq.ipk
-Size: 5177
-MD5Sum: e29c75f9b7b98041399b6691daabebbc
-SHA256sum: eb79cc63fffe9c8018093c1b437f9a95d7182a8aba82cf09549ece677d6b46fe
+Size: 5181
+MD5Sum: 8eb7a4620c16495f7ec12635dd533978
+SHA256sum: 7d752c2bbdbc42fde302dd78593025f4c63d71e06de99217b7cc086d03e904ce
 Description:  hostapd/wpa_supplicant common support files
 
 Package: ip6tables
@@ -364,11 +364,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 2746
+Installed-Size: 2747
 Filename: iptables-mod-ipp2p_2.5-1_lantiq.ipk
 Size: 3501
-MD5Sum: 3699b78918713aedf0a5e5044c7557eb
-SHA256sum: 8aba077e0b1920ae30fe5234714560883c74c0d4607f9aa621bf20313c490d2c
+MD5Sum: 28ace5e4dfb91b14bc8ff00c0fa0beb0
+SHA256sum: 600661cd041119ecaf133a239d92c60646a4de1ece3b82575a86828f911d0978
 Description:  IPP2P iptables extension
 
 Package: iptables-mod-nat-extra
@@ -505,11 +505,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 115377
+Installed-Size: 115382
 Filename: kmod-ath9k-common_3.14.18+2014-11-04-1_lantiq.ipk
-Size: 113084
-MD5Sum: 0b356839f33b53fc67ada9076e0c9f36
-SHA256sum: ab617bb0b0050a70b913df0c6c6b62114e5661438aef131dd886918cfb04237c
+Size: 113062
+MD5Sum: c9b212b245599772be0f4204686a043e
+SHA256sum: 28a286f7a3484682d950a58f99122fed7cd0fe92765a0fcc5a280b53a2adecf4
 Description:  Atheros 802.11n wireless devices (common code for ath9k and ath9k_htc)
 
 Package: kmod-ath9k
@@ -519,11 +519,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 43593
+Installed-Size: 43596
 Filename: kmod-ath9k_3.14.18+2014-11-04-1_lantiq.ipk
-Size: 43967
-MD5Sum: 7f5e33a753368aa2fbe9393fa351a30d
-SHA256sum: ca9bae87dbd30db03adfc6040807189710c1c9e6775b03e04f0772fc4a4586a1
+Size: 43985
+MD5Sum: 21c2656b3ec9bb248502de44365fd5e2
+SHA256sum: 2e2223456f1f215ad9880796f6d0c48c66a66f9db27d101eb8d24923e0331f61
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11n AR5008 and AR9001 family of chipsets.
 
@@ -534,11 +534,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 14153
+Installed-Size: 14155
 Filename: kmod-ath_3.14.18+2014-11-04-1_lantiq.ipk
-Size: 14651
-MD5Sum: a8f91c7dad5d782b6b49c785fdb33c1a
-SHA256sum: 93b2110e9eabeb8d91245f5d7028b2704e73abfa2fbbc3c8ffa2987f7e725894
+Size: 14649
+MD5Sum: 4c7fe958f9adbde54a641a2eabd38e9d
+SHA256sum: 2920c437286d91945e8476966386f851793199b74d35bf134d00271700181921
 Description:  This module contains some common parts needed by Atheros Wireless drivers.
 
 Package: kmod-atm
@@ -578,11 +578,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 122296
+Installed-Size: 122299
 Filename: kmod-cfg80211_3.14.18+2014-11-04-1_lantiq.ipk
-Size: 122671
-MD5Sum: be6288dfbf04b0f4d2ad63fb6bc3346a
-SHA256sum: 65a5d61ff9440ba5f1df8988673c7e73d8daf6e86582e15161be9ec776f66df5
+Size: 122646
+MD5Sum: d475da32bee7b38695a8c3d789fc7fa2
+SHA256sum: df358a447610eabbbd2f7f0191af8f44b1e478d327aa60ccedf0f968e166caa1
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-crypto-aes
@@ -801,11 +801,11 @@ Depends: kernel (=3.14.18-1-5b51abd0f74916266e5f444cc0d0a1d8)
 Source: package/kernel/gpio-button-hotplug
 Section: kernel
 Architecture: lantiq
-Installed-Size: 5388
+Installed-Size: 5387
 Filename: kmod-gpio-button-hotplug_3.14.18-1_lantiq.ipk
 Size: 6277
-MD5Sum: 35c386a3446c3e28bbbd369c0fd3ac2b
-SHA256sum: b77fe19794c6e5df9caf8ad937214d3c36aa54098a0141a85bf93a09e57aa659
+MD5Sum: 4096bd403cbd746b7c8896d0fd8436a9
+SHA256sum: 4db2729ccb793286ef8ffd184430be5a7d2c709f91dae538383b64019dbadcce
 Description:  This is a replacement for the following in-kernel drivers:
  1) gpio_keys (KEYBOARD_GPIO)
  2) gpio_keys_polled (KEYBOARD_GPIO_POLLED)
@@ -897,11 +897,11 @@ License: GPL-2.0
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 826
+Installed-Size: 827
 Filename: kmod-ipt-compat-xtables_3.14.18+2.5-1_lantiq.ipk
-Size: 1634
-MD5Sum: a553f5a088a067719053f1915b610578
-SHA256sum: 89488b84d3653ed8e0736f62a567c4ac7e17e2123d84c656590535d23e613d84
+Size: 1632
+MD5Sum: 53cfe890664ad92960f6c3364b8cbdcd
+SHA256sum: 319797e8838e0335cc0c22331a79924bf29cbe13a7d5afa97119894f0723a122
 Description:  API compatibilty layer netfilter module
 
 Package: kmod-ipt-conntrack-extra
@@ -1043,11 +1043,11 @@ License: GPL-2.0
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 5387
+Installed-Size: 5388
 Filename: kmod-ipt-ipp2p_3.14.18+2.5-1_lantiq.ipk
 Size: 6064
-MD5Sum: 219b6aa4c0f69ab84537197c5b285103
-SHA256sum: 70ffeaab0945b21af9fdb44233adc2b705ff3b627496b9c2e0e3198d1f0d3e46
+MD5Sum: f83db9a0505ffd15448697a62afdef8a
+SHA256sum: d81dfb8a5ea5597018e05a0b9ea209470cfda6d1a1f3ccc86624455d1e1dfe96
 Description:  IPP2P netfilter module
 
 Package: kmod-ipt-nat-extra
@@ -1354,11 +1354,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 11379
+Installed-Size: 11381
 Filename: kmod-lib80211_3.14.18+2014-11-04-1_lantiq.ipk
-Size: 12187
-MD5Sum: 11ac81d644f796d41bc854f0b16673a3
-SHA256sum: 02676469db62ff6ee18ff4a3ff27a01dcd0ad0e28e960f57cc1bb48b0085c520
+Size: 12190
+MD5Sum: 304911b47a33d4c46d4b0f05d0e35ed7
+SHA256sum: f031a9dda9479e61c93738295b827dc79350cdb9bc7fb0d9220373095e05b671
 Description:  Kernel modules for 802.11 Networking stack
  Includes:
  - lib80211
@@ -1418,11 +1418,11 @@ Source: package/kernel/lantiq/ltq-atm
 Section: sys
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: lantiq
-Installed-Size: 18469
+Installed-Size: 18468
 Filename: kmod-ltq-atm-vr9_3.14.18-1_lantiq.ipk
-Size: 19206
-MD5Sum: 13a299af46fba380103b49602beab85d
-SHA256sum: d32ab5a5b535c623dd7a2f1bbf43edfd111ab4f0e16daaf86588321e0786981a
+Size: 19195
+MD5Sum: 8e618732fe9f6407d2c080ae41131051
+SHA256sum: 9f86146c6f84f8bcb998c14264463727b530cacc7948fa41e18b4bf79cab8cd7
 Description:  atm driver for vr9
 
 Package: kmod-ltq-deu-vr9
@@ -1432,11 +1432,11 @@ Source: package/kernel/lantiq/ltq-deu
 Section: sys
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: lantiq
-Installed-Size: 9998
+Installed-Size: 9997
 Filename: kmod-ltq-deu-vr9_3.14.18-1_lantiq.ipk
-Size: 10745
-MD5Sum: 9ec44aa0f8f229810b015630af3dbb62
-SHA256sum: b729a38fc5e7ab2072d8419195ec1180215e140ec8660b32587a7cd457af8e63
+Size: 10744
+MD5Sum: 16d97335fe54c9062b3cdc2aee553759
+SHA256sum: 7cf86d6c76388867e0f8ae0cd0ad74740b3ecb37d208de01e0e16db3b1b08371
 Description:  deu driver for vr9
 
 Package: kmod-ltq-hcd-vr9
@@ -1446,11 +1446,11 @@ Source: package/kernel/lantiq/ltq-hcd
 Section: sys
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: lantiq
-Installed-Size: 24953
+Installed-Size: 24952
 Filename: kmod-ltq-hcd-vr9_3.14.18-1_lantiq.ipk
 Size: 25651
-MD5Sum: ca4a672ebfa233895aec763d16b4d38c
-SHA256sum: dd5ea1cb2cc99f7a12c1ecd215e769db9c51e491be66c2cdd5a62d881592ee95
+MD5Sum: 4bc05347d8700be59fbb23cd060992f5
+SHA256sum: f4d759b8aa70e7647b55218c644bd8c09628bc04891df012bd937b082b81488b
 Description:  USB driver for vr9
 
 Package: kmod-ltq-ifxos
@@ -1460,11 +1460,11 @@ Source: package/kernel/lantiq/ltq-ifxos
 Section: sys
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: lantiq
-Installed-Size: 8826
+Installed-Size: 8827
 Filename: kmod-ltq-ifxos_3.14.18+1.5.14-3_lantiq.ipk
-Size: 9622
-MD5Sum: 6ff236680b400ecc0340cad532a11f6d
-SHA256sum: 9a68a3a0021cea028d1baadc823fc2024a076d1c6664f0b8a98764763ab594c2
+Size: 9614
+MD5Sum: 8ff9bfab11d015d51290d6be3a024e2b
+SHA256sum: e226193947568e719f0b426f52ff3ef17f509ba71763bdf06e3da7cdabaccfce
 Description:  Lantiq OS abstraction library
 
 Package: kmod-ltq-ptm-vr9
@@ -1474,11 +1474,11 @@ Source: package/kernel/lantiq/ltq-ptm
 Section: sys
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: lantiq
-Installed-Size: 15882
+Installed-Size: 15884
 Filename: kmod-ltq-ptm-vr9_3.14.18-1_lantiq.ipk
-Size: 16609
-MD5Sum: 7a400999139bcd4ccd67eea37c1f98ac
-SHA256sum: 4f0023a0873627bfb866600942edacd9ffa05b1aa3013c41cb02d6644abfc1a6
+Size: 16613
+MD5Sum: db0183f8d2a24589bd30688ec926d605
+SHA256sum: 3268d93445fc04a9975d48846a6a0f09956f7802f0a15d9e132c4c317dfb5fce
 Description:  ptm driver for vr9
 
 Package: kmod-ltq-vdsl-vr9-mei
@@ -1488,11 +1488,11 @@ Source: package/kernel/lantiq/ltq-vdsl-mei
 Section: sys
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: lantiq
-Installed-Size: 56494
+Installed-Size: 56493
 Filename: kmod-ltq-vdsl-vr9-mei_3.14.18+1.2.0-1_lantiq.ipk
-Size: 56353
-MD5Sum: 2fc088f894568c5def3e1aae6d66d957
-SHA256sum: 169f736db214b84ac989dff4d979481cadf2fcfee7eb73602d15f3af5feb3862
+Size: 56370
+MD5Sum: cb707b661203cb4b05eb07292e46f484
+SHA256sum: fe95f18db093ba8720bcbae25dbba823bb0ebd9b5cb7cd0e427f5915aee4f2c5
 Description:  Lantiq MEI CPE Kernel Module Driver
 
 Package: kmod-ltq-vdsl-vr9
@@ -1502,11 +1502,11 @@ Source: package/kernel/lantiq/ltq-vdsl
 Section: sys
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: lantiq
-Installed-Size: 70291
+Installed-Size: 70289
 Filename: kmod-ltq-vdsl-vr9_3.14.18+4.11.4-1_lantiq.ipk
-Size: 71001
-MD5Sum: 260c33a9552a58bd66b7bf88d48c427a
-SHA256sum: 3dd92d698e31f28be5534f597f8566d3f86f2da8b8d669765301cdbb4f1ddc35
+Size: 70982
+MD5Sum: 756e93f3642534c7390a6de50af1e237
+SHA256sum: 255f76b373586fba954155436fc55ee84b2c5c427c77909bae7c11e2f72b083f
 Description:  vdsl driver
 
 Package: kmod-mac80211
@@ -1516,11 +1516,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 188381
+Installed-Size: 188384
 Filename: kmod-mac80211_3.14.18+2014-11-04-1_lantiq.ipk
-Size: 187581
-MD5Sum: 4d7bfa5c17236858aa9327c82839a6b6
-SHA256sum: 8eaf40373b9b86baa107a4fb949ab20fde24dbe5bc350af3248ed84c95087564
+Size: 187569
+MD5Sum: 3557892210f59c6495097e05cff315e5
+SHA256sum: 7cc2fd061331d1a2dc3af80ef25eebe2f941a916d37ba291f120a3111d7bf34e
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-mii
@@ -3879,11 +3879,11 @@ License: BSD-3-Clause
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 215470
+Installed-Size: 215473
 Filename: wpad-mini_2014-10-25-1_lantiq.ipk
-Size: 216192
-MD5Sum: 18e66ebb0484f9dad08c51de8c229904
-SHA256sum: dc4154af8b9cb9721c73b8e45ce059b7b29dae1366d785a80bd33d9d7b560d8c
+Size: 216195
+MD5Sum: f3e0fe4b8aee3c1d7f10bc63db8bf75d
+SHA256sum: 3aa31139286497f1f24ba8e90f9ae8b8f02169b508fe32765ef7cff8a0209533
 Description:  This package contains a minimal IEEE 802.1x/WPA Authenticator and Supplicant (WPA-PSK only).
 
 Package: zlib
