@@ -1,30 +1,22 @@
-25 Novembre 2014
+26 Novembre 2014
 
 Router/modem ADSL  TP-LINK 8970
 
-Questo mio personale fork di OpenWRT nasce dall'esigenza di avere un firmware più funzionale di quello originale messo a disposizione da OpenWRT
+Questo mio personale fork di OpenWRT nasce dall'esigenza di avere un firmware più funzionale 
+di quello originale messo a disposizione da OpenWRT.
 
-Il lavoro è basato sulle informazioni reperite in questo thread: http://www.hwupgrade.it/forum/showthread.php?t=2643260
+Il lavoro è basato sulle informazioni reperite in questo thread:
+http://www.hwupgrade.it/forum/showthread.php?t=2643260
 
 Un grazie a RyLoS per il suo eccellente lavoro di messa a punto del firmware nei mesi scorsi e per il rilascio dei vari file di customizzazione da lui creati.
 Grazie anche a matteo85 per aver fornito alcune patch
 
-Le modifiche sono in /extrapatch
+Le loro modifiche sono in /extrapatch.
+Alcune delle loro patch sono state applicate.
 
 ----
 
 Lo script ./simple-compile.sh è utile per lanciare una compilazione condensando i vari (pochi) passaggi necessari.
-E' comunque compito dell'utente finale inizializzare la buildroot (una-tantum) prima della compilazione seguendo la guida http://wiki.openwrt.org/doc/howto/buildroot.exigence ma sostituendo i seguenti capoversi:
-
-2) Download the OpenWrt bleeding edge with git (see Downloading Sources for more options!):
-git clone https://github.com/ambrosa/openwrt-TPLINK8970.git
-
-
-3) (optional) Download and install all available "feeds" (see Downloading and Installing Feeds for more options!):
-
-cd openwrt-TPLINK8970
-./scripts/feeds update -a
-./scripts/feeds install -a
-
-----
-
+E' comunque compito dell'utente finale inizializzare la buildroot (una-tantum) prima della compilazione 
+seguendo la guida:
+http://wiki.openwrt.org/doc/howto/buildroot.exigence
