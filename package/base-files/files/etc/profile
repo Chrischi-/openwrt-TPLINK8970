@@ -5,12 +5,16 @@
 export PATH=/usr/bin:/usr/sbin:/bin:/sbin
 export HOME=$(grep -e "^${USER:-root}:" /etc/passwd | cut -d ":" -f 6)
 export HOME=${HOME:-/root}
-export PS1='\u@\h:\w\$ '
+export PS1='\[\e[01;31m\]\u\[\e[00m\]@\[\e[01;34m\]\h\[\e[00m\]:\[\e[01;32m\]\w\[\e[00m\]\$ '
 
 [ -x /bin/more ] || alias more=less
 [ -x /usr/bin/vim ] && alias vi=vim || alias vim=vi
 
 [ -z "$KSH_VERSION" -o \! -s /etc/mkshrc ] || . /etc/mkshrc
 
-[ -x /usr/bin/arp ] || arp() { cat /proc/net/arp; }
+which arp >/dev/null || arp() { cat /proc/net/arp; }
 [ -x /usr/bin/ldd ] || ldd() { LD_TRACE_LOADED_OBJECTS=1 $*; }
+
+alias ll='ls -lhA'
+alias la='ls -la'
+
