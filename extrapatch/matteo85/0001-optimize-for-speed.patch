@@ -1,0 +1,34 @@
+From 43a32d2b0a5e3c41246c8c2faa143223696fb7b4 Mon Sep 17 00:00:00 2001
+From: Matteo Croce <matteo@openwrt.org>
+Date: Tue, 21 Oct 2014 00:17:36 +0200
+Subject: [PATCH 01/15] optimize for speed
+
+---
+ include/target.mk | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/include/target.mk b/include/target.mk
+index 3401f84..7466a36 100644
+--- a/include/target.mk
++++ b/include/target.mk
+@@ -199,7 +199,7 @@ ifeq ($(DUMP),1)
+     # remove duplicates
+     FEATURES:=$(sort $(FEATURES))
+   endif
+-  CPU_CFLAGS = -Os -pipe
++  CPU_CFLAGS = -O2 -pipe
+   ifneq ($(findstring mips,$(ARCH)),)
+     ifneq ($(findstring mips64,$(ARCH)),)
+       CPU_TYPE ?= mips64
+@@ -211,7 +211,7 @@ ifeq ($(DUMP),1)
+     CPU_CFLAGS_mips32r2 = -mips32r2 -mtune=mips32r2
+     CPU_CFLAGS_mips64 = -mips64 -mtune=mips64 -mabi=64
+     CPU_CFLAGS_24kec = -mips32r2 -mtune=24kec
+-    CPU_CFLAGS_34kc = -mips32r2 -mtune=34kc
++    CPU_CFLAGS_34kc = -march=34kc
+     CPU_CFLAGS_74kc = -mips32r2 -mtune=74kc
+     CPU_CFLAGS_octeon = -march=octeon -mabi=64
+     CPU_CFLAGS_dsp = -mdsp
+-- 
+2.1.0
+

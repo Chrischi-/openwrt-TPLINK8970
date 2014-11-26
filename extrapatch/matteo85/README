@@ -1,0 +1,27 @@
+# http://www.hwupgrade.it/forum/showpost.php?p=41829747&postcount=1154
+
+0001-optimize-for-speed.patch
+compila un firmware ottimizzato per MIPS 34k (quello del Lantiq)
+
+0002-mtd-partitions.patch
+aumenta lo spazio a disposizione
+
+0003-vdsl-firmware.patch
+include il firmware DSL nell'immagine
+
+0007-shell-profile.patch
+alias utili e prompt colorato
+
+0008-europe-timezone.patch
+imposta il fuso orario europeo
+
+0009-add-pppoe-host-uniq-parameter.patch
+hehe
+
+0014-set-static-ARP-entries.patch
+imposta staticamente gli ARP presenti in /etc/ethers
+
+0015-remove-NAND-support.patch
+rimuove il supporto alle memorie NAND dato che l'8970 ha una NOR (il firmware viene più piccolo) 
+
+

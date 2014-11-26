@@ -1,0 +1,25 @@
+From 635709615f08f1cfd316703c0adab650020b9e9c Mon Sep 17 00:00:00 2001
+From: Matteo Croce <matteo@openwrt.org>
+Date: Tue, 21 Oct 2014 00:40:01 +0200
+Subject: [PATCH 08/15] europe timezone
+
+---
+ package/base-files/files/etc/config/system | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/package/base-files/files/etc/config/system b/package/base-files/files/etc/config/system
+index 3dfbfc4..62f3885 100644
+--- a/package/base-files/files/etc/config/system
++++ b/package/base-files/files/etc/config/system
+@@ -1,6 +1,6 @@
+ config system
+-	option hostname	OpenWrt
+-	option timezone	UTC
++	option hostname	modem
++	option timezone	CEST
+ 
+ config timeserver ntp
+ 	list server	0.openwrt.pool.ntp.org
+-- 
+2.1.0
+

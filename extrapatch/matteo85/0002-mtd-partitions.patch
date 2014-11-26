@@ -1,0 +1,48 @@
+From 6cdab5161d4d8c05050b3473eba450bbbcd5eacd Mon Sep 17 00:00:00 2001
+From: Matteo Croce <matteo@openwrt.org>
+Date: Tue, 21 Oct 2014 00:18:26 +0200
+Subject: [PATCH 02/15] mtd partitions
+
+---
+ target/linux/lantiq/dts/TDW8970.dts | 15 ++-------------
+ 1 file changed, 2 insertions(+), 13 deletions(-)
+
+diff --git a/target/linux/lantiq/dts/TDW8970.dts b/target/linux/lantiq/dts/TDW8970.dts
+index 51972a0..5631bd3 100644
+--- a/target/linux/lantiq/dts/TDW8970.dts
++++ b/target/linux/lantiq/dts/TDW8970.dts
+@@ -6,7 +6,7 @@
+ 	model = "TDW8970 - TP-LINK TD-W8970";
+ 
+ 	chosen {
+-		bootargs = "console=ttyLTQ0,115200 init=/etc/preinit";
++		bootargs = "console=ttyLTQ0,115200 init=/etc/preinit panic=1";
+ 	};
+ 
+ 	memory@0 {
+@@ -168,21 +168,10 @@
+ 			};
+ 
+ 			partition@20000 {
+-				reg = <0x20000 0x6a0000>;
++				reg = <0x20000 0x7b0000>;
+ 				label = "firmware";
+ 			};
+ 
+-			partition@6c0000 {
+-				reg = <0x6c0000 0x100000>;
+-				label = "dsl_fw";
+-			};
+-
+-			partition@7c0000 {
+-				reg = <0x7c0000 0x10000>;
+-				label = "config";
+-				read-only;
+-			};
+-
+ 			ath9k_cal: partition@7d0000 {
+ 				reg = <0x7d0000 0x30000>;
+ 				label = "boardconfig";
+-- 
+2.1.0
+

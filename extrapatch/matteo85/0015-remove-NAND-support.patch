@@ -1,0 +1,25 @@
+From 52c974507e8ed734402de8b665d0de6371452006 Mon Sep 17 00:00:00 2001
+From: Matteo Croce <matteo@openwrt.org>
+Date: Mon, 3 Nov 2014 12:19:31 +0100
+Subject: [PATCH 15/15] remove NAND support
+
+---
+ target/linux/lantiq/xrx200/target.mk | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/target/linux/lantiq/xrx200/target.mk b/target/linux/lantiq/xrx200/target.mk
+index 726f79b..71f3896 100644
+--- a/target/linux/lantiq/xrx200/target.mk
++++ b/target/linux/lantiq/xrx200/target.mk
+@@ -1,7 +1,7 @@
+ ARCH:=mips
+ SUBTARGET:=xrx200
+ BOARDNAME:=XRX200
+-FEATURES:=squashfs atm mips16 jffs2 nand ubifs
++FEATURES:=squashfs atm mips16 jffs2
+ CPU_TYPE:=34kc
+ CPU_SUBTYPE:=dsp
+ 
+-- 
+2.1.0
+

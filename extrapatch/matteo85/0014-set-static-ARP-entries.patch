@@ -1,0 +1,57 @@
+From 6842798d9f067a551d26c4b63f8c02dbaab0389c Mon Sep 17 00:00:00 2001
+From: Matteo Croce <matteo@openwrt.org>
+Date: Mon, 3 Nov 2014 01:01:01 +0100
+Subject: [PATCH 14/15] set static ARP entries
+
+---
+ package/utils/busybox/Config-defaults.in |  2 +-
+ package/utils/busybox/Makefile           |  1 +
+ package/utils/busybox/files/ethers       | 11 +++++++++++
+ 3 files changed, 13 insertions(+), 1 deletion(-)
+ create mode 100755 package/utils/busybox/files/ethers
+
+diff --git a/package/utils/busybox/Config-defaults.in b/package/utils/busybox/Config-defaults.in
+index 5f5bdd0..664f8da 100644
+--- a/package/utils/busybox/Config-defaults.in
++++ b/package/utils/busybox/Config-defaults.in
+@@ -1908,7 +1908,7 @@ config BUSYBOX_DEFAULT_VERBOSE_RESOLUTION_ERRORS
+ 	default y
+ config BUSYBOX_DEFAULT_ARP
+ 	bool
+-	default n
++	default y
+ config BUSYBOX_DEFAULT_ARPING
+ 	bool
+ 	default y
+diff --git a/package/utils/busybox/Makefile b/package/utils/busybox/Makefile
+index 718cf78..180d5e1 100644
+--- a/package/utils/busybox/Makefile
++++ b/package/utils/busybox/Makefile
+@@ -116,6 +116,7 @@ define Package/busybox/install
+ 	$(INSTALL_BIN) ./files/cron $(1)/etc/init.d/cron
+ 	$(INSTALL_BIN) ./files/telnet $(1)/etc/init.d/telnet
+ 	$(INSTALL_BIN) ./files/sysntpd $(1)/etc/init.d/sysntpd
++	$(INSTALL_BIN) ./files/ethers $(1)/etc/init.d/ethers
+ 	-rm -rf $(1)/lib64
+ endef
+ 
+diff --git a/package/utils/busybox/files/ethers b/package/utils/busybox/files/ethers
+new file mode 100755
+index 0000000..a7fa231
+--- /dev/null
++++ b/package/utils/busybox/files/ethers
+@@ -0,0 +1,11 @@
++#!/etc/rc.common
++
++START=45
++
++start() {
++	[ -f /etc/ethers ] && awk '/^[^#]/{print "arp -s", $2, $1}' /etc/ethers |sh
++}
++
++stop() {
++	[ -f /etc/ethers ] && awk '/^[^#]/{print "arp -d", $2}' /etc/ethers |sh
++}
+-- 
+2.1.0
+
