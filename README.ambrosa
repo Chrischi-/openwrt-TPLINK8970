@@ -7,10 +7,11 @@ Questo mio personale fork di OpenWRT nasce dall'esigenza di avere un firmware pi
 Il lavoro è basato sulle informazioni reperite in questo thread: http://www.hwupgrade.it/forum/showthread.php?t=2643260
 
 Un grazie a RyLoS per il suo eccellente lavoro di messa a punto del firmware nei mesi scorsi e per il rilascio dei vari file di customizzazione da lui creati.
+Grazie anche a matteo85 per aver fornito alcune patch
+
+Le modifiche sono in /extrapatch
 
 ----
-
-La directory /RyLoS contiene i file di configurazione usati da RyLoS che gentilmente ha reso pubblici
 
 Lo script ./simple-compile.sh è utile per lanciare una compilazione condensando i vari (pochi) passaggi necessari.
 E' comunque compito dell'utente finale inizializzare la buildroot (una-tantum) prima della compilazione seguendo la guida http://wiki.openwrt.org/doc/howto/buildroot.exigence ma sostituendo i seguenti capoversi:
