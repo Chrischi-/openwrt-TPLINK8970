@@ -3,7 +3,7 @@
 # http://wiki.openwrt.org/doc/howto/build
 rm -f build.log
 date >> build.log
-##make clean
+make dirclean
 ./scripts/feeds update -a
 ./scripts/feeds install -a
 make menuconfig
