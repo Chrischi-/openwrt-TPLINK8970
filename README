@@ -1,4 +1,4 @@
-26 Novembre 2014  by ambrosa
+27 Novembre 2014  by ambrosa
 
 https://github.com/ambrosa/openwrt-TPLINK8970
 
@@ -13,11 +13,16 @@ RyLoS e matteo85 http://www.hwupgrade.it/forum/showthread.php?t=2643260
 che ringrazio per aver condiviso pubblicamente il loro lavoro.
 Il loro lavoro originale è posto in /extrapatch
 
-In /bin trovate il firmware/immagine pronta per l'installazione
-e i package da me compilati e caricati su GitHub ciclicamente
 
-In /files sono posti i vari custom files aggiunti al root filesystem del fw.
-In particolare i file firmware .BIN per il chipset ADSL (/lib/firmware) 
+In "openwrt-TPLINK8970/bin" trovate l'immagine e i package da me compilati 
+e caricati su GitHub ciclicamente.
+Ho creato un mio personale repository per i pacchetti che dovrebbe essere accessibile
+direttamente dal router tramite opkg: http://ambrosa.ddns.net/openwrt8670/
+
+
+In "openwrt-TPLINK8970/files" sono posti i vari custom files aggiunti al 
+root filesystem dell'immagine.
+In particolare il file firmware .BIN per il chipset ADSL (/lib/firmware) 
 
 
 Se volete compilare voi stessi l'immagine:
@@ -27,11 +32,13 @@ git clone https://github.com/ambrosa/openwrt-TPLINK8970
 
 2) assicuratevi di avere settato la buildroot
 http://wiki.openwrt.org/doc/howto/buildroot.exigence
+e in particolare lanciate make defconfig: se tutto è ok allora proseguite
 
-3) lanciate /simple-compile.sh
+3) lanciate "openwrt-TPLINK8970/simple-compile.sh"
 Viene comunque lanciato il menù di configurazione delle opzioni di compilazione:
 se non volete modificare nulla, semplicemente uscite (<exit>)
-Il log della compilazione lo trovate in /build.log
+Il log della compilazione lo trovate in "openwrt-TPLINK8970/build.log"
+
 
 --------------------Original README below------------------------
 
