@@ -1007,6 +1007,21 @@ Description:  Hotplug script which makes configuration of multiple WAN interface
  manageable with loadbalancing/failover support for up to 250 physical or logical
  WAN interfaces, connection tracking and an easy to manage traffic ruleset
 
+Package: luci-app-sqm
+Version: 3-1
+Depends: libc, lua, luci-base, sqm-scripts
+Source: feeds/packages/net/luci-app-sqm
+License: GPLv2
+Section: luci
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 3109
+Filename: luci-app-sqm_3-1_all.ipk
+Size: 4039
+MD5Sum: eaf22aed43a314b4c92deeb7e2cbe94a
+SHA256sum: 1002c9ff64664c4b3fc036668c2d7b571ebca43fa1142fd305aafb736b0352c9
+Description:  Control the simple_qos SQM script
+
 Package: mc
 Version: 4.8.13-1.2
 Depends: libc, glib2, libncurses, librpc
