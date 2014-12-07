@@ -7,11 +7,11 @@ LicenseFiles: COPYING aserver/COPYING
 Section: libs
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: lantiq
-Installed-Size: 317768
+Installed-Size: 317771
 Filename: alsa-lib_1.0.28-1_lantiq.ipk
-Size: 316241
-MD5Sum: 6f6a029cd01719c556e63c70685fa038
-SHA256sum: efb73e21fcc56631badae08ac7f3f98aeef4b82fed445277856f9960f57d88d8
+Size: 316190
+MD5Sum: d2d6ed3d4207138c813d8a00d60cf956
+SHA256sum: 40cbbc91e8eb9d1aeed5f9ffda7bc32d61df8e0f062bd7c710d08f45ce489092
 Description:  This is the library package for alsa, needed by some userspace programs.
  You must have enabled the ALSA support in the kernel.
 
@@ -24,13 +24,30 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: Imre Kaloz <kaloz@openwrt.org>
 Architecture: lantiq
-Installed-Size: 1166220
+Installed-Size: 1166222
 Filename: aria2_1.18.7-1_lantiq.ipk
-Size: 1165628
-MD5Sum: 5b1ece3f8a593e06ddf749940c0c4ddb
-SHA256sum: 61ddec441a4e76c71ea690d8fdaa3271790c1898968fe60d2ad5886a48aa01c1
+Size: 1165649
+MD5Sum: 29080bf5dc6e45528ca5c05aaf70dc6c
+SHA256sum: fddf24c680d2ad659a576906ba9f8b4d63a77b77dea36ecf2d3461c3df0b6fe9
 Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
  utility
+
+Package: bzip2
+Version: 1.0.6-1
+Depends: libc, libbz2
+Source: feeds/packages/utils/bzip2
+License: BZIP2
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: lantiq
+Installed-Size: 13300
+Filename: bzip2_1.0.6-1_lantiq.ipk
+Size: 14098
+MD5Sum: a2c3136b0ba112445ef863f9fe29ecee
+SHA256sum: b4e08bfb06afea7adbbc6924719ba52ff8ae6aa44a77fb1b67e6eb7b5922b174
+Description:  bzip2 is a freely available, patent free, high-quality
+ data compressor. This package provides the binary.
 
 Package: certtool
 Version: 3.3.10-1
@@ -39,11 +56,11 @@ Source: feeds/packages/libs/gnutls
 Section: utils
 Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
 Architecture: lantiq
-Installed-Size: 94567
+Installed-Size: 94565
 Filename: certtool_3.3.10-1_lantiq.ipk
-Size: 95173
-MD5Sum: 8bb9d6e3a88a57b9e482329670f3ebca
-SHA256sum: 087c787df776f61fdd3f12efed98a3f8a279d05aab1b80891a0cbe40878d18f4
+Size: 95182
+MD5Sum: 7c41b972f0dffe6b261c2c95e1ff85b7
+SHA256sum: 7998e785cf409038391f378fce8174e7eb6f93c0261284ee8e9c19b111108160
 Description:  GnuTLS is a secure communications library implementing the SSL, TLS
  and DTLS protocols and technologies around them. It provides a simple
  C language application programming interface (API) to access the secure
@@ -59,11 +76,11 @@ Source: feeds/packages/utils/collectd
 Section: utils
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 2277
+Installed-Size: 2275
 Filename: collectd-mod-interface_5.4.1-1_lantiq.ipk
-Size: 3017
-MD5Sum: ffecffb3528ad4bc83965a34905a6e36
-SHA256sum: dd7ca20ca59740bb8e84d9171bc56d1aef81d58f7cad9f6b41bd6d076a56e91d
+Size: 3014
+MD5Sum: 3890aad6fde3c6983763f65b5ebe060a
+SHA256sum: 08e0f763624500f27e5ebcfafe8ebef776d33ddbfd9876492caee0052fbce161
 Description:  network interfaces input plugin
 
 Package: collectd-mod-iwinfo
@@ -73,11 +90,11 @@ Source: feeds/packages/utils/collectd
 Section: utils
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 2833
+Installed-Size: 2829
 Filename: collectd-mod-iwinfo_5.4.1-1_lantiq.ipk
-Size: 3566
-MD5Sum: 7fc205db9d57260dd781383eaea6dec4
-SHA256sum: 2c12265bfe96bbcfc8fae58e1272b7721cc2ace551dc529e184a1189af89ed85
+Size: 3568
+MD5Sum: 2459c4866c3d34f05fdf81e20306b7f3
+SHA256sum: 33a493f43a66004bb573b2a66dc894a467de3fe95e9dca82128345be5ba95bc6
 Description:  libiwinfo wireless statistics plugin
 
 Package: collectd-mod-load
@@ -87,11 +104,11 @@ Source: feeds/packages/utils/collectd
 Section: utils
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 1980
+Installed-Size: 1979
 Filename: collectd-mod-load_5.4.1-1_lantiq.ipk
-Size: 2718
-MD5Sum: 21471906fbea0c55fb3377b2ce234204
-SHA256sum: 084c1a200bd68ce7172beb44b5ffda6514f953d63998d304bb16bdf38dbc1f78
+Size: 2719
+MD5Sum: f43c40e493d04d97eea39191a1e5f1c6
+SHA256sum: f9280f92bfacee21af990fa3f3d52bf4b4fd333e2cc725e9053b7eb0e2b8a359
 Description:  system load input plugin
 
 Package: collectd-mod-network
@@ -101,11 +118,11 @@ Source: feeds/packages/utils/collectd
 Section: utils
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 13966
+Installed-Size: 13962
 Filename: collectd-mod-network_5.4.1-1_lantiq.ipk
-Size: 14672
-MD5Sum: 3366bb1e895349b7afdc935ce6f0293e
-SHA256sum: 140c5e9b87994afbfe7fa067cb3320b28d1d3ff3b60c3c1f942d9d4629e221fa
+Size: 14667
+MD5Sum: 772aea006efb2a1d4019de8bdf05d2bb
+SHA256sum: 7cb584d839b48bb40ce429d78641c38594588b219dfe2e97135b653809ae5a00
 Description:  network input/output plugin
 
 Package: collectd-mod-rrdtool
@@ -115,11 +132,11 @@ Source: feeds/packages/utils/collectd
 Section: utils
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 11492
+Installed-Size: 11491
 Filename: collectd-mod-rrdtool_5.4.1-1_lantiq.ipk
-Size: 12238
-MD5Sum: f2e2326fb4453875d55071538d792a97
-SHA256sum: 8db96bb815e6df7dfb7323616a54cc0f057fe5cc7f4dd561ffcbf09a6fce200f
+Size: 12237
+MD5Sum: 95e3082d139ab1bc3e17f59bcbb191db
+SHA256sum: 8b1c5818a50ed735b2fa9fb81bbc775772c0999687a7c9540247508a44957335
 Description:  RRDtool output plugin
 
 Package: collectd
@@ -129,11 +146,11 @@ Source: feeds/packages/utils/collectd
 Section: utils
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 63266
+Installed-Size: 63265
 Filename: collectd_5.4.1-1_lantiq.ipk
-Size: 64149
-MD5Sum: 0ae64478a7737ba65d39eb899545691d
-SHA256sum: 791b20511e9ab782234d07367c6cc979d0a7261d47cc508d5025a13699eb75e3
+Size: 64154
+MD5Sum: 27ce2ad130fdbc61851cc2a5856c7a48
+SHA256sum: b04fd6120889a2556561e35381cdfb511b689b4dbee744925212c06711254485
 Description:  collectd is a small daemon which collects system information periodically
  and provides mechanismns to store the values in a variety of ways.
 
@@ -147,9 +164,9 @@ Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
 Architecture: all
 Installed-Size: 24734
 Filename: ddns-scripts_2.1.0-2_all.ipk
-Size: 26064
-MD5Sum: 07861d0789b3e67a25367985654ba4f8
-SHA256sum: beaf788a8a2fb3ee53a1420002ef9032ccdae2c08c2bf5a5ed7cc5d531e737e7
+Size: 26066
+MD5Sum: 3d073ebb46544c7925db8b2f9416087c
+SHA256sum: 7a86a838357b7f11a8557a53e1a7fe0ad89d9544e5cf75bad38bdd9987e27dbb
 Description:  A highly configurable set of scripts for doing dynamic dns updates.
  NEW in this version:
  - IPv6 support
@@ -168,11 +185,11 @@ Source: feeds/packages/net/etherwake
 Section: net
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: lantiq
-Installed-Size: 5119
+Installed-Size: 5121
 Filename: etherwake_1.09-3_lantiq.ipk
-Size: 6017
-MD5Sum: 557e54f7e89d33a42f980967d3da7892
-SHA256sum: 3e73b372e5b074d475126b30568e5c0db4b7271f4dad3b8538babc091b231af8
+Size: 6030
+MD5Sum: 9f34fa1d2df79ee1a17c2174d1c2970d
+SHA256sum: a026cd602156af9f1ad25d16d20a60f7d52cc7d4d06702d0cebba5f3570f952d
 Description:  You can wake up WOL compliant Computers which have been powered down to
  sleep mode or start WOL compliant Computers with a BIOS feature.
  WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
@@ -186,27 +203,12 @@ Source: feeds/packages/libs/glib2
 Section: libs
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: lantiq
-Installed-Size: 957931
+Installed-Size: 957929
 Filename: glib2_2.41.1-2_lantiq.ipk
-Size: 950481
-MD5Sum: df8715e51de095bce43cc6107103dba5
-SHA256sum: 51b4a34b45304ac438f702b7c1bfcddf2d05203277a4d23dfed4ed3eb93e4db1
+Size: 950712
+MD5Sum: 38941fbc8513b9d5e27dbdf32a9226b9
+SHA256sum: ca1c15a2a17b752cbb9d66cf872058ac4a5e725bf70ad698814d102a6bab4c63
 Description:  The GLib library of C routines
-
-Package: grep
-Version: 2.20-1
-Depends: libc, libpcre
-Source: feeds/packages/utils/grep
-Section: utils
-Architecture: lantiq
-Installed-Size: 94094
-Filename: grep_2.20-1_lantiq.ipk
-Size: 95010
-MD5Sum: 7fc8f6c466f18af36f5e7c7d6f662e24
-SHA256sum: f080fc1a37bb993dfcbc640915463b3afca3d203d1193e6f1a9b2000444e6f2c
-Description:  The grep command searches one or more input files for lines
- containing a match to a specified pattern. By default, grep
- prints the matching lines.
 
 Package: hd-idle
 Version: 1.04-1
@@ -216,11 +218,11 @@ License: GPL-2.0
 Section: utils
 Maintainer: Lim Guo Wei <limguowei@gmail.com>
 Architecture: lantiq
-Installed-Size: 4572
+Installed-Size: 4571
 Filename: hd-idle_1.04-1_lantiq.ipk
-Size: 5357
-MD5Sum: c9c43372834f7bad8efdba49ef2b5cd6
-SHA256sum: fc484c892f48dae2789bc624b5d2deca15ef909399d2243e7ab1d37fb3aa097e
+Size: 5356
+MD5Sum: d7d7f8f7b28bd6cb99a965bf5367256c
+SHA256sum: 4fc589fd14fb5ec828df4758e004957c9fc4d6d9a2bcb8c92dabe16e2f6e995e
 Description:  hd-idle is a utility program for spinning-down external disks after a period of idle time.
 
 Package: hdparm
@@ -231,11 +233,11 @@ License: BSD-Style Open Source License
 Section: utils
 Maintainer: Richard Kunze <richard.kunze@web.de>
 Architecture: lantiq
-Installed-Size: 47093
+Installed-Size: 47094
 Filename: hdparm_9.45-1_lantiq.ipk
-Size: 47794
-MD5Sum: 618256d1c174c092bb6852cfdbfef71e
-SHA256sum: 42187ae24dfbefed2890071f335bcb907ba9510e6a345fb97661b24dbca59ffc
+Size: 47795
+MD5Sum: 88efcbb8bfc157f832243ac483c52b29
+SHA256sum: 03a61bd78b34c9124a765efef024877fcb05c23136677e6bc0110fb78c98718e
 Description:  get/set SATA/IDE device parameters
 
 Package: htop
@@ -247,11 +249,11 @@ LicenseFiles: COPYING
 Section: admin
 Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Architecture: lantiq
-Installed-Size: 47546
+Installed-Size: 47543
 Filename: htop_1.0.3-1_lantiq.ipk
-Size: 48403
-MD5Sum: 34ef9a401a301ba5af9f74b3f430ebe2
-SHA256sum: 1919665544ea2cdd5e8a0092b4b1b0f95fb4abed2047900c8205710fd7bf560e
+Size: 48404
+MD5Sum: 7efdd63c13512fb45d1d1dde5ed98154
+SHA256sum: ead878268d8263f490f1db69bcc90821c0b3c1bee397d3334c7d986e283d03f1
 Description:  Htop is an ncursed-based process viewer similar to top, but
  it allows to scroll the list vertically and horizontally to
  see all processes and their full command lines.
@@ -264,11 +266,11 @@ License: BSD-3-Clause
 Section: net
 Maintainer: Noah Meyerhans <frodo@morgul.net>
 Architecture: lantiq
-Installed-Size: 265531
+Installed-Size: 265595
 Filename: ipsec-tools_0.8.2-1_lantiq.ipk
-Size: 265481
-MD5Sum: 6d013eeb411d6cd0d1638e0a698e3ddb
-SHA256sum: b670907785f82fa281a4bb07aa7d5e01e647873e1429b8a9990d1addd2087e41
+Size: 265607
+MD5Sum: 18ab3c800078cb7a34888b82d50344f6
+SHA256sum: 41d2bb28f5c40f88ca90cf24600de8d14434ed2ca4ca57979734dfcbfae2b30b
 Description:  IPsec management tools
 
 Package: l7-protocols-testing
@@ -279,11 +281,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Lim Guo Wei <limguowei@gmail.com>
 Architecture: lantiq
-Installed-Size: 67678
+Installed-Size: 67674
 Filename: l7-protocols-testing_2009-05-28-2_lantiq.ipk
-Size: 68595
-MD5Sum: a55569c39e0df54590b19ef63c43b6aa
-SHA256sum: 95cb8506bf26c4bdfe6f490e8d30dd3e09d1822a864f2e41153a4f7a6b0c42a3
+Size: 68597
+MD5Sum: 0068b50d381630cad27957cd1b99bf53
+SHA256sum: 5c8905146bb9d36f666a06aa3481fde2b21b0a89b5a40e880e0d2cfa4472882a
 Description:  testing utilities for layer 7 patterns
 
 Package: l7-protocols
@@ -294,11 +296,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Lim Guo Wei <limguowei@gmail.com>
 Architecture: lantiq
-Installed-Size: 46673
+Installed-Size: 46674
 Filename: l7-protocols_2009-05-28-2_lantiq.ipk
-Size: 46777
-MD5Sum: 08fe6497968fb17b3c35bb457f478375
-SHA256sum: 6542e7bfe9cd7f66143508fc3203c4859b8d1de60a54ee4afdc25e722ad6aabf
+Size: 46794
+MD5Sum: a21a12fc19c6a5fff57c71460df8764e
+SHA256sum: ca22baffc810299a97e6176e7e0cf50d51ea3cf30ccf70ae3281ebc1c10295d6
 Description:  l7-filter classifies packets based on patterns in application
  layer data. This allows correct classification of P2P traffic that
  uses unpredictable ports as well as standard protocols running on
@@ -312,11 +314,11 @@ License: Apache License
 Section: libs
 Maintainer: Thomas Heil <heil@terminal-consulting.de>
 Architecture: lantiq
-Installed-Size: 70671
+Installed-Size: 70661
 Filename: libapr_1.5.1-1_lantiq.ipk
-Size: 71538
-MD5Sum: 9ecb61d8da811fb5503cd987f2f782fb
-SHA256sum: 132a12cc1c620450794be32cbe632b3916bfc6d1f6814caa95e9a200eaed1258
+Size: 71522
+MD5Sum: a57d0717af096d9e58a8f873c76c7be6
+SHA256sum: aaa7ff686d20df56c431a6439f3f8cb05a6f23ed6aed1a59ad3dce7896f0c57f
 Description:  Apache Portable Runtime Library
 
 Package: libaprutil
@@ -327,11 +329,11 @@ License: Apache License
 Section: libs
 Maintainer: Thomas Heil <heil@terminal-consulting.de>
 Architecture: lantiq
-Installed-Size: 69509
+Installed-Size: 60879
 Filename: libaprutil_1.5.4-1_lantiq.ipk
-Size: 70385
-MD5Sum: c2eae378b27e81f7c45e85db320f6327
-SHA256sum: a9ab2040c4675aa163177c9c5d133a03e46d7011120eec10550f5f0a7395d7b1
+Size: 61733
+MD5Sum: 2ba3ec18ae6434c95476e4156d025ee2
+SHA256sum: e4ef49c283c41f5ccb991152af6b5312fae253a52cbbd517a101d95bfa38400a
 Description:  Apache Portable Runtime Utility Library
 
 Package: libattr
@@ -342,11 +344,11 @@ License: LGPL-2.1 GPL-2.0
 Section: libs
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
 Architecture: lantiq
-Installed-Size: 5381
+Installed-Size: 5377
 Filename: libattr_20140610-1_lantiq.ipk
-Size: 6130
-MD5Sum: d1fc4061ac5a70122c98092158a83723
-SHA256sum: ca4d3d55909097cb6461e842b0d8d5ccc1675e048d2620560aeeeae05729f942
+Size: 6131
+MD5Sum: c1e045252ea02ff46a96de0c34b2b9a4
+SHA256sum: a264a95bd93f4cf2cf78fe501bb7b3a75d2194c9c5662a7436c7a264b442f610
 Description:  Extended attributes support
  This package provides libattr
 
@@ -359,11 +361,11 @@ LicenseFiles: LICENSE
 Section: libs
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: lantiq
-Installed-Size: 27848
+Installed-Size: 27851
 Filename: libbz2_1.0.6-1_lantiq.ipk
-Size: 28636
-MD5Sum: 90340ae36d2b81e4877ac59699a10a60
-SHA256sum: 591b0d6d2afb6d63834cfb73988cc564d190b79586c9f04fda617467be07a7c1
+Size: 28641
+MD5Sum: 2391c7ae9ceb68fec47340bf4f862b2f
+SHA256sum: 92a9b81e99a508710082502fd238b13492d17b82168991f4b91ce02a323e91fa
 Description:  bzip2 is a freely available, patent free, high-quality
  data compressor. This packages provides libbz2 library.
 
@@ -379,9 +381,9 @@ Maintainer: Marcel Denia <naoir@gmx.net>
 Architecture: lantiq
 Installed-Size: 507366
 Filename: libdb47_4.7.25.4.NC-3_lantiq.ipk
-Size: 508113
-MD5Sum: c73ed3b4725ee0e38274775839480c81
-SHA256sum: c7d54bb68497bc0c2e9b050ddd231f6f77642a1cd30ecce2661ccca3dc7f4e86
+Size: 508121
+MD5Sum: 1de45443d4fdc532371ebf181e5d6785
+SHA256sum: ae9fa163f47f04a1df43ec0240e57acf08ba8026e802b1512d70481f02f20abe
 Description:  Berkeley DB library (4.7).
 
 Package: libevent
@@ -393,9 +395,9 @@ Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: lantiq
 Installed-Size: 84573
 Filename: libevent_1.4.14b-2_lantiq.ipk
-Size: 85021
-MD5Sum: cec78c44a8f8dfaa51cdf0406a3a87ae
-SHA256sum: 8b141c8dfc88c76ffc9b0e3aae224861fe059b6cac68033506862fba7bcfe84f
+Size: 85245
+MD5Sum: fe5dcc7127912d5560e4e54ce96e9bd8
+SHA256sum: ce6d4441b1e32ffd624afa5b87ca3877e94293b7fc04e6aecd0197c82f4ec9ae
 Description:  The libevent API provides a mechanism to execute a callback function
  when a specific event occurs on a file descriptor or after a timeout
  has been reached. Furthermore, libevent also support callbacks due
@@ -415,11 +417,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: lantiq
-Installed-Size: 66587
+Installed-Size: 66588
 Filename: libexif_0.6.21-1_lantiq.ipk
-Size: 65850
-MD5Sum: c2c53bdaf05f8948bf003c6f0be9adfe
-SHA256sum: 066ce0a67440fee43c4128e4bd2d16fdb6c3ab3142380cac6e1225b9d54c490e
+Size: 65823
+MD5Sum: 47eb79aa05d6967c1ce19b930faa416f
+SHA256sum: 7913dee9f87a8d765140e28e70fa29e58d12a21d4a8cf05f2191b6233fcca777
 Description:  libexif is a library for parsing, editing, and saving EXIF data. It is
  intended to replace lots of redundant implementations in command-line
  utilities and programs with GUIs.
@@ -433,11 +435,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: lantiq
-Installed-Size: 55663
+Installed-Size: 55667
 Filename: libexpat_2.1.0-3_lantiq.ipk
-Size: 56370
-MD5Sum: 36c421dfd01c16ef18cb1b0bd73e0134
-SHA256sum: e0d3a385790f681cc23fbb4bc11b152e1d12787ea59db4d6bbaae8295678f9d3
+Size: 56369
+MD5Sum: d54f5b400a383a7a263e6d2d5e38a5be
+SHA256sum: fdb6f3304d790c1995027bec6b31d79f97f3e595fc56c36bf9836a3ccee7dd7c
 Description:  A fast, non-validating, stream-oriented XML parsing library.
 
 Package: libffi
@@ -451,9 +453,9 @@ Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: lantiq
 Installed-Size: 5666
 Filename: libffi_3.0.13-1_lantiq.ipk
-Size: 6680
-MD5Sum: b3ad5e3ec26f7d99efd34c7fef7b6aed
-SHA256sum: db222a3f78b86773178eb15ca97f8a8363e031a5e072fd27d54ee4f4b1c431ae
+Size: 6677
+MD5Sum: d9e892fa6893e7999bbb34f461e4a9e3
+SHA256sum: e41ece31dc6dd981261bc83f744a53c2b6d3d18a117053a9ad7550984456c3e2
 Description:  The libffi library provides a portable, high level programming interface to
  various calling conventions. This allows a programmer to call any function
  specified by a call interface description at run-time.
@@ -475,11 +477,11 @@ LicenseFiles: COPYING.GPLv2 COPYING.GPLv3 COPYING.LGPLv2.1 COPYING.LGPLv3
 Section: libs
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: lantiq
-Installed-Size: 4471012
+Installed-Size: 4470999
 Filename: libffmpeg-full_2.4.2-1_lantiq.ipk
-Size: 4456796
-MD5Sum: 8f706a941f2e7275a83879287c8ce6ec
-SHA256sum: 35cf967fa0dabe4822814c374d8738764e1f17aade1504e3e7d534a1dc6fd44c
+Size: 4456760
+MD5Sum: 6611cd36d26f58999d8dca439a5e603b
+SHA256sum: a3358e3f6c75474deb4653aef5107fb211fd9e92cb09a841b8b89709d1912583
 Description:  FFmpeg is a a software package that can record, convert and stream digital
  audio and video in numerous formats.
  .
@@ -495,11 +497,11 @@ LicenseFiles: COPYING.GPLv2 COPYING.GPLv3 COPYING.LGPLv2.1 COPYING.LGPLv3
 Section: libs
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: lantiq
-Installed-Size: 834594
+Installed-Size: 834597
 Filename: libffmpeg-mini_2.4.2-1_lantiq.ipk
-Size: 832078
-MD5Sum: a6133bae85d443c9ab8ab8b216b365a7
-SHA256sum: 35ff21c0bd7ec02713332b6d2cbce0295ae1dba1da5ee07808f69d9a7fcd279b
+Size: 832116
+MD5Sum: 5fa28f62555abc4eb1d1009b603aa42d
+SHA256sum: 7532d58b6e84a280644e596aefc8a8e11bf7ee8158a23714358ea32483b3562f
 Description:  FFmpeg is a a software package that can record, convert and stream digital
  audio and video in numerous formats.
  .
@@ -516,9 +518,9 @@ Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: lantiq
 Installed-Size: 107733
 Filename: libflac_1.2.1-1_lantiq.ipk
-Size: 108375
-MD5Sum: 83147180da35cd88315648b1aed14ad8
-SHA256sum: bc5055b44316a159efca08ede5d69f5468bbe8f4a54b009a7ad9fe354e5faff8
+Size: 108382
+MD5Sum: 09a5436abf95c05e491ae371b1a38bd1
+SHA256sum: cf05ef24db5071b7f44dfa93e685f89143821a4c797ebf9c4e149046cfc44c39
 Description:  Free Lossless Audio Codec library
 
 Package: libgcrypt
@@ -528,11 +530,11 @@ Source: feeds/packages/libs/libgcrypt
 Section: libs
 Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: lantiq
-Installed-Size: 307025
+Installed-Size: 307020
 Filename: libgcrypt_1.6.1-1_lantiq.ipk
-Size: 306787
-MD5Sum: 4990af2b0b429646f5d67a33b8dc3421
-SHA256sum: 51d6240ff4b21fcb4dd0e45bb6051194e5914713eb4fb046ba7b6b45d9d68348
+Size: 306808
+MD5Sum: 961b29f641c9e79e102412ee1b59a6fa
+SHA256sum: 2772c87199d194f903f115c3b38dd7849a72ec2eb26f289ebc9efc330be58dac
 Description:  This is a general purpose cryptographic library based on the code from
  GnuPG. It provides functions for all cryptograhic building blocks:
  symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
@@ -551,11 +553,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Marcel Denia <naoir@gmx.net>
 Architecture: lantiq
-Installed-Size: 17236
+Installed-Size: 17237
 Filename: libgdbm_1.11-1_lantiq.ipk
-Size: 18040
-MD5Sum: 442afbb05de40f518e017283cd096d04
-SHA256sum: 410f86836ec419301a4c8a2f11c658935cb4f60f70e1a99051214f0c581d05c0
+Size: 18048
+MD5Sum: ed163258dd273da1c66b129c0bd57ac9
+SHA256sum: c39891c975e39bc40c352bee3811bc2278c8ca908b4e4d8db9714d7f5414cd85
 Description:  GNU database manager library
  GNU dbm is a set of database routines that use extendible hashing and
  works similar to the standard UNIX dbm routines.
@@ -569,9 +571,9 @@ Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
 Architecture: lantiq
 Installed-Size: 314118
 Filename: libgnutls_3.3.10-1_lantiq.ipk
-Size: 314537
-MD5Sum: 6db4f1e8d71509696ca5f6b9eeb6418b
-SHA256sum: de1b8d5daf582318474139be6b04ad818524bfc9d5fa67936448efd2fec8d82e
+Size: 314507
+MD5Sum: 2eb629cd6ea8c63be0aa34ae815bf62d
+SHA256sum: 9a4cdc06e2342223c4a506bae831862a2228627a9ee0976e64fb6fb05f54ba8a
 Description:  GnuTLS is a secure communications library implementing the SSL, TLS
  and DTLS protocols and technologies around them. It provides a simple
  C language application programming interface (API) to access the secure
@@ -587,16 +589,36 @@ Source: feeds/packages/libs/libgpg-error
 Section: libs
 Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: lantiq
-Installed-Size: 5892
+Installed-Size: 5894
 Filename: libgpg-error_1.12-1_lantiq.ipk
-Size: 6739
-MD5Sum: 995f6b4f5c012845532d350b383ca2c8
-SHA256sum: d5c4c04be8db94601b2a2cad94bc3cd014d706878869ed8f680940c1a33980a4
+Size: 6746
+MD5Sum: 8e453b5abae64619ac575e81aeaffb5d
+SHA256sum: 27aa1de671431baa391c5745dd8106675a015daf32801d3d62c74932f41ec96a
 Description:  An helper library for common error codes and descriptions.
  This is a library that defines common error values for all GnuPG
  components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
  Libksba, DirMngr, Pinentry, SmartCard Daemon and possibly more in the
  future.
+
+Package: libhttp-parser
+Version: 2.3.0-1
+Depends: libc
+Source: feeds/packages/libs/libhttp-parser
+License: MIT
+Section: libs
+Maintainer: Ramanathan Sivagurunathan <ramzthecoder@gmail.com>
+Architecture: lantiq
+Installed-Size: 9248
+Filename: libhttp-parser_2.3.0-1_lantiq.ipk
+Size: 10177
+MD5Sum: c74c04626de7f0e82f1bcfd7372b50fb
+SHA256sum: 15d14607dd5924c39f385c6d32ff915999c78336187b3e581b8814fcae7d60f5
+Description:  A parser for HTTP messages written in C. It parses both requests and responses. 
+ The parser is designed to be used in performance HTTP applications. 
+ It does not make any syscalls nor allocations, it does not buffer data, 
+ it can be interrupted at anytime. Depending on your architecture, 
+ it only requires about 40 bytes of data per message stream 
+ (in a web server that is per connection).
 
 Package: libid3tag
 Version: 0.15.1b-4
@@ -607,11 +629,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: lantiq
-Installed-Size: 26944
+Installed-Size: 26948
 Filename: libid3tag_0.15.1b-4_lantiq.ipk
-Size: 27342
-MD5Sum: 472517cbef795c40a355cfbf7c850b40
-SHA256sum: ec55429d881c26341b329596b0f1acae43f6b7a1ea834fd5452c79603b31478d
+Size: 27345
+MD5Sum: 1f07d9ee4dd6440f5137003816fb8a87
+SHA256sum: 36e3975f4ac0db8f022ae950a029dcb57f8cb68720c014b16bb07c3e8817de4c
 Description:  libid3tag is a library for reading and (eventually) writing ID3 tags, both
  ID3v1 and the various versions of ID3v2.
 
@@ -624,11 +646,11 @@ LicenseFiles: README
 Section: libs
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 113563
+Installed-Size: 113564
 Filename: libjpeg_9a-1_lantiq.ipk
-Size: 114266
-MD5Sum: d7e7d8c78d13c59a0673150f51c98e8f
-SHA256sum: 65e35262004f599dd8aaf6a31fa409bfeeacb367e06b47a2f308188559a1fc18
+Size: 114268
+MD5Sum: e886f3915be1ed315d50acd7588d2d09
+SHA256sum: ffbad163dd61a36331cfbaa899eea9cc8aa1170e6222723b0ad3068180169629
 Description:  The Independent JPEG Group's JPEG runtime library
 
 Package: libmysqlclient
@@ -639,12 +661,32 @@ License: GPL-2.0
 Section: libs
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 183647
+Installed-Size: 183646
 Filename: libmysqlclient_5.1.73-1_lantiq.ipk
-Size: 175719
-MD5Sum: cda8d8e1d6be18ccc0da10c250a73c60
-SHA256sum: 719a76d9354e05699184619bc5f58a5b034bfee2b9745f5a6d9b9df68ae76aad
+Size: 175743
+MD5Sum: 049e7201c5789fcbe7ee323845b5b5cc
+SHA256sum: 7ef3efd2251da0ca607faf2073cc19608dd5c8454e2c794413db2b974d212248
 Description:  MySQL client library
+
+Package: libnatpmp
+Version: 20140401-1
+Depends: libc
+Source: feeds/packages/libs/libnatpmp
+License: BSD-3c
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Hauke Mehrtens <hauke@hauke-m.de>
+Architecture: lantiq
+Installed-Size: 3223
+Filename: libnatpmp_20140401-1_lantiq.ipk
+Size: 4143
+MD5Sum: a1b540225aba30f07de1f423249fa10e
+SHA256sum: 733c32729c9cd88bf27126ba87cd90800a7143f6c294c31a1deaac54fb98e13f
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the shared library.
 
 Package: libogg
 Version: 1.3.2-2
@@ -657,9 +699,9 @@ Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: lantiq
 Installed-Size: 8777
 Filename: libogg_1.3.2-2_lantiq.ipk
-Size: 9691
-MD5Sum: a6d2933a5f9ea7462325efee738985d1
-SHA256sum: 7aa8e85369b947cad94710914a34e6a0edebebc9e7d8277e1d8f46a78a3258b1
+Size: 9688
+MD5Sum: 985a94d04370eef2819ab6ed80e6663e
+SHA256sum: 085d711a54a7d679a5d1a922460fed0630e76cc88cf6a8e3760215b2828e3791
 Description:  Ogg project codecs use the Ogg bitstream format to arrange the raw,
  compressed bitstream into a more robust, useful form.  For example,
  the Ogg bitstream makes seeking, time stamping and error recovery
@@ -675,27 +717,12 @@ LicenseFiles: LICENCE
 Section: libs
 Maintainer: Thomas Heil <heil@terminal-consulting.de>
 Architecture: lantiq
-Installed-Size: 93731
+Installed-Size: 93728
 Filename: libpcre_8.35-3_lantiq.ipk
-Size: 94574
-MD5Sum: e31edce5e757a66556f21c81a1bb7e3c
-SHA256sum: 79271632b0c0b146bc05f52fee9eb744758b6af2dae58ed6f97c0b71e1ccd292
+Size: 94570
+MD5Sum: 5cf66c5f75e483b7c31177e1d2803ae6
+SHA256sum: c5d3f11a4ae05d599f8e17e978c71e0bf448195487c42d5fa9aa3af5da5ee1f9
 Description:  A Perl Compatible Regular Expression library
-
-Package: libpq
-Version: 9.0.17-1
-Depends: libc, zlib, libreadline, libpthread, libncurses, shadow-utils, shadow-su
-Source: feeds/packages/libs/postgresql
-License: PostgreSQL
-Section: libs
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
-Architecture: lantiq
-Installed-Size: 58863
-Filename: libpq_9.0.17-1_lantiq.ipk
-Size: 59455
-MD5Sum: baa4d6695b4357cedc42d187552fa2c9
-SHA256sum: 7ce10a7075d08ff730b62d2780c0ec423418164c412b3b862303554452148d9f
-Description:  PostgreSQL client library.
 
 Package: libprotobuf-c
 Version: v1.0.1
@@ -705,11 +732,11 @@ License: BSD-2c
 Section: libs
 Maintainer: Jacob Siverskog <jacob@teenageengineering.com>
 Architecture: lantiq
-Installed-Size: 13967
+Installed-Size: 13969
 Filename: libprotobuf-c_v1.0.1_lantiq.ipk
-Size: 14786
-MD5Sum: 8dbdcdb6d0f960373ac2ed0129b3c494
-SHA256sum: b6db7da34089c4332ca013bb47e9dfffc193c28ffb550f6016ad31e6b51fa46a
+Size: 14792
+MD5Sum: eae717ecce77172dd76f955c2e520413
+SHA256sum: fa9b598362ff15ebeee3db6fde5b7380ec4f9be3183e3728cb49f10bf16c51cd
 Description:  Runtime library to use Google Protocol Buffers from C applications.
  Protocol Buffers are a way of encoding structured data in an efficient yet
  extensible format. Google uses Protocol Buffers for almost all of its
@@ -724,9 +751,9 @@ Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
 Installed-Size: 142671
 Filename: librrd1_1.0.50-2_lantiq.ipk
-Size: 143685
-MD5Sum: c74a313876787ed636227a4dcfb29105
-SHA256sum: 09ce5fcaaa8d984a9c74e0eb223445c4a707263d430dd96bc98252cccbb69960
+Size: 143689
+MD5Sum: 386fccd94761a8d75034dfae14249732
+SHA256sum: 9535284abbffb276546a851257272cc9127a6eb32ea05c02ca303b433c771870
 Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
  display time-series data (i.e. network bandwidth, machine-room temperature,
  server load average). It stores the data in a very compact way that will
@@ -748,11 +775,11 @@ License: LGPL-2.1
 Section: libs
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: lantiq
-Installed-Size: 10907
+Installed-Size: 10908
 Filename: libsigcxx_2.4.0-1_lantiq.ipk
 Size: 11695
-MD5Sum: db17fcfac79e88af608b72a762336232
-SHA256sum: ba28bd9dee34d6a1531535854bd19b06463d0aa60531b72354307090d8348136
+MD5Sum: 3d0194d4097045b2366d92ac97915f18
+SHA256sum: 2f58d54eb97d90825ef05bdeb419030c8c3e1ab0265201c59ea28bd016011ba4
 Description:  It allows you to define signals and to connect those signals to any
  callback function, either global or a member function, regardless of
  whether it is static or virtual.
@@ -765,11 +792,11 @@ License: PUBLICDOMAIN
 Section: libs
 Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Architecture: lantiq
-Installed-Size: 384699
+Installed-Size: 384700
 Filename: libsqlite3_3080701-1_lantiq.ipk
-Size: 385092
-MD5Sum: 741d3c57ceba747ee0255288ab7b0bb0
-SHA256sum: 5cdb29f8f56ed037d2b2865ceff18314940aac5ba439c462486876d8392be791
+Size: 385100
+MD5Sum: 6f3c5769a60099d08d5e978c264ece8b
+SHA256sum: 2dd222e5a62de25510410cefa784bec76f6c11ed0392ec9c8dd9cdf647e96694
 Description:  SQLite is a small C library that implements a self-contained, embeddable,
  zero-configuration SQL database engine.
  This package contains the SQLite (v3.x) shared library, used by other
@@ -782,11 +809,11 @@ Source: feeds/packages/libs/libtorrent
 Section: libs
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: lantiq
-Installed-Size: 436704
+Installed-Size: 436697
 Filename: libtorrent_0.13.4-git-51cd5ea8913a5f5062813d9f5b6256c76d41ea11-1_lantiq.ipk
-Size: 437316
-MD5Sum: b6553c6fc84eabebf7756d3ccec924ad
-SHA256sum: 4246c3bb0d49bb32f99faa3bbc81965b1406372e15503a4b72946121cbfb0e74
+Size: 437311
+MD5Sum: 03e9351d170edfd03a8d55e751d0e298
+SHA256sum: 59e45b95ba32d964a801128bc65b64f00542932c480e4d585dbd3fd5f984dee2
 Description:  LibTorrent is a BitTorrent library written in C++ for *nix, with a focus on
  high performance and good code. The library differentiates itself from other
  implementations by transfering directly from file pages to the network stack.
@@ -800,11 +827,11 @@ Source: feeds/packages/libs/libupnp
 Section: libs
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: lantiq
-Installed-Size: 79464
+Installed-Size: 79465
 Filename: libupnp_1.6.19-2_lantiq.ipk
-Size: 80406
-MD5Sum: fd3f033beebc98a51d3c8ad9a72b94e7
-SHA256sum: 05a46ff08cd39492b617df4083f396daaf9c1e6affbb200c1d5cac1bfcab25bc
+Size: 80397
+MD5Sum: 27253f5ab48a5bb6966bf7c07f812603
+SHA256sum: 4652b3c400215163613c7170d228bcfaf7f817618eb00bd8d24c744baf170a08
 Description:  The portable SDK for UPnP Devices (libupnp) provides developers with an API and
  open source code for building control points, devices, and bridges that are
  compliant with Version 1.0 of the  Universal Plug and Play Device Architecture
@@ -819,11 +846,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: lantiq
-Installed-Size: 213667
+Installed-Size: 213663
 Filename: libvorbis_1.3.4-2_lantiq.ipk
-Size: 212874
-MD5Sum: 4deecce2335e84604d06801c9f0a15f6
-SHA256sum: 3f63fff5a964eb60f31854947eee7e754af65d023c4dae8a946f7c6a91b84a6a
+Size: 212858
+MD5Sum: 491812ea0c2e91c80500beabccfcfc61
+SHA256sum: 97464e9c0ab2720491353dbb3d738eb4ee3db6f7e68d68908769a750f57a69e1
 Description:  Vorbis is a general purpose audio and music encoding format
  contemporary to MPEG-4's AAC and TwinVQ, the next generation beyond
  MPEG audio layer 3. Unlike the MPEG sponsored formats (and other
@@ -841,11 +868,11 @@ License: BSD
 Section: libs
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: lantiq
-Installed-Size: 10706
+Installed-Size: 10708
 Filename: libwrap_7.6-1_lantiq.ipk
-Size: 11433
-MD5Sum: 8ba1e7f57bf190d99bb4caa1112422dc
-SHA256sum: 1f2e8aaa1fb55217a9738393294e25a345bd8e36cf24528c3d86474b963c9a0b
+Size: 11432
+MD5Sum: 9674d014b8e551466301b4ba937e8a84
+SHA256sum: 624a1e6ce190e8a73953cf14e8166f8fdee209ec8417c13b7a0b34d7cb3ffa08
 Description:  Security wrapper library for TCP services
 
 Package: libxml2
@@ -857,11 +884,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Michael Heimpold <mhei@heimpold.de>
 Architecture: lantiq
-Installed-Size: 497020
+Installed-Size: 497025
 Filename: libxml2_2.9.2-2_lantiq.ipk
-Size: 494613
-MD5Sum: 9b59be19229836abde92aed75664e825
-SHA256sum: c0eb7f32cee78a8abd631bf35fd5e8b0eb9f4c0e371282b51bd3184f81d12c2c
+Size: 494611
+MD5Sum: 197971229e156f3c61f416bb1ca35f6a
+SHA256sum: 6d5cae4d47fee45d5f63cf3c1c81d46a4bd6b8ffbf66e24ac6e2c6158b4d0a4b
 Description:  A library for manipulating XML and HTML resources.
 
 Package: lighttpd-mod-auth
@@ -873,11 +900,11 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: lantiq
-Installed-Size: 11408
+Installed-Size: 11399
 Filename: lighttpd-mod-auth_1.4.35-3_lantiq.ipk
-Size: 12184
-MD5Sum: e4974842cdcfed43e39490f285e6023a
-SHA256sum: 1b77de7691d3bcb8517e2a163bf871440c0f384b7b1c0e79405d384e684be7af
+Size: 12167
+MD5Sum: e0641877589c351fd53d04f0f75449a1
+SHA256sum: 6b92922cafeae640963af49e3bab6ff0a242bbcfc4cd07806870ed8e0c5a283e
 Description:  Authentication module
 
 Package: lighttpd-mod-cgi
@@ -889,11 +916,11 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: lantiq
-Installed-Size: 9849
+Installed-Size: 9729
 Filename: lighttpd-mod-cgi_1.4.35-3_lantiq.ipk
-Size: 10583
-MD5Sum: 95f5ae65ee1648951cf3bf76bd4d43cf
-SHA256sum: d3da4b79dc821240008e8c51d873baf0ab65487e623728ca1657a08d88ba5982
+Size: 10459
+MD5Sum: 6fec88c4b4381be488622cba17faf652
+SHA256sum: fc34c17a6fc32c5f83755bd79e5fc22eb5d12944b36cc2dc98a20bf3286c0de2
 Description:  CGI module
 
 Package: lighttpd-mod-fastcgi
@@ -905,11 +932,11 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: lantiq
-Installed-Size: 24097
+Installed-Size: 23991
 Filename: lighttpd-mod-fastcgi_1.4.35-3_lantiq.ipk
-Size: 24815
-MD5Sum: 8363a23c8beb667b6e9afa87efaf5aa1
-SHA256sum: 2d5f29d71d33cd568cbf1a4b4986d98ff75e22ec38401cd36bdb5f321ed16c8f
+Size: 24676
+MD5Sum: a3769cb13b24705cdb3378ed082100e0
+SHA256sum: 045c6233081f45f413b133911be057f265e6a58867429b6aa4f4d5b53adef671
 Description:  FastCGI module
 
 Package: lighttpd-mod-proxy
@@ -921,11 +948,11 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: lantiq
-Installed-Size: 9831
+Installed-Size: 9695
 Filename: lighttpd-mod-proxy_1.4.35-3_lantiq.ipk
-Size: 10564
-MD5Sum: 5057138fded5cee515f22f4af075310d
-SHA256sum: 9855270098dbdac3a646a12edd0d981bc110ef689667dd2492e39ccdd12411b8
+Size: 10429
+MD5Sum: 49647db958590d0f5a0858d70d200f6c
+SHA256sum: cf942818afd6a9ee71fc325a4e70b0d6bfc6f418daaf459d5e737da3758690d3
 Description:  Proxy module
 
 Package: lighttpd-mod-scgi
@@ -937,11 +964,11 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: lantiq
-Installed-Size: 17450
+Installed-Size: 17417
 Filename: lighttpd-mod-scgi_1.4.35-3_lantiq.ipk
-Size: 18217
-MD5Sum: 5f2fe0fd10150623dad0baf5d552347e
-SHA256sum: 3929fa65daa704bbd0ce4f1822620aecc64a5bcdad925d1846b16cc0a3d67d04
+Size: 18185
+MD5Sum: d0e615d14443cdb2b0869091a47fa59a
+SHA256sum: 4b46f4dc0014ad013c005794817aeb6f1d0fcb0fe052eb9b2523003314cc6287
 Description:  SCGI module
 
 Package: lighttpd-mod-status
@@ -953,11 +980,11 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: lantiq
-Installed-Size: 8294
+Installed-Size: 8292
 Filename: lighttpd-mod-status_1.4.35-3_lantiq.ipk
-Size: 9054
-MD5Sum: 0771fa5ea192e5b661a57ea76fd2231c
-SHA256sum: 95e0330756acae0422cdbcfe950aac31cdef35baa45f6860ba710aab31af4789
+Size: 9045
+MD5Sum: 98453ce8c10a23cb46ab6983657b628d
+SHA256sum: b533a81f8808af7c91004e395c31459b5e7e753dd3baea514c231a8b2e925146
 Description:  Server status display module
 
 Package: lighttpd
@@ -969,26 +996,12 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: lantiq
-Installed-Size: 84203
+Installed-Size: 83427
 Filename: lighttpd_1.4.35-3_lantiq.ipk
-Size: 84713
-MD5Sum: 6e4eadfb009f176703089897c3888148
-SHA256sum: b1f3165a93280d9e74b3e7e4dbad255146fee8a95068376b3dc19b387ccee059
+Size: 83972
+MD5Sum: 56d4e1db667690259f6857e16bcc81f8
+SHA256sum: 0ee9f36ace2598010f68a647615dda786c88b69e9108ea8340a459011b6d9b2e
 Description:  A flexible and lightweight web server
-
-Package: lsof
-Version: 4.86-2
-Depends: libc, librpc
-Source: feeds/packages/utils/lsof
-Section: utils
-Maintainer: Maxim Storchak <m.storchak@gmail.com>
-Architecture: lantiq
-Installed-Size: 53231
-Filename: lsof_4.86-2_lantiq.ipk
-Size: 54059
-MD5Sum: ba9d226761561fb3cbe64b179ea6f1eb
-SHA256sum: f5de6703971c6c63114bd6a0eef94ca6847420b6470b3b99e488142e4a939360
-Description:  LiSt Open Files - a diagnostic tool
 
 Package: luci-app-mwan3
 Version: 1.3-5
@@ -998,11 +1011,11 @@ License: GPLv2
 Section: LuCI
 Maintainer: Aedan Renner <chipdankly@gmail.com>
 Architecture: all
-Installed-Size: 13798
+Installed-Size: 13786
 Filename: luci-app-mwan3_1.3-5_all.ipk
-Size: 14671
-MD5Sum: e62643a6f7d60cddec1af735e9bd09af
-SHA256sum: a4e295349d8b5369b1f1f48a4f259997a6d394a52d5f7b1a7a8f76841ab8f8ba
+Size: 14657
+MD5Sum: de9fc478b3b6348e1636bfddc29165c6
+SHA256sum: 26fe29db0cfcb1a307709670c881e88bf307e29d88e19df4e82b0131b49e9956
 Description:  Hotplug script which makes configuration of multiple WAN interfaces simple and
  manageable with loadbalancing/failover support for up to 250 physical or logical
  WAN interfaces, connection tracking and an easy to manage traffic ruleset
@@ -1015,11 +1028,11 @@ License: GPLv2
 Section: luci
 Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
 Architecture: all
-Installed-Size: 3109
+Installed-Size: 3111
 Filename: luci-app-sqm_3-1_all.ipk
 Size: 4039
-MD5Sum: eaf22aed43a314b4c92deeb7e2cbe94a
-SHA256sum: 1002c9ff64664c4b3fc036668c2d7b571ebca43fa1142fd305aafb736b0352c9
+MD5Sum: 4cb2b56387b5034c52680a3eaf3048eb
+SHA256sum: 88f811e04955b305b46d6b9c510c46d14bff1ca135cade64f37b7d5ace5e1f48
 Description:  Control the simple_qos SQM script
 
 Package: mc
@@ -1030,11 +1043,11 @@ License: GPL-3.0+
 Section: utils
 Maintainer: Dirk Brenken <dibdot@gmail.com>
 Architecture: lantiq
-Installed-Size: 267528
+Installed-Size: 267561
 Filename: mc_4.8.13-1.2_lantiq.ipk
-Size: 268123
-MD5Sum: c288a9b432396fcd7ec724a76db9f977
-SHA256sum: d652f50235af22e48408a3f7cf3a92f9cac6cf48e7409636aa4b346d7b9ee166
+Size: 268145
+MD5Sum: adf66b1fe88a3beced36c8b5b23a68e3
+SHA256sum: 026318c5f1fa7983874c802563f425ee829356912e3627ab5acf21fd52c4b2b6
 Description:  GNU Midnight Commander is a visual file manager,
  licensed under GNU General Public License and therefore qualifies as Free Software.
  It's a feature rich full-screen text mode application that allows you to copy,
@@ -1050,11 +1063,11 @@ LicenseFiles: COPYING
 Section: utils
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
 Architecture: lantiq
-Installed-Size: 69740
+Installed-Size: 69736
 Filename: minicom_2.7-1_lantiq.ipk
-Size: 70523
-MD5Sum: 69cd1a47154b0ee0797cabc4fadde108
-SHA256sum: 51ea377eec4534729b2b2eebe0c3dd50526e5540200b6d08aee53b2f3163281f
+Size: 70510
+MD5Sum: 32c461992f7cc485dfdc639cfe5fff6f
+SHA256sum: 755d3e2027b0e7e4640e35846d027aeff3c7f88fa035d6c57a19180cad73cea1
 Description:  Terminal emulation program
 
 Package: minidlna
@@ -1066,29 +1079,13 @@ LicenseFiles: COPYING LICENCE.miniupnpd
 Section: multimedia
 Maintainer: Knyazkov Dmitry <medavedik@gmail.com>
 Architecture: lantiq
-Installed-Size: 115960
+Installed-Size: 115957
 Filename: minidlna_1.1.4-1_lantiq.ipk
-Size: 116478
-MD5Sum: 582e8150af1a626eb7255b30f7d55b79
-SHA256sum: eee27fc011c3413e5e09eba63fdbb78fa2c589c2d42d4c230de23296a5ccef81
+Size: 116461
+MD5Sum: 9f7ff55064bfb09dbe126140f8ce1723
+SHA256sum: 919cb7b108068c3d73287f7fa8a8b9a6fb2ef66a39db074740b39b0d6c32fc81
 Description:  MiniDLNA (aka ReadyDLNA) is server software with the aim of
  being fully compliant with DLNA/UPnP-AV clients.
-
-Package: mktorrent
-Version: 1.0-1
-Depends: libc
-Source: feeds/packages/utils/mktorrent
-License: GPL-2.0
-LicenseFiles: COPYING
-Section: net
-Maintainer: Daniel Golle <daniel@makrotopia.org>
-Architecture: lantiq
-Installed-Size: 10163
-Filename: mktorrent_1.0-1_lantiq.ipk
-Size: 10910
-MD5Sum: d93839c3c29701ed732605a73628d389
-SHA256sum: 3277060b0a4c96f1bcd5fec0dd6491c21e46e76520f9b39e95788b0a3bc6fb95
-Description:  mktorrent
 
 Package: mwan3
 Version: 1.5-8
@@ -1098,11 +1095,11 @@ License: GPLv2
 Section: net
 Maintainer: Jeroen Louwes <jeroen.louwes@gmail.com>
 Architecture: all
-Installed-Size: 4876
+Installed-Size: 4870
 Filename: mwan3_1.5-8_all.ipk
-Size: 5721
-MD5Sum: aafc3366f03bc4947c0c9bd87bc286d5
-SHA256sum: 5c2ed01d6266b8ba4aaa88d130f754547858034c7efc86a6c3584c47f2c60137
+Size: 5716
+MD5Sum: 63da92ad7cd96bdc79ac10e8a23a1982
+SHA256sum: 463b454e2d390a239f3a315d642f5ef3fd3f2cf706451068a976d3fe1daa5b2d
 Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
  and manageable. With loadbalancing/failover support for up to 250 wan
  interfaces, connection tracking and an easy to manage traffic ruleset.
@@ -1114,13 +1111,33 @@ Source: feeds/packages/utils/nano
 Section: utils
 Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
 Architecture: lantiq
-Installed-Size: 26931
+Installed-Size: 26934
 Filename: nano_2.3.6-1_lantiq.ipk
-Size: 27664
-MD5Sum: a840a95f9bda6fe44507bc1f1234c6ec
-SHA256sum: 6f148a33f135e843b3dfa564e87b1fb7e5d004f621f0d8c8aaeb1889b10a29ad
+Size: 27667
+MD5Sum: b0d8d419a866b4d00a789636b22588b0
+SHA256sum: b680cd9ccc0813a3911c5bd44f0487d28e8434390d850a5c750d4c4d8b6a8fcc
 Description:  GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
  of the Pico text editor.
+
+Package: natpmpc
+Version: 20140401-1
+Depends: libc, libnatpmp
+Source: feeds/packages/libs/libnatpmp
+License: BSD-3c
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Hauke Mehrtens <hauke@hauke-m.de>
+Architecture: lantiq
+Installed-Size: 3577
+Filename: natpmpc_20140401-1_lantiq.ipk
+Size: 4500
+MD5Sum: 0ac9096d168690e57e1ce6fad11d157e
+SHA256sum: 38f74a393a1374a8cd5ec1745991709c5cf3c7416aa9239b7ed11336a9a12897
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the natpmp client.
 
 Package: nfs-kernel-server-utils
 Version: 1.3.1-1
@@ -1129,11 +1146,11 @@ Source: feeds/packages/net/nfs-kernel-server
 Section: net
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: lantiq
-Installed-Size: 12114
+Installed-Size: 12112
 Filename: nfs-kernel-server-utils_1.3.1-1_lantiq.ipk
-Size: 12797
-MD5Sum: b37e13ff7df03eb181c02140ea102584
-SHA256sum: 3791ba40846dd3829bfb8e39fd3428d246b8f93b2c2f438a4e30ebbcf3d1d1f0
+Size: 12803
+MD5Sum: ebfac1a769b74d39994db6c75359284b
+SHA256sum: 4b5f74300e3a2717e95fa267d0faac8592e8917229ba1a30cd314211cb2f3136
 Description:  NFS server utils
 
 Package: nfs-kernel-server
@@ -1143,11 +1160,11 @@ Source: feeds/packages/net/nfs-kernel-server
 Section: net
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: lantiq
-Installed-Size: 88080
+Installed-Size: 88074
 Filename: nfs-kernel-server_1.3.1-1_lantiq.ipk
-Size: 87276
-MD5Sum: b5a553cc6fc15c301f04bae3666b2759
-SHA256sum: eb05848e82811adbb8c515247507170af7d01ab7120923c7b805bbbb561ac60d
+Size: 87058
+MD5Sum: f2802e1a1a1507520428a5bb4d8e9405
+SHA256sum: 86e2e949def23968d43785f4bde7e50bc95a25580378867969d8a3212699f5be
 Description:  Kernel NFS server support
 
 Package: nfs-utils
@@ -1157,11 +1174,11 @@ Source: feeds/packages/net/nfs-kernel-server
 Section: utils
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: lantiq
-Installed-Size: 33817
+Installed-Size: 33811
 Filename: nfs-utils_1.3.1-1_lantiq.ipk
-Size: 34483
-MD5Sum: 0b5fa9aa53f08861375b67feb9ae9707
-SHA256sum: 6c380250f9c591978be18f72f7cbfc53eda209c71739b8f941cb6945be61ca2f
+Size: 34478
+MD5Sum: 1779ca3fb0b3a272aa0d8ac45429e513
+SHA256sum: a39bbfa6ae372fc0d02c512e55ee428e077cb1c2c341d908f4aee6baeba70961
 Description:  Updated mount.nfs command - allows mounting nfs4 volumes
 
 Package: ntfs-3g-utils
@@ -1173,11 +1190,11 @@ LicenseFiles: COPYING COPYING.LIB
 Section: utils
 Maintainer: Bud <wrt_buddhay@gmx.net>
 Architecture: lantiq
-Installed-Size: 124291
+Installed-Size: 124288
 Filename: ntfs-3g-utils_2014.2.15-1-fuseint_lantiq.ipk
-Size: 124711
-MD5Sum: 0854aa2b8bcd63d74fd4552e0c00cd35
-SHA256sum: c5db85aff5cc97dc5b28846339ad303d03ec10e8fd55e725e89fd127c501af9f
+Size: 124712
+MD5Sum: 4c48f136d4349efbeb60d8bc50faae26
+SHA256sum: fdad6a74de46adc2d2a83791532b22ee17c97341690837967e21f4a9d4e97e85
 Description:  Additional ntfs-3g utilities. Not included by default for size
  considerations. All binaries except ntfs-3g, ntfs-3g.probe.
  
@@ -1195,11 +1212,11 @@ LicenseFiles: COPYING COPYING.LIB
 Section: utils
 Maintainer: Bud <wrt_buddhay@gmx.net>
 Architecture: lantiq
-Installed-Size: 204485
+Installed-Size: 204481
 Filename: ntfs-3g_2014.2.15-1-fuseint_lantiq.ipk
-Size: 205664
-MD5Sum: 3186495475c9b002b3493b2f12a9d0ee
-SHA256sum: f8471c790b5f030901221f07a91b9fb5b0ff390ed4dcb967ec2d1260a5e83950
+Size: 205663
+MD5Sum: 5a28deaad35977a7aa8883ddb052a2b9
+SHA256sum: 9af2fe86a41075df577111522290614466024cad7ca4697021bd83c5e0109f24
 Description:  Ntfs-3g is a NTFS driver, which can create, remove, rename,
  move files, directories, hard links, and streams. It can read
  and write files, including streams and sparse files. It can
@@ -1221,11 +1238,11 @@ LicenseFiles: COPYING COPYING.LIB
 Section: utils
 Maintainer: Bud <wrt_buddhay@gmx.net>
 Architecture: lantiq
-Installed-Size: 206510
+Installed-Size: 206500
 Filename: ntfsprogs_ntfs-3g_2014.2.15-1-fuseint_lantiq.ipk
-Size: 205662
-MD5Sum: 364bc6e23265049a216ad27b3c585bdb
-SHA256sum: c2fa3f005bdd7477f80ac3927e710f8c58b3b7a644e188ddee367aad5ec66d67
+Size: 205908
+MD5Sum: 0947e1e2493b7d2b2ac599dc97cd0810
+SHA256sum: 9a872ca318e8d076bc19583e09aadf9cc1018a8a25b4e550c04893c27041422d
 Description:  ntfsprogs (ntfs-3g)
 
 Package: ntpclient
@@ -1236,16 +1253,16 @@ License: GPL-2.0
 Section: net
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: lantiq
-Installed-Size: 11028
+Installed-Size: 11029
 Filename: ntpclient_2010_365-1_lantiq.ipk
-Size: 11838
-MD5Sum: 5265f5b744f331136017fd77a4af9914
-SHA256sum: 26a9d28d4f5689773a9a0e109ac6631ff7b9b454502889421170906ed8049070
+Size: 11836
+MD5Sum: 01bd5ddd39542df01faf7da386351bb8
+SHA256sum: 8ada7d2240a9033d82248c76c927961f56f952bc1b444454c6841757d8ccf576
 Description:  NTP client for setting system time from NTP servers.
 
 Package: ocserv
-Version: 0.8.7-1
-Depends: libc, libgnutls, certtool, libncurses, libreadline, libprotobuf-c
+Version: 0.8.8-2
+Depends: libc, libhttp-parser, libgnutls, certtool, libncurses, libreadline, libprotobuf-c
 Source: feeds/packages/net/ocserv
 License: GPLv2
 LicenseFiles: COPYING
@@ -1253,11 +1270,11 @@ Section: net
 Require-User: ocserv=72:ocserv=72
 Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
 Architecture: lantiq
-Installed-Size: 190406
-Filename: ocserv_0.8.7-1_lantiq.ipk
-Size: 191101
-MD5Sum: 5e52546f12c81e5d66bb799348cce0f3
-SHA256sum: 08996babff2fcb7af57a8e0ad597fe47d2abc8ff27e4b95efbd704378340f037
+Installed-Size: 184411
+Filename: ocserv_0.8.8-2_lantiq.ipk
+Size: 185037
+MD5Sum: eb3ac41c53122e2861474554043739ce
+SHA256sum: 3ee84d4bbf3f3b87f8d89f2b93522a60a805ca6ecad5ca9cab94e49fc56ea53f
 Description:  OpenConnect server (ocserv) is an SSL VPN server. Its purpose is to be 
  a secure, small, fast and configurable VPN server. It implements the
  OpenConnect SSL VPN protocol, and has also (currently experimental)
@@ -1266,47 +1283,23 @@ Description:  OpenConnect server (ocserv) is an SSL VPN server. Its purpose is t
  as TLS 1.2, and Datagram TLS to provide the secure VPN service. 
 
 Package: openconnect
-Version: 6.00-4
+Version: 7.00-3
 Depends: libc, libxml2, kmod-tun, resolveip, libgnutls
 Source: feeds/packages/net/openconnect
 Section: net
 Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
 Architecture: lantiq
-Installed-Size: 57684
-Filename: openconnect_6.00-4_lantiq.ipk
-Size: 58347
-MD5Sum: 57728cd02778f715c5580f98395bdc9f
-SHA256sum: 0b438fd974f003a131bedf275fb521553bf383319094f967a22b39258d03d156
+Installed-Size: 60546
+Filename: openconnect_7.00-3_lantiq.ipk
+Size: 61149
+MD5Sum: 9067b892c0c6605070de7810c52a4079
+SHA256sum: a3e83a654945fff33527ecfff31996dddaf0844f31852efa80524723b513e99c
 Description:  A VPN client compatible with Cisco's AnyConnect SSL VPN and ocserv.
  
  OpenConnect is a client that follows the Cisco's AnyConnect SSL VPN protocol,
  which is supported by IOS 12.4(9)T or later on Cisco SR500, 870, 880, 1800, 
  2800, 3800, 7200 Series and Cisco 7301 Routers, as well as the OpenConnect
  VPN server.
-
-Package: opentracker
-Version: 20141007-1
-Depends: libc, zlib, libpthread
-Source: feeds/packages/net/opentracker
-License: Beerware
-Section: net
-Maintainer: Daniel Golle <daniel@makrotopia.org>
-Architecture: lantiq
-Installed-Size: 39779
-Filename: opentracker_20141007-1_lantiq.ipk
-Size: 40528
-MD5Sum: ae021454b00c9604e707109522f46188
-SHA256sum: f28c8d2b7b71fcd1a80ea58005a6aadf05804e650718a26e4ebaf5a5751bb5e9
-Description:  opentracker - An open and free bittorrent tracker
- 
- opentracker is an open and free bittorrent tracker project.
- It aims for minimal resource usage and is intended to run at your wlan router.
- Currently it is deployed as an open and free tracker instance.
- Read our free and open tracker blog and announce your torrents there
- (but do not hesitate to setup your own free trackers!).
- 
- This package contains the IPv4-build of opentracker.
- 
 
 Package: p910nd
 Version: 0.97-4
@@ -1317,11 +1310,11 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: Philipp Kerling <pkerling@casix.org>
 Architecture: lantiq
-Installed-Size: 5433
+Installed-Size: 5434
 Filename: p910nd_0.97-4_lantiq.ipk
-Size: 6379
-MD5Sum: d371ff5486d6778583a0d1ea36353e3b
-SHA256sum: 0d0d01c6d297eaec5888a6f3957eef5ea14be4359d1a1981541c826dc6c13adb
+Size: 6370
+MD5Sum: e18dcbe39fc599436a9183c4b7b0dc94
+SHA256sum: 4da3158327248d2b28d1c23245a6489f264a044da931ff0168339484e859ef85
 Description:  p910nd is a small daemon that copies any data received on
  the port it is listening on to the corresponding printer
  port. It is primarily intended for diskless Linux hosts
@@ -1338,11 +1331,11 @@ License: GPL-2.0+
 Section: utils
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: lantiq
-Installed-Size: 10133
+Installed-Size: 10132
 Filename: picocom_1.7-1_lantiq.ipk
-Size: 10858
-MD5Sum: 6228fb753291f06dc9cc70fbdba20570
-SHA256sum: 1cb02298f76eb45625b0e67813813195a3e7205ce61dd9fbc6399eb8754ab901
+Size: 10862
+MD5Sum: ba06b2f09c8e8c63bf6092e4fb099f6a
+SHA256sum: 2946cdb9e1d2f4230e56e7d5fad589415ca7292f45243990d602dc7f8f53ca65
 Description:  minimal dumb-terminal emulation program
 
 Package: polipo
@@ -1352,11 +1345,11 @@ Source: feeds/packages/net/polipo
 Section: net
 Maintainer: Gabriel Kerneis <gabriel@kerneis.info>
 Architecture: lantiq
-Installed-Size: 95395
+Installed-Size: 95397
 Filename: polipo_1.1.1-1_lantiq.ipk
-Size: 96264
-MD5Sum: cf806b096a240577f2bd0801698148c0
-SHA256sum: e8046806b82bc8853d1041f45b1ffaa4aa46506ee85ce311171b81e66ec61227
+Size: 96257
+MD5Sum: a30f537a66a7f4cac84b3601a9a58060
+SHA256sum: 73f975f2ddfda539735dedc7d04526076649b0ba191aa6883d7f8226bfe621c0
 Description:  Polipo is a small and fast caching web proxy (a web cache, an HTTP proxy,
  a proxy server). While Polipo was designed to be used by one person or a
  small group of people, there is nothing that prevents it from being used
@@ -1372,11 +1365,11 @@ Section: net
 Require-User: rpc=65533:rpc=65533
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: lantiq
-Installed-Size: 6450
+Installed-Size: 6446
 Filename: portmap_6.0-4_lantiq.ipk
-Size: 7294
-MD5Sum: eaff62f635d004d813ca389dd1390a9f
-SHA256sum: bc3a2fb950e8da95a31c5be6f5895d960b90616da0f0f836998a6cb6755b0c1e
+Size: 7288
+MD5Sum: fb76418af311855bc2fb4a2b4b43cc4a
+SHA256sum: b0892b3ba84f3888dc3230370781680e17cfc2f2ae0dcd4c30322a7838d94168
 Description:  Portmap is a server that converts RPC (Remote Procedure Call) program
  numbers into DARPA protocol port numbers.
 
@@ -1389,11 +1382,11 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: lantiq
-Installed-Size: 764242
+Installed-Size: 764245
 Filename: python-base_2.7.8-3_lantiq.ipk
-Size: 761340
-MD5Sum: 8533344e67c241697b067e5a1ee2ab63
-SHA256sum: d9094bc6dcb360e5cf8efb6132223aa54c7ae567b306720d87e6215689d64b28
+Size: 761325
+MD5Sum: c50eb58f7387658bdbe46eeae1b996d4
+SHA256sum: 3117b069e9f85578a53c2cfcbe8e47c705f5c38ccff44623da72de9454039506
 Description:  This package contains only the interpreter and the bare minimum
  for the interpreter to start.
 
@@ -1406,11 +1399,11 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: lantiq
-Installed-Size: 3128985
+Installed-Size: 3129072
 Filename: python_2.7.8-3_lantiq.ipk
-Size: 3099922
-MD5Sum: de6fbe882a2eeab916837202ba865eb5
-SHA256sum: 3c4cf0b3f735c6512c3fa1cd2182e64ce5f381180ebe0b41f02407f8f60d51d2
+Size: 3099855
+MD5Sum: e60a63c495ff1d69da8d01460d4bcc71
+SHA256sum: 1a02bc799e1699fb919358bef23829db441f70acc351e8843710fb7c33c2558c
 Description:  This package contains the (almost) full Python install.
 
 Package: rrdtool1
@@ -1420,11 +1413,11 @@ Source: feeds/packages/utils/rrdtool1
 Section: utils
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 11400
+Installed-Size: 11402
 Filename: rrdtool1_1.0.50-2_lantiq.ipk
-Size: 12536
-MD5Sum: a5a9a8162899d5ad264645a65514498c
-SHA256sum: 15c701222413ecfe363e70eaf65b80501e29f073bf39adf468080cda60fe8d5e
+Size: 12539
+MD5Sum: 01467fa97baaf921f948fce783c251a1
+SHA256sum: 077ac7401557286e4ea890f8bbb5f2d682d9a560c31108900d809d0d74b64ebd
 Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
  display time-series data (i.e. network bandwidth, machine-room temperature,
  server load average). It stores the data in a very compact way that will
@@ -1447,11 +1440,11 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
 Architecture: lantiq
-Installed-Size: 154962
+Installed-Size: 154709
 Filename: rsync_3.1.1-1_lantiq.ipk
-Size: 155802
-MD5Sum: 67e4c8b168632932b65629bcee945686
-SHA256sum: a647964e17fba25b0cf2bce621e2912fd09bb7350c390acb4d0bc895ee24fdac
+Size: 155510
+MD5Sum: 1a1b8bd9656f2c5420313222f20e70c8
+SHA256sum: b9f6a6190cbeab381bc15a5d8e1eaa98b43ac308720f576b80922de4294b1ee9
 Description:  rsync is a program that allows files to be copied to and from remote machines
  in much the same way as rcp. It has many more options than rcp, and uses the
  rsync remote-update protocol to greatly speed up file transfers when the
@@ -1471,9 +1464,9 @@ Maintainer: Maxim Storchak <m.storchak@gmail.com>
 Architecture: lantiq
 Installed-Size: 578
 Filename: rsyncd_3.1.1-1_lantiq.ipk
-Size: 1389
-MD5Sum: 772fbaa7995f1a8d723c72695d91ffb1
-SHA256sum: 00a750f0bff5a14c2277bc2652d5bb329ac3d6ba1df8c4ab0729d3b8c2ea879b
+Size: 1393
+MD5Sum: b748b4c646adf941ce79e26119e92c44
+SHA256sum: 5ef8082e71987dac2a35e05e64c4e98d5553d24d748d1ed3ab3f2f6b79342020
 Description:  rsyncd is a configuration file and initscript to utilize rsync as a daemon. It
  uses the same binary as rsync.
 
@@ -1486,11 +1479,11 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: lantiq
-Installed-Size: 459753
+Installed-Size: 459754
 Filename: rtorrent-rpc_0.9.4-git-2_lantiq.ipk
-Size: 459474
-MD5Sum: f1d9d05efddff9ef2cea6dbe79a9fc7d
-SHA256sum: fec6cdcbc497032e918c3a879e095190aeba87b61140097d721d2788e6ea4a3f
+Size: 459506
+MD5Sum: 58654ea2d4b22de7a21eed4293095363
+SHA256sum: 1b310016badac52ef715afef47845922784f015a57af045469a8b5c02787de0e
 Description:  rTorrent is a BitTorrent client for ncurses, using the libtorrent library.
  The client and library is written in C++ with emphasis on speed and
  efficiency, while delivering equivalent features to those found in GUI based
@@ -1508,9 +1501,9 @@ Maintainer: Peter Wagner <tripolar@gmx.at>
 Architecture: lantiq
 Installed-Size: 451035
 Filename: rtorrent_0.9.4-git-2_lantiq.ipk
-Size: 450933
-MD5Sum: c443d16580392e1c641b6777ebb803e1
-SHA256sum: 4b86661de7d9fe24fcb3e99b20dbbfff82d8670e2171fa5b0f404f009d15a0d3
+Size: 450947
+MD5Sum: 8edec310bef1b53ae9bb05a372784127
+SHA256sum: fe8facf70857200b32019445862769ce68e2a571b6907ec856af6064cd1c33c2
 Description:  rTorrent is a BitTorrent client for ncurses, using the libtorrent library.
  The client and library is written in C++ with emphasis on speed and
  efficiency, while delivering equivalent features to those found in GUI based
@@ -1525,11 +1518,11 @@ License: GPL-3.0+
 Section: utils
 Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Architecture: lantiq
-Installed-Size: 175940
+Installed-Size: 175938
 Filename: screen_4.2.1-2_lantiq.ipk
-Size: 176606
-MD5Sum: 3d08d85d98d33d9f5ee9a11920685ea0
-SHA256sum: 3841ec116899369a423c8afe98feafc5fc6924d2c14482696b587b8222437228
+Size: 176609
+MD5Sum: b5d43a40e3c6afe511f5f60ce3c3837a
+SHA256sum: 7cef338792fb2d6d051cf819dd3ea3677b13c0d8b68562245769129091e54bf7
 Description:  Screen is a full-screen window manager that multiplexes a physical
  terminal between several processes, typically interactive shells.
 
@@ -1541,11 +1534,11 @@ License: BSD-3-Clause
 Section: utils
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: lantiq
-Installed-Size: 4730
+Installed-Size: 4729
 Filename: shadow-common_4.2.1-2_lantiq.ipk
-Size: 5484
-MD5Sum: 1904d5d3ed88a15bc4d00de87c9d626f
-SHA256sum: 5d3887255092eb126ddcf522df79f4d90a3feb115f2922c5b27ab240fcfa49d9
+Size: 5487
+MD5Sum: ef5dea65e28cad50eb6cc13e9cfa72af
+SHA256sum: a5e989d4f9c0e0b9509b2e6b47af623a3e976e7d015cc3f9a70a27dd27ea19c5
 Description:  Shared definitions for the PLD Linux shadow utilities
 
 Package: shadow-su
@@ -1556,11 +1549,11 @@ License: BSD-3-Clause
 Section: utils
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: lantiq
-Installed-Size: 16242
+Installed-Size: 16241
 Filename: shadow-su_4.2.1-2_lantiq.ipk
-Size: 16937
-MD5Sum: 5828818cd7b6bfd21e427d1e9c53b37f
-SHA256sum: b776bae88887e5faaf7860e311701ceba0da058d156a650692485337de81a10b
+Size: 16954
+MD5Sum: a2f69c218a565e361f91776ba9aecee6
+SHA256sum: 2998d15ce99a64d0c11b135b00432407ec160f3009dd51835151919d5e6b7d51
 Description:  Full version of standard su utility. Normally, you would not use this
  package, since the functionality in BusyBox is more than sufficient.
 
@@ -1572,11 +1565,11 @@ License: PUBLICDOMAIN
 Section: utils
 Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Architecture: lantiq
-Installed-Size: 30068
+Installed-Size: 30067
 Filename: sqlite3-cli_3080701-1_lantiq.ipk
-Size: 30894
-MD5Sum: efd43f60444ccd9c704ce584261e98c8
-SHA256sum: 863a779af9159fa6fd9172f15c85d1185466cb001d054e0049699f2d213b2868
+Size: 30892
+MD5Sum: d61b35a62164e4f5af4e38bedc4d960f
+SHA256sum: f87ddb48dd424309848ebf07f352a277f28b74f799eb4b18f3bd55e34ce0f050
 Description:  SQLite is a small C library that implements a self-contained, embeddable,
  zero-configuration SQL database engine.
  This package contains a terminal-based front-end to the SQLite (v3.x) library
@@ -1591,11 +1584,11 @@ License: GPLv2
 Section: net
 Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
 Architecture: all
-Installed-Size: 10764
+Installed-Size: 10760
 Filename: sqm-scripts_7-3_all.ipk
-Size: 11609
-MD5Sum: 193c332b3d8234564b3022f523caa92a
-SHA256sum: 27af3c5ac3689781acfd6e1af8f85b877e0be33c8440126f390249292a629ede
+Size: 11606
+MD5Sum: 5c483a8cc6a525935abaa18d40ed034b
+SHA256sum: b6caa06b4be0fed5b127d70605e1f57f3434c8c6123f6bfc96187de04ad7e93a
 Description:  A set of scripts that does simple SQM configuration.
 
 Package: ssmtp
@@ -1606,11 +1599,11 @@ License: GPL-2.0+
 Section: mail
 Maintainer: Dirk Brenken <dibdot@gmail.com>
 Architecture: lantiq
-Installed-Size: 11183
+Installed-Size: 11185
 Filename: ssmtp_2.64-1.1_lantiq.ipk
 Size: 12154
-MD5Sum: c8c39fc0f59350234d71f1a245bd7c45
-SHA256sum: b9772036c2fb318180e0a2f58de4ca01c148aa35e200227c258bc720a1aadc61
+MD5Sum: 1fc5738bf8b2cacdb9eeac6366c256a9
+SHA256sum: 7ad11d191b44b1758cc16114a06897d5bcc04bbb918e4acbe35bfc93871c6f4e
 Description:  A secure, effective and simple way of getting mail off a system to your
  mail hub. It contains no suid-binaries or other dangerous things - no
  mail spool to poke around in, and no daemons running in the background.
@@ -1624,11 +1617,11 @@ Source: feeds/packages/net/tinyproxy
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 26925
+Installed-Size: 26929
 Filename: tinyproxy_1.8.3-2_lantiq.ipk
-Size: 27598
-MD5Sum: a564f5bbd6175b0b802a33e6c8ea925a
-SHA256sum: e1868d21e86f6b86f1bdd42a17a2e646800929f670b07bdf95890f8046cad609
+Size: 27669
+MD5Sum: 6e8827dadc5af4e81dc47c950def0c9f
+SHA256sum: c6fbda321f5600bbeadb4f9651d5c21b15eb164fbad29a1d970e74e3dfc2deb9
 Description:  Tinyproxy is a lightweight HTTP and HTTPS proxy
 
 Package: transmission-cli
@@ -1638,11 +1631,11 @@ Source: feeds/packages/net/transmission
 Section: net
 Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
 Architecture: lantiq
-Installed-Size: 709618
+Installed-Size: 709605
 Filename: transmission-cli_2.84-1_lantiq.ipk
-Size: 708090
-MD5Sum: 9bc74bb87dffd6dc35d4e3ff5b0c0ef7
-SHA256sum: f9ac21237e221d565f932a8aec3b5d5115edca4ec04f496d17a5843102c1ae91
+Size: 708084
+MD5Sum: 34a2a0130cd7c4585a71fb28b08abee7
+SHA256sum: 35e9ef3e6aa445ca79c8e719ce8251564d0ad465c009947de9a6c7e5d786ea53
 Description:  CLI utilities for transmission.
 
 Package: transmission-daemon
@@ -1652,11 +1645,11 @@ Source: feeds/packages/net/transmission
 Section: net
 Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
 Architecture: lantiq
-Installed-Size: 181736
+Installed-Size: 181733
 Filename: transmission-daemon_2.84-1_lantiq.ipk
-Size: 182088
-MD5Sum: ad5592caa35da87c6630f97ee6d94982
-SHA256sum: 6d96778623f881a5dacde04b144e9a863f5d17f59e4de9d2086223397c1b009d
+Size: 182072
+MD5Sum: 91b9d759e6625a3f72fb6b24f617ebb6
+SHA256sum: f65e457bccb1089f384b24373882cb2de5e33968556caa39fb7782386ae3ec37
 Description:  Transmission is a simple BitTorrent client.
  It features a very simple, intuitive interface
  on top on an efficient, cross-platform back-end.
@@ -1671,9 +1664,9 @@ Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
 Architecture: lantiq
 Installed-Size: 189945
 Filename: transmission-remote_2.84-1_lantiq.ipk
-Size: 190180
-MD5Sum: b55fca5aaa457010a0cfbd560c6d6746
-SHA256sum: d8a579fbfcf9a8b3778d538715c93b4a78e8f314913192c5c89ac5a8bb9e82b0
+Size: 190174
+MD5Sum: 36177ea84e38818af1f957b950bf9f61
+SHA256sum: a4f2b9ba887e1aa8025a408bb6c68be53c449d9b4377ec973e078b820c6b0cfa
 Description:  CLI remote interface for transmission.
 
 Package: transmission-web
@@ -1683,11 +1676,11 @@ Source: feeds/packages/net/transmission
 Section: net
 Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
 Architecture: lantiq
-Installed-Size: 205983
+Installed-Size: 205974
 Filename: transmission-web_2.84-1_lantiq.ipk
-Size: 206857
-MD5Sum: 205697cd4c0f0e4eced8f0edc2f44864
-SHA256sum: 9a26ebcadab2c168769c01dc210b4c5ad9accb158d855aea20a9cb660db85abc
+Size: 206844
+MD5Sum: 9470530ca267a6857096ee864fb385da
+SHA256sum: db6be9877c4fc00a53e1dc4c3a68cdcf3f3e131387c27704739424630047e1f5
 Description:  Webinterface resources for transmission.
 
 Package: unixodbc
@@ -1698,11 +1691,11 @@ License: prog GPL libs LGPL
 Section: libs
 Maintainer: Thomas Heil <heil@terminal-consulting.de>
 Architecture: lantiq
-Installed-Size: 193077
+Installed-Size: 193054
 Filename: unixodbc_2.3.2-1_lantiq.ipk
-Size: 193433
-MD5Sum: 315315f8dd4a39095f3c70e0b520758a
-SHA256sum: b13cef5a443eef1a9a4c5561caf9bb534c9a8a3b79b3d63ec7af3cd1524b9009
+Size: 193426
+MD5Sum: 73d9f4d6920bccb8a762862d290241fc
+SHA256sum: 01c691d2ba55c0201896e38c07a275b47bfea49fe7cfd0c9e8fd7f5a21c710c7
 Description:  unixODBC is an Open Source ODBC sub-system and an ODBC SDK for Linux,
  Mac OSX, and UNIX.
 
@@ -1715,11 +1708,11 @@ LicenseFiles: license.txt
 Section: utils
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
 Architecture: lantiq
-Installed-Size: 127264
+Installed-Size: 127263
 Filename: unrar_5.2.2-1_lantiq.ipk
-Size: 128003
-MD5Sum: a0ccaddd21c10ce4b4770cc915b5d8ed
-SHA256sum: 43f080260c1c551ded4696c0d6879c8a78607cdd98190748ab9deb5aba6940f6
+Size: 128026
+MD5Sum: ad0512be649195d51c7b5fe50e1eafea
+SHA256sum: 1e6779b989ef5d8f8b5c3abede3c2e793d85b99d9ef274776aa4a68bb15f4605
 Description:  UnRAR is an application that can decompress files and archives created using
  the RAR compression scheme
 
@@ -1732,11 +1725,11 @@ LicenseFiles: LICENSE
 Section: utils
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
 Architecture: lantiq
-Installed-Size: 155889
+Installed-Size: 155890
 Filename: unzip_6.0-1_lantiq.ipk
-Size: 156837
-MD5Sum: 9be8721d6a7582061c40283115ef8ac9
-SHA256sum: cfe9b608f3d3483ca700c59abe1e0e4f1ff28b16b194b8fbf047f68b699f0503
+Size: 156823
+MD5Sum: 36770cef182015c990f6195997c8afe5
+SHA256sum: 832f3a3f7c5b375b1a5216294173d0373db432b1928e387feff4deba240ae0e6
 Description:  InfoZIP's unzip program. With the exception of multi-volume archives
  (ie, .ZIP files that are split across several disks using PKZIP's /& option),
  this can handle any file produced either by PKZIP, or the corresponding
@@ -1750,11 +1743,11 @@ License: GPLv2
 Section: net
 Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
 Architecture: lantiq
-Installed-Size: 39998
+Installed-Size: 39995
 Filename: vsftpd_3.0.2-4_lantiq.ipk
-Size: 40713
-MD5Sum: e4f08d276764772e205dd77087ed5239
-SHA256sum: a5267593d3033e983782060bfa9a2fcd0dc6ff4bef4ccce5f626784b9fa3ec48
+Size: 40710
+MD5Sum: 8f8e5d12050d35ab0e4bf194ae2c2107
+SHA256sum: b696c137f02be1bf96d75cccf9117522dafb09dc3946f9f63e4cb2db05cbbf78
 Description:  A fast and secure FTP server (no TLS)
 
 Package: wget
@@ -1765,11 +1758,11 @@ License: GPL-3.0+
 Section: net
 Maintainer: Maxim Storchak <m.storchak@gmail.com>
 Architecture: lantiq
-Installed-Size: 180575
+Installed-Size: 179138
 Filename: wget_1.16-1_lantiq.ipk
-Size: 181013
-MD5Sum: a4803f3352b3624efeca9d912cc46645
-SHA256sum: 09397b65691adfa55ec75a73d5e1656e355d147b893bc1168ec8b55ee61b8482
+Size: 179582
+MD5Sum: bd6626319cbe9068fc4cc0f3681147b0
+SHA256sum: e8aacbbf02bceaee26b796dd131284fc176256897780eff02c3b4e02a6a72858
 Description:  Wget is a network utility to retrieve files from the Web using http
  and ftp, the two most widely used Internet protocols. It works
  non-interactively, so it will work in the background, after having
@@ -1786,13 +1779,31 @@ License: GPL-2.0+
 Section: utils
 Maintainer: Nuno Goncalves <nunojpg@gmail.com>
 Architecture: lantiq
-Installed-Size: 1538
+Installed-Size: 1536
 Filename: wifitoggle_1-4_lantiq.ipk
-Size: 2396
-MD5Sum: c2164b26871e12411d0efb4aa1f7402a
-SHA256sum: 448b7b27a74df9457a11e064e8feba0b3d5639e2e45feb73586949f2446fa864
+Size: 2383
+MD5Sum: cde4387731b0bbb2051781dec1c19329
+SHA256sum: 7461b59e58847b8d65f6607de46a2ad78440087e653a02bebbf1e8b7ededad9a
 Description:  Very versatile script to toggle Wi-Fi with a button. Allows to set
  timeouts, persist changes after boot, and set LEDs according to the state.
+
+Package: wshaper
+Version: 1.1a-1
+Depends: libc, kmod-sched, tc
+Source: feeds/packages/net/wshaper
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: all
+Installed-Size: 2070
+Filename: wshaper_1.1a-1_all.ipk
+Size: 2947
+MD5Sum: bf4a257382bf9cc30ac7d83e2554673a
+SHA256sum: fafb2263c56be01bf2a3ba68851676f6a323e9a11c2d041b7822217da7c3f076
+Description:  A script to do traffing shaping with the HTB algorithm.
+ Wshaper attempts to:
+ * Maintain low latency for interfactive traffic at all times
+ * Allow 'surfing' at reasonable speeds while up or downloading
+ * Make sure uploads don't harm downloads, and the other way around
 
 Package: xl2tpd
 Version: 1.3.6-5619e1771048e74b729804e8602f409af0f3faea
@@ -1803,11 +1814,11 @@ LicenseFiles: LICENSE
 Section: net
 Maintainer: Daniel Golle <daniel@makrotopia.org>
 Architecture: lantiq
-Installed-Size: 45277
+Installed-Size: 45273
 Filename: xl2tpd_1.3.6-5619e1771048e74b729804e8602f409af0f3faea_lantiq.ipk
-Size: 46308
-MD5Sum: 5ec35140f78286628540aa937afda9ab
-SHA256sum: 53ffc5481b1c87483b974aa1ad06de0efcb43cc2c23f3a16f7600127e316f303
+Size: 46309
+MD5Sum: 93a32949abd8cec0b07750cfaa45efe1
+SHA256sum: a78cecd06db5119f885372aef8660abd6298373e9212bc3a4c294f644ad1953c
 Description:  l2tpd is the open source implementation of the L2TP tunneling protocol (RFC2661).
  It does implement both LAC and LNS role in a L2TP networking architecture. The
  main goal of this protocol is to tunnel PPP frame trough an IP network.
@@ -1821,11 +1832,11 @@ LicenseFiles: doc/COPYING
 Section: libs
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: lantiq
-Installed-Size: 7265
+Installed-Size: 7267
 Filename: xmlrpc-c-common_1.39.0-1_lantiq.ipk
-Size: 8164
-MD5Sum: 2d86f46c18b1039f36be66116492e246
-SHA256sum: 6402ddd3a534a69fbad2475c0481d951236d7a48669d6524ef2c813eb73a77b7
+Size: 8172
+MD5Sum: 60a14cf3697117b4fc460cd9fea5b32b
+SHA256sum: 190bb6fa356cb853116851759297df4aa62abdfd52b07b21894a98638e1346ca
 Description:  Programming library for writing an XML-RPC server or client in C or C++.
  XML-RPC is a standard network protocol to allow a client program to make
  a simple remote procedure call (RPC) type request of a server.
@@ -1841,9 +1852,9 @@ Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: lantiq
 Installed-Size: 74300
 Filename: xmlrpc-c-internal_1.39.0-1_lantiq.ipk
-Size: 75103
-MD5Sum: 4e700f94fce6af1c2446896d72e3671b
-SHA256sum: edc3de7ea60a0a96e4fd84042d4c432da09a8760e74f2d14c977c15722bfe9c8
+Size: 75094
+MD5Sum: 38ab02dfb96ba892b66b844a6659057b
+SHA256sum: 819f1cf7c184c751fe480bcdd791f094840c0de426b9737823677f5ee914ed8b
 Description:  Programming library for writing an XML-RPC server or client in C or C++.
  XML-RPC is a standard network protocol to allow a client program to make
  a simple remote procedure call (RPC) type request of a server. Uses internal expat variant (stripped down)
@@ -1857,11 +1868,11 @@ LicenseFiles: doc/COPYING
 Section: libs
 Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: lantiq
-Installed-Size: 7955
+Installed-Size: 7956
 Filename: xmlrpc-c-server_1.39.0-1_lantiq.ipk
-Size: 8750
-MD5Sum: f6d3081594fa3e9d8e9d8d2bf46193bf
-SHA256sum: 7403cc74e58499482bb55411e21ab71c7f764d2890513b1ee2187d500dec1390
+Size: 8752
+MD5Sum: f4162ae9f21c08586982f95a2c5151d6
+SHA256sum: b88d4f34e9dd1d4586e25beb6358cc52e1f834fd5eb2aab4028337ac7c9fec40
 Description:  XML-RPC library - server
 
 Package: xmlrpc-c
@@ -1875,9 +1886,9 @@ Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: lantiq
 Installed-Size: 105
 Filename: xmlrpc-c_1.39.0-1_lantiq.ipk
-Size: 856
-MD5Sum: 92498c0386f3fdec652aa8cfb2f7b173
-SHA256sum: c0d13019d7730cd2d3a47b277008ac58ba7f26c9675a6df5e6a56e62465936d9
+Size: 854
+MD5Sum: 21d8e6cb67cbffda4ba2d6f7526c5e96
+SHA256sum: d83b984620d154fbe6d5cb126b9a4830ef6cd58017541ef09904829ede4de4b5
 Description:  XML-RPC library (uses internal expat variant)
 
 Package: zip
@@ -1889,11 +1900,11 @@ LicenseFiles: LICENSE
 Section: utils
 Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
 Architecture: lantiq
-Installed-Size: 174669
+Installed-Size: 174667
 Filename: zip_3.0-1_lantiq.ipk
-Size: 173956
-MD5Sum: 143610f5591151ff5c350f55c6817c51
-SHA256sum: e0c6fad73ab43a8420203dd09295b1b17d4abbc36688ad50ee39c9a1b7cb5fc8
+Size: 175252
+MD5Sum: 71d9cdbb579c0531ba965e7428cf2937
+SHA256sum: f1370b19d8642f1a7f5c104d423c1870158799bd3a721927c471693f67ebfb3e
 Description:  This is InfoZIP's zip program. It produces files that are fully
  compatible with the popular PKZIP program; however, the command line
  options are not identical. In other words, the end result is the same,
@@ -1907,11 +1918,11 @@ License: Public Domain
 Section: utils
 Maintainer: Vladimir Ulrich <admin@evl.su>
 Architecture: lantiq
-Installed-Size: 22273
+Installed-Size: 22281
 Filename: zoneinfo-core_2014j-2_lantiq.ipk
-Size: 22917
-MD5Sum: fdd9cb4345a0c9d624e81126d8c34fea
-SHA256sum: c4a19f2411ffde4d13cc41d657a905ac4c1d1710e420bfc2dfc1247bbb6824a3
+Size: 22921
+MD5Sum: 19271fdbe086c22f028c7ea7166296cf
+SHA256sum: d9aa81c94c895e7f9c61f8b8d73fc1bb9acb65df662e48913013bcb9a4fdbc7c
 Description:  Zone Information (core)
 
 Package: zoneinfo-europe
@@ -1922,10 +1933,10 @@ License: Public Domain
 Section: utils
 Maintainer: Vladimir Ulrich <admin@evl.su>
 Architecture: lantiq
-Installed-Size: 22501
+Installed-Size: 22507
 Filename: zoneinfo-europe_2014j-2_lantiq.ipk
-Size: 23078
-MD5Sum: 53bbce80c6a6a4576af38ac551b9e4ca
-SHA256sum: dd880e327fe601218a5178d3034ea509170721f71e5d091e19a2c8de80484153
+Size: 23110
+MD5Sum: ae6112d2791a2f8ab3a2d1763998b07e
+SHA256sum: 48be2f2cf5b2e6f22ff7f2559c330991d85f3e8822d34bbd4fa2a6341acf65de
 Description:  Zone Information (Europe)
 

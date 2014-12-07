@@ -1,15 +1,15 @@
 Package: miniupnpd
-Version: 1.9-1
-Depends: libc, iptables, libip4tc, libip6tc, ip6tables, libnfnetlink
+Version: 1.9.20141128-1
+Depends: libc, iptables, libip4tc, libnfnetlink
 Source: feeds/routing/miniupnpd
 License: BSD-3-Clause
 Section: net
 Maintainer: Markus Stenberg <fingon@iki.fi>
 Architecture: lantiq
-Installed-Size: 49824
-Filename: miniupnpd_1.9-1_lantiq.ipk
-Size: 50787
-MD5Sum: d8237148f8eba1c46785d3b4ad122301
-SHA256sum: c862e4af160a0f3e0e0f90faf042b572e1e1aca7c3fb903f50b3b065a0c506d2
+Installed-Size: 46063
+Filename: miniupnpd_1.9.20141128-1_lantiq.ipk
+Size: 46988
+MD5Sum: 971d580d1a562d1f4446b22d6f5716b5
+SHA256sum: e82ca88cc3eef83ed87e4a01bd763569875898c9bb051e80a5fef41eeb3a487c
 Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
 
