@@ -60,8 +60,8 @@ touch /etc/config/network
 ucidef_set_interface_loopback
 ucidef_set_interface_lan 'eth0'
 
-vpi=1
-vci=32
+vpi=8
+vci=35
 annex="a"
 encaps="llc"
 payload="bridged"
@@ -179,7 +179,7 @@ esac
 [ -z "$(ls /lib/modules/`uname -r`/ltq_atm*)" ] || set_atm_wan "$vpi" "$vci" "$encaps" "$payload"
 
 if [ -n "$(grep "system type.*: VR9" /proc/cpuinfo)" ]; then
-	set_vdsl_modem "$annex" "/lib/firmware/vdsl.bin" "av" "ptm"
+	set_vdsl_modem "$annex" "/lib/firmware/vdsl.bin" "av" "atm"
 else
 	set_adsl_modem "$annex" "/lib/firmware/adsl.bin"
 fi
