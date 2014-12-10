@@ -1,0 +1,4 @@
+#
+# m  h  dom  mon  dow    usercommand
+*/15    *  *    *    *   /usr/bin/dsl-stats.sh
+
