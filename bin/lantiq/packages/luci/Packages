@@ -6,569 +6,583 @@ Section: luci
 Architecture: lantiq
 Installed-Size: 1317
 Filename: freifunk-p2pblock_3_lantiq.ipk
-Size: 2099
-MD5Sum: 07b672c628806a0023fbecf85ea52287
-SHA256sum: 31c53054f4e07743c2c943da2393666fb1e16555f79d554f1fe6fe96a19c5c8b
+Size: 2096
+MD5Sum: 9708a7841197a93cec53d370f4e65c9c
+SHA256sum: ab770fb59eaf049575d13a1c4bbdca7a1558db01ccf776035b894d44846f1d9e
 Description:  Simple Addon for Freifunk which use iptables layer7-, ipp2p- and recent-modules 
  to block p2p/filesharing traffic
 
 Package: luci-app-commands
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc
 Source: feeds/luci/contrib/package/luci
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 15817
-Filename: luci-app-commands_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 16533
-MD5Sum: fc7b16a8184ab4dd583c343884afeaff
-SHA256sum: 4f134ba04bd26bbb6ab48fc6b3968b31390bc8d1c3e49c84cfd663b0aaaee084
+Installed-Size: 15821
+Filename: luci-app-commands_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 16534
+MD5Sum: 13008443f3db2777fbe89ae8ac5d8975
+SHA256sum: 413d027d951131df3acc492bacce02e7673510d904cdc2bc3e8bc7903c5aeb38
 Description:  LuCI Shell Command Module
 
 Package: luci-app-ddns
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, ddns-scripts
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 36967
-Filename: luci-app-ddns_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 38092
-MD5Sum: b1178d800ce300ea5b298d69af782b39
-SHA256sum: c73eda5bbc3877b08c65def1d7e2ac43577d0799570e9aacac7fd43af7abe4b9
+Installed-Size: 35984
+Filename: luci-app-ddns_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 36924
+MD5Sum: eddedea5bda4093edbce6ed4386e3310
+SHA256sum: 6c05d8ab58d4c3ece7e93478d0f7dbb3199a6e28a38ad12606ae60873d662b47
 Description:  Dynamic DNS configuration module
 
 Package: luci-app-diag-core
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 5695
-Filename: luci-app-diag-core_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 6447
-MD5Sum: 737eef0441790e34c77d31df1b5fbb23
-SHA256sum: 078b2c03fc8540af4bf7d7ea51074357f6bd80d3a172b1d03ec29a909aee4ed0
+Installed-Size: 5692
+Filename: luci-app-diag-core_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 6445
+MD5Sum: 253e06ef38fbc6dcd86c98545ba842fa
+SHA256sum: 05897c12473d04b20516b28e513e389b84a13ddde0047dd88192d8b45a7034e2
 Description:  LuCI Diagnostics Tools (Core)
 
 Package: luci-app-diag-devinfo
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, luci-app-diag-core, smap, netdiscover, mac-to-devinfo, httping, smap-to-devinfo, netdiscover-to-devinfo
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
 Installed-Size: 28200
-Filename: luci-app-diag-devinfo_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 29050
-MD5Sum: 60283f5d080eb3339523e9b7a3a3cbf5
-SHA256sum: e568557cf325802d15d5c27c19946a0c91794eea6e3601949493f1ab85e4b15e
+Filename: luci-app-diag-devinfo_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 29048
+MD5Sum: dae0c277c8bb21145866531f971aac18
+SHA256sum: 874c303ef5b46f4d8b7b0601ee8b4ea213e9654a7035566fd10f7988264c638c
 Description:  LuCI Diagnostics Tools (Device Info)
 
 Package: luci-app-firewall
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, firewall
 Source: feeds/luci/contrib/package/luci
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 63842
-Filename: luci-app-firewall_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 64653
-MD5Sum: 9266ab6b9efeb69341444d5c28776397
-SHA256sum: 775eb0e48a94043aecc2b2095bb55d5020fc055be2c4b97778c64782ca747ba0
+Installed-Size: 63850
+Filename: luci-app-firewall_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 64659
+MD5Sum: 6b1f14d3650697988e2ed9acd11bb37f
+SHA256sum: 399345fcc89118e86fcbc0a69a9c3120162279f48c7cabdc016d02c6fc126162
 Description:  Firewall and Portforwarding application
 
 Package: luci-app-hd-idle
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, hd-idle
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 6178
-Filename: luci-app-hd-idle_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 6958
-MD5Sum: 6ec8ef69f9b9a345062ae487b289ee0c
-SHA256sum: 5f6cd581570a86830db987acc6b7436d4d82186977618f91be47ebceb3641cc3
+Installed-Size: 6187
+Filename: luci-app-hd-idle_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 6960
+MD5Sum: fcdd49f0def16d58c060a8a064ab8add
+SHA256sum: b213a0e6bc342978493dd323285db3e161e4f645fe1d86bcfd12c8cd26607286
 Description:  Hard Disk Idle Spin-Down module
 
 Package: luci-app-ltqtapi
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 1915
-Filename: luci-app-ltqtapi_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 2651
-MD5Sum: cd71fa63884cbdcfe458ce40d70ed5d7
-SHA256sum: ad47cec327ef1feb70c8b98ddc7a7fbf28e470e6520ef2ae86cee67195051163
+Installed-Size: 1917
+Filename: luci-app-ltqtapi_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 2652
+MD5Sum: cd38c068e026df3e75b6d8df2613a8bf
+SHA256sum: 2de97e2d29b61322958225fa7f9640c9a19c953f16395b6e5b1f432e740cf666
 Description:  Lantiq voip
 
 Package: luci-app-minidlna
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, minidlna
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 20752
-Filename: luci-app-minidlna_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 21518
-MD5Sum: 62bd1cfa72ec15d53848eefc7f4e79e5
-SHA256sum: d074036850d7a28ef2f8d9cbb119c7d8221232ce5dc3e49fe8d2623042baba62
+Installed-Size: 20757
+Filename: luci-app-minidlna_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 21521
+MD5Sum: 07b641d64e8a737c91fef6fc24fc5004
+SHA256sum: bfcaab5df471c90a8e474e41a39eb20c9a6dffcf42ea34599066cf57ec60f9d1
 Description:  LuCI Support for miniDLNA
 
 Package: luci-app-multiwan
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, luci-app-firewall, multiwan
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 15144
-Filename: luci-app-multiwan_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 15910
-MD5Sum: 1564b2541ca3ded307795460de084085
-SHA256sum: 307b8c24532b0f5d337c75730478ab6e1a8eb983ea55d19930b71e77a111dce5
+Installed-Size: 15150
+Filename: luci-app-multiwan_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 15911
+MD5Sum: 27d71b01ab258462bfcc690fed9424b5
+SHA256sum: 4641c7b6389c52a4d77973bdf0bb5ae847f8a9722169575f5c3377ffcb129624
 Description:  LuCI Support for the OpenWrt MultiWAN agent
 
 Package: luci-app-ntpc
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, ntpclient
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
 Installed-Size: 7704
-Filename: luci-app-ntpc_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 8486
-MD5Sum: cc0cdaa616318de2dfc09a5ad75d0e7c
-SHA256sum: 6e1bbc47e307a31ba882084d7b4ea4bf15ad36cffae98144b65b4e1575988e49
+Filename: luci-app-ntpc_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 8482
+MD5Sum: 9bc448728da078b4f531b507357d1c9b
+SHA256sum: e99345e082a88cc20bb7c0402f3dd3d437000b7bdcf01717a90ecaef69105a5f
 Description:  NTP time synchronisation configuration module
 
 Package: luci-app-ocserv
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, ocserv, certtool
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 4231
-Filename: luci-app-ocserv_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 5005
-MD5Sum: d5a119e8f6865eb3b06b6039f4749146
-SHA256sum: 77ec909caf87a454d4a4546cf90bd360d59588546a01a5d44bf958438c2bb6fc
+Installed-Size: 4234
+Filename: luci-app-ocserv_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 5000
+MD5Sum: 6025601e83245d1f729a10c14398cb2d
+SHA256sum: e90dac17d13c960c8676d95134851909662436e6fe0a68cdb8cc9edf3ec499ac
 Description:  LuCI Support for OpenConnect VPN
 
 Package: luci-app-openvpn
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, openvpn
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 61656
-Filename: luci-app-openvpn_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 62447
-MD5Sum: 5c1fce71bd8a3db2f34043453d4399a4
-SHA256sum: 8afcae8c4c1ac195f13dc4cb34ec0a40be9a1036f52db35fda44e45a40b646e3
+Installed-Size: 61667
+Filename: luci-app-openvpn_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 62456
+MD5Sum: bf47a1f2ee180a8bf27a24c32e3d0fc1
+SHA256sum: 52f1eb9a82cc69b5e8937498cdba8a96747084319d25228f70b357767a73acd8
 Description:  LuCI Support for OpenVPN
 
 Package: luci-app-p2pblock
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, luci-app-firewall, freifunk-p2pblock
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 6374
-Filename: luci-app-p2pblock_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 7179
-MD5Sum: 9cc3b088297691d3a3a6dfa1e0d867ae
-SHA256sum: 926d2253b51b76a844fb978392895c2bd631605928614235c3176fd7f9017089
+Installed-Size: 6369
+Filename: luci-app-p2pblock_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 7168
+MD5Sum: 7061e44243bff713d16d991ad5fb515f
+SHA256sum: c48d36d9a21c63b312d66a275b17efe65e6af71dda4c860308a085afbed2c150
 Description:  LuCI Support for the Freifunk P2P-Block addon
 
 Package: luci-app-p910nd
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, p910nd
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 6695
-Filename: luci-app-p910nd_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 7471
-MD5Sum: 7c26a0c94ff6d4be41429ffc3e022027
-SHA256sum: da6031e8d745f3bea7bc81020a91408b3c7497c1215ada6fc6c2d4cdf777777a
+Installed-Size: 6694
+Filename: luci-app-p910nd_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 7473
+MD5Sum: 7b38f9f9ed34f53832849a57938e57b6
+SHA256sum: 02e814095c9acefaad9264005ff8d06ecb446f4e998551e526279a0a2569c185
 Description:  p910nd - Printer server module
 
 Package: luci-app-polipo
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, polipo
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 22889
-Filename: luci-app-polipo_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 23643
-MD5Sum: ab79d6c428075f7d43663a31a60547d5
-SHA256sum: 4f940e9e96b4f9292beaa3b91a15c1f4e994126ceb78e8181ed95c4e5c38f59d
+Installed-Size: 22898
+Filename: luci-app-polipo_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 23650
+MD5Sum: 869665f24ddce0db2e68fd1cc734d21f
+SHA256sum: ce2e25c412454ab55899e891222acd05ab415eb1f2c9b9589f96feb110b56460
 Description:  LuCI Support for the Polipo Proxy
 
 Package: luci-app-qos
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, qos-scripts
 Source: feeds/luci/contrib/package/luci
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 10799
-Filename: luci-app-qos_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 11541
-MD5Sum: d4f716b994237426ddc09b960126053f
-SHA256sum: ccf281a2ba0d805e687781caf27fac3c7b64929f0b0f76a64578ed54df496b08
+Installed-Size: 10798
+Filename: luci-app-qos_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 11552
+MD5Sum: 717097b95273eb47f24a928753256a28
+SHA256sum: a9562ba7f6b68db113b947e57a4e682bd5cc9893c32e5c560716888466f3fc91
 Description:  Quality of Service configuration module
 
 Package: luci-app-samba
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, samba36-server
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 12279
-Filename: luci-app-samba_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 13072
-MD5Sum: 36fee4d7dd8287f1d7fa53c0b0e0e6e0
-SHA256sum: ca7a8d0932bc9683da6535ca6833ae22676d250054ca6eb156400a437b859919
+Installed-Size: 12280
+Filename: luci-app-samba_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 13063
+MD5Sum: 8b194295673f196b2d520b7d8bd24578
+SHA256sum: 7414daef793417d7e6174d7dcbe11a9a9d459b0aa606fea4f432b1b960e25a25
 Description:  Network Shares - Samba SMB/CIFS module
 
 Package: luci-app-statistics
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, collectd, rrdtool1, collectd-mod-rrdtool, collectd-mod-iwinfo, collectd-mod-interface, collectd-mod-load, collectd-mod-network
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 98796
-Filename: luci-app-statistics_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 99759
-MD5Sum: c6d196d2947b9b397debd724fa6053f7
-SHA256sum: 2845abb6c801fe18a2a34014b41a771e62b94004bd2d34fec9cd75da1e8e0e03
+Installed-Size: 98798
+Filename: luci-app-statistics_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 99761
+MD5Sum: c8206627bd3fd234015e359c3295dc4e
+SHA256sum: c555a8d268aef8eb2057307f42bcdad97f85a1c4f7a00b7d4f10a2276214004d
 Description:  LuCI Statistics Application
 
 Package: luci-app-tinyproxy
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, tinyproxy
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 25460
-Filename: luci-app-tinyproxy_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 26224
-MD5Sum: 16b6a612e69d05763ca564657dffd55d
-SHA256sum: b12cd8af59ffe1b45532ac1fc4e11e23563d612ee7502eddbe283be8242d681b
+Installed-Size: 25464
+Filename: luci-app-tinyproxy_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 26226
+MD5Sum: 2d5bbcf904dd2f9bf2df7a74236f94ae
+SHA256sum: f162466d312acf86e561a952783d01d66a76510368f3829c613b859b486ba60f
 Description:  Tinyproxy - HTTP(S)-Proxy configuration
 
 Package: luci-app-transmission
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, transmission-daemon
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 26901
-Filename: luci-app-transmission_git-14.328.38244-91532de-1_lantiq.ipk
+Installed-Size: 26902
+Filename: luci-app-transmission_git-14.343.56284-0fb85fb-1_lantiq.ipk
 Size: 27694
-MD5Sum: 03c29e270468ea3ddc61eeb9aa187276
-SHA256sum: 8176cc89178ca713a77c301aa1410acbc3d054c2611d089a7b7fed9c75b486e6
+MD5Sum: 7d68d2521f9dc4ed1b29171ab1be699f
+SHA256sum: 36cef545fd638395ef2fd265c3403707417bcf101c3ffb52f5f2f344b34d96fe
 Description:  LuCI Support for Transmission
 
 Package: luci-app-upnp
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, miniupnpd
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 19786
-Filename: luci-app-upnp_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 20578
-MD5Sum: d2519f6dc8aa7c3dda04fbdf73a9aef7
-SHA256sum: d72c8eb8b139cea9d747aa2b3def0299000eab1105a61ec29f6c33f8b3ce6f14
+Installed-Size: 19791
+Filename: luci-app-upnp_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 20590
+MD5Sum: 7c3377bb28cd50c8e37463dc3a1b909b
+SHA256sum: 2064d78ce8a811887a55df3451da1d75854c9c384bfd6b902471931f337a71d1
 Description:  Universal Plug & Play configuration module
 
 Package: luci-app-ushare
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, ushare
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 6926
-Filename: luci-app-ushare_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 7709
-MD5Sum: 889fa8000359eaaffb21d43d841b7d98
-SHA256sum: 09aaa10d039cf04ef28aee1ffdcb01f7082f1822f68d9c88b508676181ae358d
+Installed-Size: 6937
+Filename: luci-app-ushare_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 7725
+MD5Sum: 56ea5319926521345264c5cfae4fd225
+SHA256sum: 01789c51185ea3a4c38af70586c22152cf8b214fa506b37d0c1c808d8e1d4ea9
 Description:  uShare - UPnP A/V & DLNA Media Server
 
 Package: luci-app-voice-core
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 2189
-Filename: luci-app-voice-core_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 2912
-MD5Sum: 493e51a70ace2dba3923335d25e651e7
-SHA256sum: 9846551d79cb18e25177892045dcbb6668fc21ae83a61d265f98163fe10c287a
+Installed-Size: 2186
+Filename: luci-app-voice-core_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 2908
+MD5Sum: ae4dc09c6dd4b501d9bbd89d48342ec4
+SHA256sum: f464f559b980cd3aede26e3cc9b8aa2ad5973ed5dda4bb9510eda89a74b55ed2
 Description:  LuCI Voice Software (Core)
 
 Package: luci-app-voice-diag
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, luci-app-diag-devinfo
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 4602
-Filename: luci-app-voice-diag_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 5370
-MD5Sum: e9678e1ed25cdc0e01b5032e11ac337e
-SHA256sum: 6896753c0ce69b668be61f0781da9dd652c474681882413a00b7af13d802a016
+Installed-Size: 4605
+Filename: luci-app-voice-diag_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 5367
+MD5Sum: 44e19efcf994488b7eb5ed580d7e19c3
+SHA256sum: 2e65f22f4215c3f099690341812f2e54a8ddd9e09b47b69474f798eaa4893e14
 Description:  LuCI Voice Software (Diagnostics)
 
 Package: luci-app-wol
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, etherwake
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 8829
-Filename: luci-app-wol_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 9616
-MD5Sum: 9c1d103237abf8e41eca7784f9436702
-SHA256sum: 80a088d06967f2156519215f4b51320406df6d9b89c5194ecfd04aa15ea975b4
+Installed-Size: 8837
+Filename: luci-app-wol_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 9622
+MD5Sum: b25dc28e00eec277bf9bc8d51c1158de
+SHA256sum: fad28e1d14e0f56b31056f4c87ccc39085c8bc46cd0cf028b6a218ab3219b6c1
 Description:  LuCI Support for Wake-on-LAN
 
 Package: luci-app-wshaper
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, wshaper
 Source: feeds/luci/contrib/package/luci-addons
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
 Installed-Size: 7297
-Filename: luci-app-wshaper_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 8079
-MD5Sum: d8122ab2b02f2f1084052533c2bb24ee
-SHA256sum: 88a7af626d786084e96bbe09a59baa885edc3a211af82f6503373ff058634463
+Filename: luci-app-wshaper_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 8077
+MD5Sum: 6988dde104a5c9a742bd6d31f08934ad
+SHA256sum: a7a2ca450fc2ab1d8686855af3d39ecf5087910090c9ac566007dfc97c202e98
 Description:  LuCI Support for wshaper
 
 Package: luci-base
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, lua, libuci-lua, libubus-lua
 Source: feeds/luci/contrib/package/luci
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 142131
-Filename: luci-base_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 143014
-MD5Sum: 764a0d6218714e0bf1fd388c55958299
-SHA256sum: 773ad1e3c5cd760c756c4b77383ce9d792001c75d1e6da7209ca1c86995a5a93
+Installed-Size: 142139
+Filename: luci-base_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 143027
+MD5Sum: 4241c87cc906236ec52224fe639b976c
+SHA256sum: ef7fa28ec623cfc6d64689e1e87fee2d13862b0513d51113f7e6b45c1a167073
 Description:  LuCI core libraries
 
 Package: luci-i18n-english
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc
 Source: feeds/luci/contrib/package/luci
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 770
-Filename: luci-i18n-english_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 1516
-MD5Sum: 0641e9bb50fe12b7b4bdd53686a589b5
-SHA256sum: 107be6d2f8411ba96613b345da1024a9672edf7fa7aebe04bb21b636bec03818
+Installed-Size: 771
+Filename: luci-i18n-english_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 1511
+MD5Sum: 02c9c4a50b1f0f3cf1e752822963092b
+SHA256sum: d73c1aa43099ce841feedefe8cd971c07dffb9b2c56d2da140a0406b2f7da0e5
 Description:  English
 
 Package: luci-i18n-italian
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc
 Source: feeds/luci/contrib/package/luci
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 16816
-Filename: luci-i18n-italian_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 17548
-MD5Sum: 04fe1db914e3ec0409e7b568df65d0e1
-SHA256sum: b5d2dea948e251658b2453e93b53f1d7fbc31843fce12517c5cf17d5ecfdf8ce
+Installed-Size: 16818
+Filename: luci-i18n-italian_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 17547
+MD5Sum: c461679615392a9d32a611f655d95974
+SHA256sum: 772451b2a63b359efc639e483e0d50334b6f73af3e9b8123223beb4d6d0fafe6
 Description:  Italian (by Matteo Croce)
 
 Package: luci-lib-json
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc
 Source: feeds/luci/contrib/package/luci
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 4050
-Filename: luci-lib-json_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 4795
-MD5Sum: 5b9cff48909945def9335245019a5117
-SHA256sum: dfb85f51860c1d5c4b96c527dc6a894f4f6921a40e6c8d4e3b7cd3ee35be73fa
+Installed-Size: 4052
+Filename: luci-lib-json_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 4794
+MD5Sum: a869d15dfa3a80feedad301531479990
+SHA256sum: 3919723ed53b20089c397ab4cca3186d11ae178ca2bd3b6d47a5ab6050dc9cb8
 Description:  LuCI JSON library
 
 Package: luci-lib-nixio
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, luci-base
 Source: feeds/luci/contrib/package/luci
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 31130
-Filename: luci-lib-nixio_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 31712
-MD5Sum: 1b5318b39b34c584c4982dd1e95d0630
-SHA256sum: 39415a21e0eaaffac9cde6bcb0a35ace95e8b7c8f7eb49e7f724f543b3467b53
+Installed-Size: 31136
+Filename: luci-lib-nixio_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 31701
+MD5Sum: 2466bde668c9cbd95e61c748e1698f86
+SHA256sum: 683fc40a0daa3eb199ea824f26a9fe80722b2a69c3d20b1589f964240dc08321
 Description:  NIXIO POSIX library
 
 Package: luci-mod-admin-full
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, luci-base
 Source: feeds/luci/contrib/package/luci
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 68076
-Filename: luci-mod-admin-full_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 68992
-MD5Sum: b48b73ae8e06f8ad974a75833e92ffea
-SHA256sum: b89c20e804716312a13e89f63ce144fea532d80270717aaf7cd9ec1ab0c0684d
+Installed-Size: 68081
+Filename: luci-mod-admin-full_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 68989
+MD5Sum: 23af89601d9493298a180c9fd647731b
+SHA256sum: 5da34bdb278b03182ea15353868ca2d8d7af219f40b25cdbce6472813bd5d0d8
 Description:  LuCI Administration - full-featured for full control
 
 Package: luci-proto-3g
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, comgt
 Source: feeds/luci/contrib/package/luci
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 1835
-Filename: luci-proto-3g_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 2556
-MD5Sum: ab864645b17a46570f827f08e1c92459
-SHA256sum: f763f3a7b43e3d849cda29407874909b03f3886e22395dc884645fdefe1f20de
+Installed-Size: 1833
+Filename: luci-proto-3g_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 2552
+MD5Sum: 6e7cc31fe557376b3fad041be5efb7a8
+SHA256sum: 93e6b83ce6376fd989d13df85bdb5913095b73ff58945d7257ac5636b39b6cd7
 Description:  Support for 3G
 
+Package: luci-proto-ipv6
+Version: git-14.343.56284-0fb85fb-1
+Depends: libc
+Source: feeds/luci/contrib/package/luci
+Section: luci
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: lantiq
+Installed-Size: 3471
+Filename: luci-proto-ipv6_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 4245
+MD5Sum: 0452d96c3ab9a6c958fb2a7405af7e04
+SHA256sum: 967839ed3e1950bdfac7c7d44d8ab80e8abb7f529a591f5fd1f35c9327f691dc
+Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite
+
 Package: luci-proto-openconnect
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, openconnect
 Source: feeds/luci/contrib/package/luci
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 1643
-Filename: luci-proto-openconnect_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 2385
-MD5Sum: c946bf87e6ceec29055113095811b005
-SHA256sum: 465ec273bc6032ef11b30e37aec1600253615dd23c5abd4623ffdf0fba9c8bb1
+Installed-Size: 1645
+Filename: luci-proto-openconnect_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 2381
+MD5Sum: 09374f55dc3203067fb4d81d677a6831
+SHA256sum: 56f0a63f49b503a5e26a45d961dce7ae6cb2b3ef5d8114b356f31abd07db9d70
 Description:  Support for OpenConnect VPN
 
 Package: luci-proto-ppp
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc
 Source: feeds/luci/contrib/package/luci
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 2996
-Filename: luci-proto-ppp_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 3743
-MD5Sum: d65fd6c211df7b0c7694c6063a07dab7
-SHA256sum: 9c7371b1b8d20edb60a511137e8e2f4dbc17acef1c1a027bee72fd071a9c8503
+Installed-Size: 2997
+Filename: luci-proto-ppp_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 3746
+MD5Sum: dc1e008f8813080acb4d3e43917c25bb
+SHA256sum: a1fe510213a9f9cec95170a78e3c0d47cded0948d1ce695c1ede392f2dbc283d
 Description:  Support for PPP/PPPoE/PPPoA/PPtP
 
 Package: luci-proto-relay
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, relayd
 Source: feeds/luci/contrib/package/luci
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 2199
-Filename: luci-proto-relay_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 2949
-MD5Sum: b3f7e381f205bba549b05763cfd4fe1a
-SHA256sum: 27f9808b729edf09d381a3077f7e0ccc77b6bc89e502c594400d047e10b9d2a1
+Installed-Size: 2200
+Filename: luci-proto-relay_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 2945
+MD5Sum: 76752ffab888ab9e07b238e3f762057f
+SHA256sum: dcd747d0e956d7c37d95b2aba5e3be05be27da9618098f15b30cf3f6fdab0152
 Description:  Support for relayd pseudo bridges
 
 Package: luci-ssl
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, luci, libustream-polarssl, px5g
 Source: feeds/luci/contrib/package/luci
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 105
-Filename: luci-ssl_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 865
-MD5Sum: b9d01e16321b38a1a81450d21a18399f
-SHA256sum: 91b7588fc546516d116db058619a5219d4e4b46a7576ff45939ac7192ace421a
+Installed-Size: 106
+Filename: luci-ssl_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 863
+MD5Sum: 014719bff0a3dec15df6323c26dfaf46
+SHA256sum: df0908a6fd1842d8466fb90a2e5b732d62884840a164337b0907ed6e86bc49e3
 Description:  Standard OpenWrt set with HTTPS support
 
 Package: luci-theme-bootstrap
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc
 Source: feeds/luci/contrib/package/luci
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 13090
-Filename: luci-theme-bootstrap_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 13816
-MD5Sum: ff66c20b99dd4203dd86fe3d3c18b767
-SHA256sum: 6a303fc4378d97dc51c1b991cb8f0b972b059a24f6f5584993aa08763c71115e
+Installed-Size: 13094
+Filename: luci-theme-bootstrap_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 13822
+MD5Sum: febfa84cc3b9e9cf0744ce133c4a5159
+SHA256sum: dccc85672fe9c833e0daf43443fd99e87f29a87d9dd22b15ab7f38071e90e73f
 Description:  Bootstrap Theme (default)
 
 Package: luci-theme-openwrt
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc
 Source: feeds/luci/contrib/package/luci
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 7020
-Filename: luci-theme-openwrt_git-14.328.38244-91532de-1_lantiq.ipk
+Installed-Size: 7022
+Filename: luci-theme-openwrt_git-14.343.56284-0fb85fb-1_lantiq.ipk
 Size: 7805
-MD5Sum: aed9275c7197d59b3abc04f60e82f22a
-SHA256sum: 20a6fabf24bc095e87840f48d3f0ad68642fd2e566c87a96d8a5900076873c49
+MD5Sum: 9889ee3f7569f20b5e08b147a7d7a170
+SHA256sum: 505c8373abfdc9c8f1357c05110afcbacc612fc394211e7235577a94865f53b8
 Description:  OpenWrt.org
 
 Package: luci
-Version: git-14.328.38244-91532de-1
+Version: git-14.343.56284-0fb85fb-1
 Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, luci-lib-nixio
 Source: feeds/luci/contrib/package/luci
 Section: luci
 Maintainer: LuCI Development Team <luci@lists.subsignal.org>
 Architecture: lantiq
-Installed-Size: 105
-Filename: luci_git-14.328.38244-91532de-1_lantiq.ipk
-Size: 936
-MD5Sum: b15c9d90719526ddd333c3a267d6b2bc
-SHA256sum: e3e48e2d1a1a21f6237e98332ee51cf85ebd2e6bcc0b58227519bbb2b902a535
+Installed-Size: 106
+Filename: luci_git-14.343.56284-0fb85fb-1_lantiq.ipk
+Size: 930
+MD5Sum: 625f7c2210a74e0301c278487161fbcd
+SHA256sum: 6585faa6d7667878863be2510b252b815e05e4367930be3fe6d88ecbc10ebc2f
 Description:  Standard OpenWrt set including full admin with ppp support and the default OpenWrt theme
 

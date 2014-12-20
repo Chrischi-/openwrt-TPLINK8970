@@ -6,10 +6,10 @@ License: BSD-3-Clause
 Section: net
 Maintainer: Markus Stenberg <fingon@iki.fi>
 Architecture: lantiq
-Installed-Size: 46063
+Installed-Size: 46064
 Filename: miniupnpd_1.9.20141128-1_lantiq.ipk
-Size: 46988
-MD5Sum: 971d580d1a562d1f4446b22d6f5716b5
-SHA256sum: e82ca88cc3eef83ed87e4a01bd763569875898c9bb051e80a5fef41eeb3a487c
+Size: 46989
+MD5Sum: c342b0eab801600540bc473d174dafd3
+SHA256sum: 9240150d20fc9a8c80715881d6ae93c13595852086aded21d089ab72d12ec351
 Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
 

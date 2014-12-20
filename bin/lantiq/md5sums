@@ -1,3 +1,5 @@
-cc3285377f62a25676338c1cfc612eaf *openwrt-lantiq-xrx200-TDW8970-rootfs.tar.gz
-82c1e6bc7bd5f82e93c085b5d7da7317 *openwrt-lantiq-xrx200-TDW8970-sysupgrade.image
-00b2226ad544097ca6e47f01720f201f *openwrt-lantiq-xrx200-TDW8970-uImage
+dd6bc00a488f36dd58553c5088e0fc6e *openwrt-lantiq-xrx200-TDW8970-package.tar.gz
+60f2b5d230158b719cf15ba454f57c91 *openwrt-lantiq-xrx200-TDW8970-rootfs.tar.gz
+44d61a4ac15577e4493bb65d690a9b91 *openwrt-lantiq-xrx200-TDW8970-sysupgrade.image
+d329f9b671f1106dea6a18ef6edfdf9d *openwrt-lantiq-xrx200-TDW8970-sysupgrade.image.tar.gz
+870c9e0aba3b5b4887a354f948d78a7e *openwrt-lantiq-xrx200-TDW8970-sysupgrade.image.zip
