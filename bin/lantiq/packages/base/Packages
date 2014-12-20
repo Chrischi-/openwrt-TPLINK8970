@@ -1,15 +1,57 @@
+Package: atm-debug-tools
+Version: 2.5.2-5
+Depends: libc, linux-atm
+Source: package/network/utils/linux-atm
+License: GPL-2.0+
+Section: net
+Architecture: lantiq
+Installed-Size: 219523
+Filename: atm-debug-tools_2.5.2-5_lantiq.ipk
+Size: 219602
+MD5Sum: 09ec49dc5045f9c6ccd5a40eb66675a2
+SHA256sum: 58a8da3f9da95d91113fe4bae114f6c861683aaafacd8d058273a5a366cf1699
+Description:  This package contains the Linux ATM debugging tools.
+
+Package: atm-diagnostics
+Version: 2.5.2-5
+Depends: libc, linux-atm
+Source: package/network/utils/linux-atm
+License: GPL-2.0+
+Section: net
+Architecture: lantiq
+Installed-Size: 6390
+Filename: atm-diagnostics_2.5.2-5_lantiq.ipk
+Size: 7076
+MD5Sum: effea64cae6c23f0df3a366a05aed437
+SHA256sum: 2a89558d319200f8b82091dfc0f475950de2d406105d8fee39833bd9a58c15e8
+Description:  This package contains the Linux ATM diagnostics.
+
+Package: atm-tools
+Version: 2.5.2-5
+Depends: libc, linux-atm
+Source: package/network/utils/linux-atm
+License: GPL-2.0+
+Section: net
+Architecture: lantiq
+Installed-Size: 16196
+Filename: atm-tools_2.5.2-5_lantiq.ipk
+Size: 16842
+MD5Sum: 0bd2fc9d2b68cde6e94a22cadc4ab503
+SHA256sum: 2b94ac8949365f4cfb116609ab05361f1ead9840c83857111744bce188086ba6
+Description:  This package contains the Linux ATM tools.
+
 Package: base-files
-Version: 157-r43731
+Version: 157-r43753
 Depends: libc, netifd, procd, jsonfilter
 Source: package/base-files
 License: GPL-2.0
 Section: base
 Architecture: lantiq
-Installed-Size: 32452
-Filename: base-files_157-r43731_lantiq.ipk
-Size: 33351
-MD5Sum: b19b9dde07a14a86ac76bf56855b2ff1
-SHA256sum: 966a79509b58caf3afd13c27d542b7a85452f40d93d078eec341277afeb0105b
+Installed-Size: 32457
+Filename: base-files_157-r43753_lantiq.ipk
+Size: 33355
+MD5Sum: 3d1b68d2eabad9a4c1e3929d4d89a093
+SHA256sum: 444e9be3a0e215c5702f9ebd71163823bfd3914677ba6d25ef85174b8db7776d
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: blkid
@@ -20,11 +62,11 @@ License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: utils
 Architecture: lantiq
-Installed-Size: 27384
+Installed-Size: 27382
 Filename: blkid_2.25.2-2_lantiq.ipk
-Size: 28108
-MD5Sum: bb35816b545bdf9390277b92be57da04
-SHA256sum: 02b974958ba539f8ec940f1c09d96900ed49c4072ae127a8ae1c11ba2d68d3c6
+Size: 28103
+MD5Sum: 344845e8294cf768719800f815eb2e1c
+SHA256sum: a9af1116ea62597b7c50e69a0316bdebba8856975b2bc74cc696722ad8ef0a60
 Description:  The blkid program is the command-line interface to working with the libblkid
  library.
 
@@ -36,11 +78,11 @@ License: GPL-2.0
 Section: base
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: lantiq
-Installed-Size: 17382
+Installed-Size: 17383
 Filename: block-mount_2014-12-15-83cf8896a598fb9fc58da0a9bb4f137695f78853_lantiq.ipk
-Size: 18141
-MD5Sum: 0138068a82b17d784795025f77889a88
-SHA256sum: 325f08d7cd842f6b91e3ad3e8cff1f01b1f8d8aa7858df0d6123b9bcbeff0faa
+Size: 18137
+MD5Sum: d3f7936b923676a083a9f28857ea32a8
+SHA256sum: 68460c2cbab902b3ca10ce1e18f79101d5a9a708f2487947d1cdb37c281b2b45
 Description:  Block device mounting and checking
 
 Package: br2684ctl
@@ -50,11 +92,11 @@ Source: package/network/utils/linux-atm
 License: GPL-2.0+
 Section: net
 Architecture: lantiq
-Installed-Size: 4281
+Installed-Size: 4279
 Filename: br2684ctl_2.5.2-5_lantiq.ipk
-Size: 4998
-MD5Sum: 96a88cbbb2f92a8c33316beb54263d2c
-SHA256sum: 8b989a27749de91217684427d4b9ec8fc94e2455de282cf63fa4785848cc3460
+Size: 4994
+MD5Sum: ae51a176baad7d40ee0dacb462a1c6db
+SHA256sum: 8f459b423182f2a61bacdd8ef11369dd9766163c6b5a1d83d72762e4b5f0aff3
 Description:  Support for AAL5 encapsulation (RFC-1483/RFC-2684) over ATM.
 
 Package: busybox
@@ -67,11 +109,11 @@ Section: base
 Essential: yes
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 216656
+Installed-Size: 218338
 Filename: busybox_1.22.1-5_lantiq.ipk
-Size: 216751
-MD5Sum: 24bd8db015a6042fd94c7b267a192211
-SHA256sum: 2e70db6257221e87910fff1ce210baf4fa9415afed53d6ff1b51269558eca22e
+Size: 218247
+MD5Sum: c8629e3947d7e5558b1e10d428e3c82d
+SHA256sum: 09fbe2949d92aca97444c3243c48da7a02f2956030f4c2e95c0929fc862c251b
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -83,11 +125,11 @@ License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: utils
 Architecture: lantiq
-Installed-Size: 105784
+Installed-Size: 105780
 Filename: cfdisk_2.25.2-2_lantiq.ipk
-Size: 106602
-MD5Sum: 87e7e0bd12f33fe7c49c6aff3f4de4c3
-SHA256sum: e35df35e1b9a5a2eeb95ef928a79cf64116dead8f8ef64a1a4891d1686e8e9f6
+Size: 106595
+MD5Sum: 2e6c6849247bc291e19f248924e59b5a
+SHA256sum: 7939bcaceac4cb15503bc6d13b9f15978f83c79ac3f477c5e74db658bd00df37
 Description:  cfdisk is a curses-based program for partitioning any hard disk drive
 
 Package: chat
@@ -100,9 +142,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
 Installed-Size: 8752
 Filename: chat_2.4.7-4_lantiq.ipk
-Size: 9561
-MD5Sum: f6cca4574c4acefdbf559bf57cbcdaf7
-SHA256sum: 54b4923e196972914cdb7961f8375a78b424f1abe35715b26e4691a93f507734
+Size: 9560
+MD5Sum: 59c92f3498ee84538cbe962d44aa05e7
+SHA256sum: 8039e6d962d15fdd61d2144967b321a728e30d4f23f02d055dcf569074f90782
 Description:  This package contains an utility to establish conversation with other PPP servers
  (via a modem).
 
@@ -114,11 +156,11 @@ License: GPL-2.0+
 Section: utils
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 31545
+Installed-Size: 31538
 Filename: comgt_0.32-24_lantiq.ipk
-Size: 31890
-MD5Sum: d016e3714b6caa570760af4185265595
-SHA256sum: 86a2d87a6888d370ba1acf334136b586526b0ba39bd0a43166fdab5966ad3d64
+Size: 31916
+MD5Sum: efb22fd3d103a0a0464c5a4fd1d73d61
+SHA256sum: 6b860ed64d5444f3cae8f83b2bddac1ab32fee0b90f9c790087ea9e8193499fc
 Description:  comgt is a scripting language interpreter useful for establishing 
  communications on serial lines and through PCMCIA modems as well as GPRS 
  and 3G datacards.
@@ -134,24 +176,24 @@ Maintainer: Imre Kaloz <kaloz@openwrt.org>
 Architecture: lantiq
 Installed-Size: 40304
 Filename: curl_7.38.0-1_lantiq.ipk
-Size: 41109
-MD5Sum: 539a80f4ad1362ef99682efa270471cb
-SHA256sum: be2f218decac7ba1920beb503a4d19888ee3b4b89637fab173206c45e270e29e
+Size: 41111
+MD5Sum: e6d9f791b79351702e588d86393655c6
+SHA256sum: 8ef211715644ff02cce40654876dd207e9d72184e74d8f95b4c890144cfa4e6a
 Description:  A client-side URL transfer utility
 
 Package: dnsmasq
-Version: 2.72-1
+Version: 2.72-2
 Depends: libc
 Source: package/network/services/dnsmasq
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: net
 Architecture: lantiq
-Installed-Size: 88310
-Filename: dnsmasq_2.72-1_lantiq.ipk
-Size: 89096
-MD5Sum: 4b2ef89297ce4d6d7799b85f3f6babff
-SHA256sum: 652b13240294df47400afc5ca4947588a084bafb65cf9986a17fdc0ea2e6dfb9
+Installed-Size: 88327
+Filename: dnsmasq_2.72-2_lantiq.ipk
+Size: 89134
+MD5Sum: 638f6f1976cf9b131fadc6f18d01cd1f
+SHA256sum: 2664a97e8b70667c039727e25feec6d38b18345300f2e088e341352bcf05eb46
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
 
 Package: dropbear
@@ -162,11 +204,11 @@ License: MIT
 LicenseFiles: LICENSE libtomcrypt/LICENSE libtommath/LICENSE
 Section: net
 Architecture: lantiq
-Installed-Size: 87544
+Installed-Size: 87545
 Filename: dropbear_2014.65-2_lantiq.ipk
-Size: 87789
-MD5Sum: e3cbfb7e2d0b8392a33b4711e04163fc
-SHA256sum: b182827cf3ed18bd8274c5d8a472e6fbd5240db1771e11f700e15612d0ca7f0f
+Size: 87785
+MD5Sum: 98ed55945e69510cc3178dcd8f12451c
+SHA256sum: 31212a55cf54bb04f32a9b273fa434e7f0b7de0583b6e336ca95e80e23a0c1ed
 Description:  A small SSH2 server/client designed for small memory environments.
 
 Package: e2fsprogs
@@ -175,11 +217,11 @@ Depends: libc, libuuid, libext2fs
 Source: package/utils/e2fsprogs
 Section: utils
 Architecture: lantiq
-Installed-Size: 185733
+Installed-Size: 185734
 Filename: e2fsprogs_1.42.4-1_lantiq.ipk
-Size: 186134
-MD5Sum: 7a7d938add287e1c6f8a98657ca3c698
-SHA256sum: 228154c66b4666e2035526f78f13d06097354afd30531e2eedcda7ba457aba2e
+Size: 186127
+MD5Sum: 8fec81d6ded9a90fb6efa40d45842d68
+SHA256sum: 7dd97062e91655ae0291a1d48aa149e47425f0700ec1a3db13854d80d0f90ac0
 Description:  This package contains essential ext2 filesystem utilities which consists of
  e2fsck, mke2fs and most of the other core ext2 filesystem utilities.
 
@@ -191,11 +233,11 @@ License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: utils
 Architecture: lantiq
-Installed-Size: 110721
+Installed-Size: 110720
 Filename: fdisk_2.25.2-2_lantiq.ipk
-Size: 111639
-MD5Sum: d2b3f812efa5f26ecb2932bacdad2bea
-SHA256sum: 0fa5e56a0d650294a66573039c97da6adbf80501c9154ce97a50389be9d2c9be
+Size: 111628
+MD5Sum: 96ce190819e35b3ec9bc5d046b48c6ee
+SHA256sum: b82862f935074db9bd4962b2e398a3d7f84118d055044285a4d5de2c291a9c4f
 Description:  a menu-driven program for creation and manipulation of partition tables
 
 Package: firewall
@@ -208,9 +250,9 @@ Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
 Installed-Size: 52631
 Filename: firewall_2014-09-19_lantiq.ipk
-Size: 53376
-MD5Sum: 53c8aac3dbea944677167253d57cca0b
-SHA256sum: e762986be9d4ebf0981941c6ef7e76490b13b60f971c28cad9de906eaaa262e0
+Size: 53380
+MD5Sum: 63db436ca89fa4f0374b5aa344b2f065
+SHA256sum: 1fccf32dbc88cd9a02b672915a112f55dbeb19f156eec8ae495257d72fbcd838
 Description:  This package provides a config-compatible C implementation of the UCI firewall.
 
 Package: fstools
@@ -223,9 +265,9 @@ Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: lantiq
 Installed-Size: 17085
 Filename: fstools_2014-12-15-83cf8896a598fb9fc58da0a9bb4f137695f78853_lantiq.ipk
-Size: 17741
-MD5Sum: 208a80148bf809c3a6d405bcfae8e6a6
-SHA256sum: 5786715507eaf667bcfabb7fe57d4223c3f0950d338d1f7506ef1fbd90566151
+Size: 17756
+MD5Sum: dac97a02e24ed4abbaeadc3ee50af137
+SHA256sum: 5ac3c45f09f3d1640c4813f59da31cb5e5f0cf6452e559730f89ba5e2d0d8c9c
 Description:  OpenWrt filesystem tools
 
 Package: fuse-utils
@@ -236,11 +278,11 @@ License: LGPLv2.1 GPLv2
 LicenseFiles: COPYING.LIB COPYING
 Section: utils
 Architecture: lantiq
-Installed-Size: 10764
+Installed-Size: 10770
 Filename: fuse-utils_2.9.0-2_lantiq.ipk
-Size: 11504
-MD5Sum: db7ec8b6c65a8464d7cc23c2b0ff4cba
-SHA256sum: 034cd04b51bfad84cdf3454292a026f34c3574f87358506e1140cdc26ba2e2ea
+Size: 11511
+MD5Sum: 652023d4c6b903b315edd21070b8f49a
+SHA256sum: 3ac31a24a8d641f13b62598e0f7988dca5d39057f698d8ccc73e5d2ddcd65482
 Description:  FUSE (Filesystem in UserSpacE)
  This package contains the FUSE utilities.
  - fusermount
@@ -254,11 +296,11 @@ License: BSD-3-Clause
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 4445
+Installed-Size: 4442
 Filename: hostapd-common_2014-10-25-1_lantiq.ipk
-Size: 5210
-MD5Sum: cc603891470ac7e74dbe15a72fdf2542
-SHA256sum: c43d0846f92219aa60da5df40fba443485c05cf70073f9a81c4d70967f9fca60
+Size: 5204
+MD5Sum: ec3c2be9c8586adeea1f5f6240c35064
+SHA256sum: 31a34258ea7dfdb559dfc0403ff1da4c07456b3a64adcf61f1a8c8eb92f47344
 Description:  hostapd/wpa_supplicant common support files
 
 Package: ip
@@ -270,11 +312,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Russell Senior <russell@personaltelco.net>
 Architecture: lantiq
-Installed-Size: 72637
+Installed-Size: 72632
 Filename: ip_3.17.0-1_lantiq.ipk
-Size: 73572
-MD5Sum: d2c4835017c5c9aea12b4a1fabd55c58
-SHA256sum: e556d1d9dd98aa0655f825f8fd7d9cd9b6688f23bed97f595fab7412f53a9531
+Size: 73564
+MD5Sum: 0d27145e1e6bff2c8c4a5050aae34f10
+SHA256sum: 4f4652ac8c1465bc5706301fbff5838f91e8bf4a6eacd97dd5c0c02dd1043c88
 Description:  Routing control utility (Minimal)
 
 Package: iptables-mod-conntrack-extra
@@ -284,11 +326,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: net
 Architecture: lantiq
-Installed-Size: 9762
+Installed-Size: 9759
 Filename: iptables-mod-conntrack-extra_1.4.21-1_lantiq.ipk
-Size: 10569
-MD5Sum: e056684fe1850ee30f184bfafad6c0f5
-SHA256sum: c99ace2a8a33e7bcc39616b456d7c022a31c9ddcf70ba7da15ce2fdc958ee366
+Size: 10558
+MD5Sum: 16052ca3e90da953c185ac3263eda782
+SHA256sum: bc2626ab395eb0516edab7c6013280d5ccb00c139fe4f9c07231ec02522d2cba
 Description:  Extra iptables extensions for connection tracking.
  
  Matches:
@@ -309,11 +351,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: net
 Architecture: lantiq
-Installed-Size: 7501
+Installed-Size: 7500
 Filename: iptables-mod-extra_1.4.21-1_lantiq.ipk
-Size: 8302
-MD5Sum: 38f5bae2e58faf924424f71da527f04a
-SHA256sum: a2df60cbc68a7174ef2e952c82b010d78a8ed9d0069d3725e85823c18cf85796
+Size: 8303
+MD5Sum: aa28eaa88db6e8d3b8c781e371413f35
+SHA256sum: a15dd790d4b3ac29dc871d12b717570c6f4e4add62b717e2ba8e54845cc41dab
 Description:  Other extra iptables extensions.
  
  Matches:
@@ -332,11 +374,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: net
 Architecture: lantiq
-Installed-Size: 11866
+Installed-Size: 11865
 Filename: iptables-mod-filter_1.4.21-1_lantiq.ipk
-Size: 12625
-MD5Sum: 337b76c5efda15d4860fefb7eead03f0
-SHA256sum: 668bf3f5265f69d988671065a4221a93c6beedd298e96c8785a493fa92c00c96
+Size: 12626
+MD5Sum: 3f9409ec2d5068d2e23ce6213881c1bc
+SHA256sum: 446d9dd6c55fb957e5f22e8be16a547ed96bd8f16841efc96d0e94cdaf8127e2
 Description:  iptables extensions for packet content inspection.
  Includes support for:
  
@@ -355,8 +397,8 @@ Architecture: lantiq
 Installed-Size: 12273
 Filename: iptables-mod-ipopt_1.4.21-1_lantiq.ipk
 Size: 13036
-MD5Sum: 93b138e457097990cc22ac7f3ae84842
-SHA256sum: 746fb9828aac8257b9879921a1f4b9fbaded2bd03a039fc1d34387a1d7625312
+MD5Sum: b90a02abc2ca71529f5d0b39a69abaab
+SHA256sum: 737f409ae1bed3c0173c62ec79ceb80eb67eb2a86daf146e27b76c4be7811bd8
 Description:  iptables extensions for matching/changing IP packet options.
  
  Matches:
@@ -383,11 +425,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 2744
+Installed-Size: 2742
 Filename: iptables-mod-ipp2p_2.5-1_lantiq.ipk
-Size: 3500
-MD5Sum: f15103ad2feb4a02754c0e8cbbb634ac
-SHA256sum: 262233f78840f11c7a27d6ddc38539535020ab0f6fc94e2e40b15a9bb6f9f7da
+Size: 3506
+MD5Sum: 200d3a2bcaf878c03477c02609dde9fc
+SHA256sum: ce2291787f5ca1479121cb24686011148f6bfc5b3e503638a2d285227d69e877
 Description:  IPP2P iptables extension
 
 Package: iptables-mod-nat-extra
@@ -397,11 +439,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: net
 Architecture: lantiq
-Installed-Size: 1758
+Installed-Size: 1751
 Filename: iptables-mod-nat-extra_1.4.21-1_lantiq.ipk
-Size: 2508
-MD5Sum: f31712f568006fcba4111558d8e51f34
-SHA256sum: 3cd1a7142f6fcdfff98f7968c5a4f95d42175366b63dc2c26d34d5b4d56fc238
+Size: 2501
+MD5Sum: 91a0b01c5f79c72bb5c49037717b407e
+SHA256sum: 7aee28e2afd6ee022ced84871facd6d17bc59f04db2a109c0b18f561c3e98540
 Description:  iptables extensions for extra NAT targets.
  
  Targets:
@@ -415,11 +457,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: net
 Architecture: lantiq
-Installed-Size: 42950
+Installed-Size: 42951
 Filename: iptables_1.4.21-1_lantiq.ipk
-Size: 43759
-MD5Sum: 9a8529ba9fda66bae82f95809ef4fb0f
-SHA256sum: 6dbdf0c6ea5db82195bcae94e1ea3fe96ebc08aff93da2d5793910f1d74af11c
+Size: 43775
+MD5Sum: 3c06772eaf97fbc6efca0a6544e68a63
+SHA256sum: 4782f85edb36586656a6009ac89949202a5701f96eb9c7680099cc2546e7c2e7
 Description:  IP firewall administration tool.
  
  Matches:
@@ -467,9 +509,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
 Installed-Size: 42063
 Filename: iw_3.15-1_lantiq.ipk
-Size: 42917
-MD5Sum: 6e6863653ee83b4115dc0164b3f5c45a
-SHA256sum: de770e0051a7939056da63a991c4f0ce7d23096b646112a54ab8c8e908660693
+Size: 42915
+MD5Sum: be6ec27ce3f49821b805960aee6d6061
+SHA256sum: d56a871220ded83e19335431d9f90f9596fdebeaac076c0e5a4e18996f316b0e
 Description:  cfg80211 interface configuration utility
 
 Package: iwinfo
@@ -480,11 +522,11 @@ License: GPL-2.0
 Section: utils
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 6681
+Installed-Size: 6684
 Filename: iwinfo_2014-12-12-50370d9e698696770b021caf0b5f6482bacb45ce_lantiq.ipk
-Size: 7491
-MD5Sum: 1dade9271abd542c9f061692e7562da5
-SHA256sum: 71b7e2e812dfe0030b73b3af34157105bf4ff41691dec3fdb8881e968ee65ebe
+Size: 7494
+MD5Sum: f26f92f58064934da407bc157a9581ab
+SHA256sum: 742b8881746a3ae56f7c9d7540d534e401f92e4d49265293e72bad7c93d2821f
 Description:  Command line frontend for the wireless information library.
 
 Package: jshn
@@ -495,11 +537,11 @@ License: ISC
 Section: utils
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 5086
+Installed-Size: 5089
 Filename: jshn_2014-11-23-f09ae76445e32511433fdab0a1bcda73aa84986d_lantiq.ipk
-Size: 5877
-MD5Sum: cc3391b31e3d0402317f79aaf48a8e60
-SHA256sum: 8bbb60e5d87c39b1ab75cf8e94255b6c298ae50e1e15f34c7014a0da7a3bc725
+Size: 5872
+MD5Sum: 727b6653e8e7485e04a187e7b927b629
+SHA256sum: 7182b10fe7a80a3162c084bdaa3072fa10fc1bc6a33b5e9a460e57b80a5a811b
 Description:  Library for parsing and generating JSON from shell scripts
 
 Package: jsonfilter
@@ -510,11 +552,11 @@ License: ISC
 Section: base
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 6888
+Installed-Size: 6887
 Filename: jsonfilter_2014-06-19-cdc760c58077f44fc40adbbe41e1556a67c1b9a9_lantiq.ipk
-Size: 7676
-MD5Sum: 7ef92399c067d94ac396760bd91b9f48
-SHA256sum: 329c1dcd7d067b6dbcc52b1a2e5d3c9ed969b73b12c45d3e622570832972b6a0
+Size: 7673
+MD5Sum: 5e80d52cb529e1e943f6eec675be2962
+SHA256sum: 6dac59b455d1854733936b37dd3047ef222e83a3977cff2d94eb90a06538d92c
 Description:  OpenWrt JSON filter utility
 
 Package: kmod-ath9k-common
@@ -524,11 +566,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 115345
+Installed-Size: 115346
 Filename: kmod-ath9k-common_3.14.26+2014-11-04-1_lantiq.ipk
-Size: 112994
-MD5Sum: 108faaf919cb5435b1666339dec86226
-SHA256sum: 8a1da896351fb18efb7a64585acfa2cf7bd02e1478e6c7834a7166856098a828
+Size: 112999
+MD5Sum: 256cc94d070f0c07d7bf975c2c0b9857
+SHA256sum: a2f4161ad0e0d3fe112698e298225ce172f1d668f2c138f288c0cfaf9a8021d5
 Description:  Atheros 802.11n wireless devices (common code for ath9k and ath9k_htc)
 
 Package: kmod-ath9k
@@ -538,11 +580,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 43596
+Installed-Size: 43600
 Filename: kmod-ath9k_3.14.26+2014-11-04-1_lantiq.ipk
-Size: 43992
-MD5Sum: 2eadc5e5a5500a675451e8e8d593af41
-SHA256sum: f11426f324904fc6e983a5a5c0d13aae3f1d0db79bb0854ada412b0159bd74ce
+Size: 43962
+MD5Sum: 334831f194c7cc26a191917be2742779
+SHA256sum: d683389a72819e128c071b450eca73f49120bf5613ca4b25be25e73d667303e9
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11n AR5008 and AR9001 family of chipsets.
 
@@ -553,11 +595,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 14157
+Installed-Size: 14153
 Filename: kmod-ath_3.14.26+2014-11-04-1_lantiq.ipk
-Size: 14646
-MD5Sum: 16757d7c3e3d35f8d2d324fb9678829e
-SHA256sum: 8cd393533eeacaa328e93d71c58664ac7461ddb5640c89a47dc9941059eba46e
+Size: 14666
+MD5Sum: 2783e83f8ce5f0783eca93b582437a62
+SHA256sum: e0b87160bddbc3f28ed66968f253713f5c0f783c968a7194f72a7e650c6b9d1c
 Description:  This module contains some common parts needed by Atheros Wireless drivers.
 
 Package: kmod-atm
@@ -568,11 +610,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 30396
+Installed-Size: 30398
 Filename: kmod-atm_3.14.26-1_lantiq.ipk
-Size: 31099
-MD5Sum: f8ab619c58498dd190019eb687ba27b6
-SHA256sum: 8bf6480f04c6aa9ade228df0bac93016bf31df139aa6a6ff843c29ad125dbd81
+Size: 31101
+MD5Sum: cabd63c7b83f32393c35479bacd2291d
+SHA256sum: 979d8be92fb2f7887f6eb20031db6a88bfd4398a1f44bfd245a27e779b03e560
 Description:  Kernel modules for ATM support
 
 Package: kmod-bridge
@@ -585,9 +627,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 187
 Filename: kmod-bridge_3.14.26-1_lantiq.ipk
-Size: 929
-MD5Sum: 4700548fd4c90b107728650902b43d7b
-SHA256sum: ffa347e8dbb63a03a5c19f267cec72f0b817e7f1fc49219d9b05569de244b6f8
+Size: 924
+MD5Sum: b4ab5e8d9d9a1a1d65fddf82f7f423fb
+SHA256sum: 42293b94f4d205e003eb6bc6f1e10708c163920acf908ff84013a74dc01bc188
 Description:  Kernel module for Ethernet bridging.
 
 Package: kmod-cfg80211
@@ -597,11 +639,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 122891
+Installed-Size: 122889
 Filename: kmod-cfg80211_3.14.26+2014-11-04-1_lantiq.ipk
-Size: 123128
-MD5Sum: 4061c455d1f6ca9c123a45ccfaa1230f
-SHA256sum: a1deb85e71a3d07ac314d6d472de9953e6cbc4752e5e02367ed8cffc2376b4bd
+Size: 123142
+MD5Sum: eeeeed4b4f5dd310b69c23fe2db64dff
+SHA256sum: 822069ace284dec1162b3210f5b2a998a83efc29c2b076a7f6ab7afff2b9eaf8
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-crypto-aes
@@ -615,8 +657,8 @@ Architecture: lantiq
 Installed-Size: 199
 Filename: kmod-crypto-aes_3.14.26-1_lantiq.ipk
 Size: 945
-MD5Sum: 7f99ad15a671ce231eb01745af0394f3
-SHA256sum: e957d6d03e57e37ff5971c89f739f3546ba26b6a838f7f06a425397fe5905405
+MD5Sum: f8b1f0576d4b1ede45dbe267150ff36c
+SHA256sum: 9bb89a2b3511cf49f5cf547a945b877e469a6f18321fa34a94b54f4c10c261fd
 Description:  AES cipher CryptoAPI module
 
 Package: kmod-crypto-arc4
@@ -627,11 +669,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 1239
+Installed-Size: 1238
 Filename: kmod-crypto-arc4_3.14.26-1_lantiq.ipk
-Size: 2019
-MD5Sum: 9acd1e1f45d1f34c4326221154391715
-SHA256sum: 2f5486971f0b08f735bf59c47e743848308f626e79e8b1206ee9b23b071bbeca
+Size: 2016
+MD5Sum: cad8b13831d5185d15e043d8ba8f4b01
+SHA256sum: 3332aca8bb983111d017f47cfb7422caeb085ad2bc29437f9ce569b6d3298b10
 Description:  ARC4 (RC4) cipher CryptoAPI module
 
 Package: kmod-crypto-authenc
@@ -642,11 +684,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 4335
+Installed-Size: 4334
 Filename: kmod-crypto-authenc_3.14.26-1_lantiq.ipk
-Size: 5083
-MD5Sum: bbd52256cf279d8887fb4ed0ffbe82cd
-SHA256sum: dc88a2d3becc34b9a59252e88055d3807276865d60eec057b082b06c0d6fe096
+Size: 5078
+MD5Sum: 1ee7c44c2167993270d894e6ff974087
+SHA256sum: a005a7ba5074f57ef82bfc23e436ffda55face69717637f0f634611f9e9d9217
 Description:  Combined mode wrapper for IPsec
 
 Package: kmod-crypto-cbc
@@ -659,9 +701,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 2000
 Filename: kmod-crypto-cbc_3.14.26-1_lantiq.ipk
-Size: 2783
-MD5Sum: 74c593618dbb8ea54fde765dc433b5b2
-SHA256sum: 32811499fa119e1199e63c8ee023f08028eb70965d5fd7c23aef8cde0bfcfeda
+Size: 2792
+MD5Sum: 742a1bb2b1030989a1bb9ddfe742664c
+SHA256sum: 84344d5287ecb6c2b7c373088455ecc9f058023de91dcab6a2c358c1d8555482
 Description:  Cipher Block Chaining CryptoAPI module
 
 Package: kmod-crypto-core
@@ -672,12 +714,27 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 7368
+Installed-Size: 7369
 Filename: kmod-crypto-core_3.14.26-1_lantiq.ipk
-Size: 8112
-MD5Sum: ad1a3564e4fe092cb5e7180c5d2e9da0
-SHA256sum: d90788054788b74a9092836350546a793410eaa82a7a560b6ebdccbd3414ef4d
+Size: 8117
+MD5Sum: f09a7e49f0c3c6a9fdc158f69212e911
+SHA256sum: 595d51942ccf2cdbf84ab7aac323abd45ea69efd99f6bfe308b9d91a6261e45f
 Description:  Core CryptoAPI modules
+
+Package: kmod-crypto-crc32c
+Version: 3.14.26-1
+Depends: kernel (=3.14.26-1-5244bc01ea20658ebe2081f5a584f8d9), kmod-crypto-hash, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: lantiq
+Installed-Size: 235
+Filename: kmod-crypto-crc32c_3.14.26-1_lantiq.ipk
+Size: 977
+MD5Sum: 97e11bb5bd0556a13171535728f78d4c
+SHA256sum: 7da485c6e2ff3ff52c9cb6d1cd66681438ab28405c496e3f738a9ffda6d9bc9f
+Description:  CRC32c CRC module
 
 Package: kmod-crypto-deflate
 Version: 3.14.26-1
@@ -687,11 +744,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 195
+Installed-Size: 194
 Filename: kmod-crypto-deflate_3.14.26-1_lantiq.ipk
-Size: 954
-MD5Sum: 3420cc9e97e47670817a4a0a7819ae61
-SHA256sum: b6abc67bd48991704e9abb8da0c2a916d3bb7c2d64426a1c035988f370708376
+Size: 945
+MD5Sum: bfc5982bf8695b0151705f70ae699801
+SHA256sum: b19c7025e88da0507b98ce02fa64bddf75b7cf389ca05eaab57a917650d417ef
 Description:  Deflate compression CryptoAPI module
 
 Package: kmod-crypto-des
@@ -702,11 +759,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 8968
+Installed-Size: 8967
 Filename: kmod-crypto-des_3.14.26-1_lantiq.ipk
-Size: 9414
-MD5Sum: f628c9a2a4ff45c91d968f2e8e76e3d0
-SHA256sum: 441f6dda404fc60af973e8e3cddf39dd5d150d265fb845f578a4ecbbc11a040b
+Size: 9390
+MD5Sum: 8ffc5ef70d71b18248944660a26455cf
+SHA256sum: 16fef72154c05190b345e200c6d828b28789a4a8b46f9b9381ed215cdd6c6e39
 Description:  DES/3DES cipher CryptoAPI module
 
 Package: kmod-crypto-ecb
@@ -719,9 +776,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 1577
 Filename: kmod-crypto-ecb_3.14.26-1_lantiq.ipk
-Size: 2364
-MD5Sum: 7a4144a082f7501c189f8661af504381
-SHA256sum: fef21f8c1df42c881d32131168cef3dbba405f3ed78ef16d7f56c2b8ef6f24a3
+Size: 2359
+MD5Sum: 52fca64ab127cd70c76a4a13337eca4b
+SHA256sum: fec5121aefb02024583c18163b38efc587b0879d844ab586c70ce8c1baa01852
 Description:  Electronic CodeBook CryptoAPI module
 
 Package: kmod-crypto-hash
@@ -732,11 +789,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 241
+Installed-Size: 240
 Filename: kmod-crypto-hash_3.14.26-1_lantiq.ipk
-Size: 981
-MD5Sum: 27f370c29803c4db294c442b5e4924f8
-SHA256sum: baa7d2bffbcd33cd6f1c0fdc5c84b6fcef349806ea7b817ec659005eb2f0e79a
+Size: 966
+MD5Sum: 45e0cf330892f4b4039bbc553d927efc
+SHA256sum: d18113ff37549668f22fa57249151a65a39fd4979889b86b323dff65b439e8fe
 Description:  CryptoAPI hash support
 
 Package: kmod-crypto-hmac
@@ -747,11 +804,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 2097
+Installed-Size: 2096
 Filename: kmod-crypto-hmac_3.14.26-1_lantiq.ipk
-Size: 2881
-MD5Sum: 08be0fbd1ee348a688566a3d85dbe6f9
-SHA256sum: 1f7e394872c63b60be2754a3f17ae69f5269a5221836984e20b2e0db90393605
+Size: 2873
+MD5Sum: 49635a59bacd5a49eebd6c7f0356c39d
+SHA256sum: c3b2660de784cba5f1511b55031bc5c1ef134513c45e448c416f99e3adc0755b
 Description:  HMAC digest CryptoAPI module
 
 Package: kmod-crypto-iv
@@ -762,11 +819,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 3839
+Installed-Size: 3836
 Filename: kmod-crypto-iv_3.14.26-1_lantiq.ipk
-Size: 4607
-MD5Sum: f217cb4ffbd530e8d5822c6a9cffc2ac
-SHA256sum: 3f1dca8de0125c99d774b16eb4c3c4bce5a35f393fd84f358466df3b39e7fbb4
+Size: 4602
+MD5Sum: f8d638d8e0cbd1bfb164994075925e26
+SHA256sum: b3d0d041bf5103b1986a2baddff6b0ebe97d234d96dd444084ba409920ea14ac
 Description:  CryptoAPI initialization vectors
 
 Package: kmod-crypto-manager
@@ -777,11 +834,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 3574
+Installed-Size: 3573
 Filename: kmod-crypto-manager_3.14.26-1_lantiq.ipk
-Size: 4316
-MD5Sum: a42fc48174513fe6fe042d6c0be0266f
-SHA256sum: 4560a69d6a2f15bc2856b9616efedc73de72b73940d9f23a2aace6ebb654d434
+Size: 4314
+MD5Sum: 8549b0c0190646562d94fcc0c8a4f0cd
+SHA256sum: abf1480e7473ce380813f621f3a0c64eb0145ce94eebbd5ec1442bc607d98ddd
 Description:  CryptoAPI algorithm manager
 
 Package: kmod-crypto-md4
@@ -794,9 +851,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 2517
 Filename: kmod-crypto-md4_3.14.26-1_lantiq.ipk
-Size: 3292
-MD5Sum: f7c48ca0c386dc2661b2a50bc51a229a
-SHA256sum: f97d9555b29c010e12d8c41d2fd2db2e1c86176a02bb84a38368d50bf729b892
+Size: 3274
+MD5Sum: 6b1ca60c945eef1172b89da6acc1c0ab
+SHA256sum: 82a16bd58cbae1a880cb36933a5f966c04bdbb1119860e77f7c422ac2ff5e2bc
 Description:  MD4 digest CryptoAPI module
 
 Package: kmod-crypto-md5
@@ -807,11 +864,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 1467
+Installed-Size: 1465
 Filename: kmod-crypto-md5_3.14.26-1_lantiq.ipk
-Size: 2251
-MD5Sum: 5c8d05f3bad6faffe0f4bd6caa761821
-SHA256sum: 35b29e2a57cf80d2846b40957d69d72690576ed9a5b91ea6b00c2a6b3e0d0faa
+Size: 2244
+MD5Sum: 9469830580925a320d163d7fe498dbee
+SHA256sum: 3fd7530a26b637556bd06ceaf2039b58b1679facded6110223432beaa44c26c3
 Description:  MD5 digest CryptoAPI module
 
 Package: kmod-crypto-pcompress
@@ -824,9 +881,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 105
 Filename: kmod-crypto-pcompress_3.14.26-1_lantiq.ipk
-Size: 853
-MD5Sum: 0f7c19f3ab3d0d7b2d1483485723a7af
-SHA256sum: c4baa40c5b7a855d7c85bff1e3eb5e0134751f974a4acfdbbd922976233f25f2
+Size: 849
+MD5Sum: bc321dee652276ceb358f865a0afd422
+SHA256sum: 91adf1f6517573e67e0fd82b9d27c869ada46c49952b7405f8c59b05be055038
 Description:  CryptoAPI Partial (de)compression operations
 
 Package: kmod-crypto-rng
@@ -837,11 +894,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 2086
+Installed-Size: 2085
 Filename: kmod-crypto-rng_3.14.26-1_lantiq.ipk
-Size: 2835
-MD5Sum: 7a18c949d9fe9c5ad26803954149abd5
-SHA256sum: 5f463c6f6247ac91a022ad8ee6f2b5dfea0409ad317a5f5d8621ee9ed45ed884
+Size: 2826
+MD5Sum: 6c89bbc56e92101d9dce80c5952c663c
+SHA256sum: 0b7088eb606acfdb5ade38e647da270c3deb59468860c2b213a5a4591a067277
 Description:  CryptoAPI random number generation
 
 Package: kmod-crypto-sha1
@@ -852,11 +909,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 1488
+Installed-Size: 1487
 Filename: kmod-crypto-sha1_3.14.26-1_lantiq.ipk
-Size: 2271
-MD5Sum: 0342ff895f39da2051182c62109e7aa2
-SHA256sum: fc6028e56c6237bb88852136faf17460471e3417420484307a48010b213275a3
+Size: 2268
+MD5Sum: 31f7ab63e4773bad9aac79ed116cbba2
+SHA256sum: 37ce203276779cfe290c36e77a79a7988eaa79b80fee4921eda195b3dca18e21
 Description:  SHA1 digest CryptoAPI module
 
 Package: kmod-crypto-sha256
@@ -867,11 +924,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 5222
+Installed-Size: 5221
 Filename: kmod-crypto-sha256_3.14.26-1_lantiq.ipk
-Size: 5867
-MD5Sum: 3a752b35834b930307ce120c73eacaa9
-SHA256sum: 780f1a0be8b1c800eb0974338b070e0565ab93455ec2b5bcef36a0d7d94fa2cd
+Size: 5868
+MD5Sum: af19c33ae5fbe461c51454186b278858
+SHA256sum: 2249e75713e76a882291dd58751e6d498c1ae0ebc2ef6b73f5cfa117f0af1c38
 Description:  SHA224 SHA256 digest CryptoAPI module
 
 Package: kmod-crypto-wq
@@ -882,11 +939,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 914
+Installed-Size: 915
 Filename: kmod-crypto-wq_3.14.26-1_lantiq.ipk
-Size: 1673
-MD5Sum: c7d92e28fb851c9de4a5d0178d352068
-SHA256sum: bc89c17b65b3e1db698a78c825cc4678c054ee8f5fb089cf154b61f32a35bb16
+Size: 1681
+MD5Sum: bffb5a192eb9bcd4c7346d413ca84612
+SHA256sum: aba0658ecd02807e31e27cd762aa6ee5727a324186b652b01ccf72ff7af27724
 Description:  CryptoAPI work queue handling
 
 Package: kmod-dnsresolver
@@ -899,9 +956,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 105
 Filename: kmod-dnsresolver_3.14.26-1_lantiq.ipk
-Size: 829
-MD5Sum: 2270336afa1f1705093bc84b551ed678
-SHA256sum: ad09dc921715495cf1934f4c7abc63fe20156ad5597f61a580834b902c505847
+Size: 828
+MD5Sum: e53587d4b0877e5f44a5114dcebab773
+SHA256sum: c897cfe0d47054670f2df3926110d803a4daa3a65e91bcad3723453f62d9e525
 Description:  In-kernel DNS Resolver
 
 Package: kmod-fs-cifs
@@ -912,11 +969,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 120038
+Installed-Size: 120036
 Filename: kmod-fs-cifs_3.14.26-1_lantiq.ipk
-Size: 118885
-MD5Sum: 6a6fc9218ff4b6f36fe1f226c0eb711e
-SHA256sum: 9fde5b64969ff754974e9d918d1bc14cb3b0a2639612819c861dd4ad71070f4f
+Size: 118844
+MD5Sum: 01350a528001966beb68d728c54243a7
+SHA256sum: 30bf011297f471574ebdceed9bbaabcbfb36cee748c8d4a2a3f61e1cf4bf07b4
 Description:  Kernel module for CIFS support
 
 Package: kmod-fs-exportfs
@@ -929,9 +986,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 2780
 Filename: kmod-fs-exportfs_3.14.26-1_lantiq.ipk
-Size: 3526
-MD5Sum: 2db6bbef9dbdca63f6dcfb72105f136c
-SHA256sum: a4031f325a2064fbd75d21691cbacc82c12f26f43ec39e69e000c182a369d3cc
+Size: 3521
+MD5Sum: 425334d9021dd3c74e42a34564399801
+SHA256sum: 42ca2712aa69f48db13f1db645da09173033acc705aa33fe23127392148992b4
 Description:  Kernel module for exportfs. Needed for some other modules.
 
 Package: kmod-fs-ext4
@@ -944,9 +1001,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 243
 Filename: kmod-fs-ext4_3.14.26-1_lantiq.ipk
-Size: 1010
-MD5Sum: 9d971c51f59dc94c9e7e16c95b68de1c
-SHA256sum: 6e9b91820d284cd9452f19786fb719b58d23a82e99d8b174f82fb18dae99cbbd
+Size: 1007
+MD5Sum: 5f9a291b41cf4d120d6462cec23e1843
+SHA256sum: 5ea4874145fda1ad9918fd7fa75cba270211f23c5cd5677a2832958f3b4bc84f
 Description:  Kernel module for EXT4 filesystem support
 
 Package: kmod-fs-nfs-common
@@ -957,11 +1014,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 120854
+Installed-Size: 121394
 Filename: kmod-fs-nfs-common_3.14.26-1_lantiq.ipk
-Size: 121338
-MD5Sum: ba0814fb96e2d311b45f48d60a9eb52b
-SHA256sum: 8359f20e0349c5d288a09fbdad14a7aa4c2def562da0702cbd725f36273387e0
+Size: 121926
+MD5Sum: cc984a536fd271c23d13e586b7eb431e
+SHA256sum: eb68583b7e8fa64807e00f8f5511db5e16eb7dc89d1e44a9f87810682a194cac
 Description:  Common NFS filesystem modules
 
 Package: kmod-fs-nfs
@@ -974,9 +1031,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 78790
 Filename: kmod-fs-nfs_3.14.26-1_lantiq.ipk
-Size: 79385
-MD5Sum: ec5077f029c09f074e55e8db5d3e7a46
-SHA256sum: c0e02ba729810f1e9893d560b2e7523c929a280df4eabf2a2aeb6dff396a8a26
+Size: 79352
+MD5Sum: 606f9e3cad084d1f6b1facc4dc456eb2
+SHA256sum: 767a30d8c5a1a01829f9b75e8c83743ab7c6c52af94437e0c84a741682b8856f
 Description:  Kernel module for NFS support
 
 Package: kmod-fs-nfsd
@@ -987,11 +1044,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 46133
+Installed-Size: 46131
 Filename: kmod-fs-nfsd_3.14.26-1_lantiq.ipk
-Size: 46848
-MD5Sum: a127e1dd6acd64d2fbfd32783382c118
-SHA256sum: 7938d5d0a7ebb763abd5933a27debdbbffde186d829d21b92414cf7568bbda59
+Size: 46835
+MD5Sum: deb72af494638836d4d38af3e06d1787
+SHA256sum: ea4e26faf4ae964174499b89f21678ed4aa56df914a01b5969f191666338ca59
 Description:  Kernel module for NFS kernel server support
 
 Package: kmod-fs-ntfs
@@ -1002,11 +1059,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 61281
+Installed-Size: 61278
 Filename: kmod-fs-ntfs_3.14.26-1_lantiq.ipk
-Size: 61723
-MD5Sum: ae784d27a29f5b7036393b1fa9fb7afc
-SHA256sum: 5634ee09b479aff49811fae9a819f2f47e0f111d45ff688386f35035b622c0d6
+Size: 61710
+MD5Sum: 5578b55d19b009cac2610ff9aa1c0b51
+SHA256sum: 02fc5c217d1f473b54e4b58ee61443a00186298abbde055758fe1896c20bca78
 Description:  Kernel module for NTFS filesystem support
 
 Package: kmod-fs-vfat
@@ -1017,11 +1074,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 40577
+Installed-Size: 40574
 Filename: kmod-fs-vfat_3.14.26-1_lantiq.ipk
-Size: 41317
-MD5Sum: df27fb6362efcd98f669c2ba380c670a
-SHA256sum: 8f9f27cdfeb6319e24012eb768a4c55af7d70af8d5f6a23f90e76c16cf78199b
+Size: 41304
+MD5Sum: 24af64e97f41cd02eca727448a1c37cc
+SHA256sum: 1c74ebf483302a39da324ddea2acdf0182a92e30a52a5c08b2a6a8d595464a7c
 Description:  Kernel module for VFAT filesystem support
 
 Package: kmod-fuse
@@ -1032,11 +1089,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 45877
+Installed-Size: 45875
 Filename: kmod-fuse_3.14.26-1_lantiq.ipk
-Size: 46491
-MD5Sum: 896e543e047382bd08462df112d6ab72
-SHA256sum: 1270da7067992c97d5f37a0e9a34c1371ac1379b9ffb4723413f94ca72c4560a
+Size: 46473
+MD5Sum: 48c73ffb467d4bc9beb37c560dffc1f6
+SHA256sum: ddc740483af34c3f5141c5df91fff077d714ac10264e40ecf7deaa63b9ceef03
 Description:  Kernel module for userspace filesystem support
 
 Package: kmod-gpio-button-hotplug
@@ -1045,11 +1102,11 @@ Depends: kernel (=3.14.26-1-5244bc01ea20658ebe2081f5a584f8d9)
 Source: package/kernel/gpio-button-hotplug
 Section: kernel
 Architecture: lantiq
-Installed-Size: 5387
+Installed-Size: 5383
 Filename: kmod-gpio-button-hotplug_3.14.26-1_lantiq.ipk
-Size: 6273
-MD5Sum: e73ea89b09c68c734ecce6e8d0fdf01a
-SHA256sum: 8a93b45eedf15df788d87d6213a6875add58c9d02092d4672f704a317f161bbe
+Size: 6277
+MD5Sum: 3ebf6a3bfa4b521b581b1ec6e7eec60d
+SHA256sum: d5f0bbfe93c76c284e721151c29b084d0e724442312fb68fcb75c23614096c90
 Description:  This is a replacement for the following in-kernel drivers:
  1) gpio_keys (KEYBOARD_GPIO)
  2) gpio_keys_polled (KEYBOARD_GPIO_POLLED)
@@ -1066,11 +1123,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 7641
+Installed-Size: 7639
 Filename: kmod-gre_3.14.26-1_lantiq.ipk
-Size: 8427
-MD5Sum: 81b608b40478b655326a23900cc44690
-SHA256sum: ded0731fc7f5c2c19c5bd3e69d0910c086791cc64870d0368f344b758ece229e
+Size: 8424
+MD5Sum: ba57c23eedcf5ff10f09006a80f1ccd2
+SHA256sum: 2a679db3c6fa71ddedbb23c081ce730d4b0b6ca2faae8bf979063cd2a51618be
 Description:  Generic Routing Encapsulation support
 
 Package: kmod-ifb
@@ -1081,11 +1138,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 3221
+Installed-Size: 3222
 Filename: kmod-ifb_3.14.26-1_lantiq.ipk
-Size: 3948
-MD5Sum: ac457bc28beb22b85210630670ceba7e
-SHA256sum: bc2fdc97ab073131eba092ff0640db9f6ce49ae9884b9dd3984862e31884653a
+Size: 3950
+MD5Sum: cfb15e76607ebd1c7b90f756de233b1f
+SHA256sum: 88d37cc04a4a9bfe308f651a5e126968cbde85692d3e922782b700edd598b2b9
 Description:  The Intermediate Functional Block
 
 Package: kmod-input-core
@@ -1098,9 +1155,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 105
 Filename: kmod-input-core_3.14.26-1_lantiq.ipk
-Size: 843
-MD5Sum: 1c2b2353670e483b49c8ab626f05c8fe
-SHA256sum: 4c9cc856dbdb64997bab3ec0b3b1ed6da8b53acf9f67e8e34cb626f26b089382
+Size: 846
+MD5Sum: 2b9550965f97ab1d3cf6724ab5de5784
+SHA256sum: a2704af0a78c4a3b86a0de68b3b7d4fcd392b622588cd146bf93234b0483f898
 Description:  Kernel modules for support of input device
 
 Package: kmod-ip6tables
@@ -1111,11 +1168,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 4486
+Installed-Size: 4489
 Filename: kmod-ip6tables_3.14.26-1_lantiq.ipk
-Size: 5225
-MD5Sum: a7a091239893664169a9f37b36cbd415
-SHA256sum: dab704849cde4266b57c1f9ccc1fbb3e3909015ed48307ea269c9aa3b06cb9bc
+Size: 5220
+MD5Sum: 2527f6a72fcf186eb57533d23a7323ff
+SHA256sum: 3707a3547adf0d11126adfbdb799b9bc4df3140b4d871773c15fb0e86e318d4b
 Description:  Netfilter IPv6 firewalling support
 
 Package: kmod-ipip
@@ -1126,11 +1183,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 3400
+Installed-Size: 3401
 Filename: kmod-ipip_3.14.26-1_lantiq.ipk
-Size: 4141
-MD5Sum: 88cb4349709750e6317db724d0f35423
-SHA256sum: 59bf4609f947520f559b47aa58856cab030f7d06c764cd4a7b06204cc22516fa
+Size: 4138
+MD5Sum: 123c0d1b68b5a4feb9fb7a5080bd680a
+SHA256sum: 77dbd8a4b78d739dca17a45811019ee03c25792f0c128fb8c7be03303e4e780d
 Description:  Kernel modules for IP-in-IP encapsulation
 
 Package: kmod-ipoa
@@ -1141,11 +1198,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 7587
+Installed-Size: 7588
 Filename: kmod-ipoa_3.14.26-1_lantiq.ipk
 Size: 8356
-MD5Sum: fff198a94b0e79a5f0f708bf8d69f59f
-SHA256sum: 85ac575d816d17f4b692a83174ed5f2f6636c1246490db89d7b597379b8aa04a
+MD5Sum: 47ebcf722a8da4624270533b2a0478ed
+SHA256sum: 4d772005c54350754fdc525c43d953dc319c41623c95f0f864a11501ba63d4e2
 Description:  Kernel modules for IPoA (IP over ATM) support
 
 Package: kmod-ipsec4
@@ -1156,11 +1213,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 12845
+Installed-Size: 12842
 Filename: kmod-ipsec4_3.14.26-1_lantiq.ipk
-Size: 13651
-MD5Sum: 23fce53f0220de5b04cecfb5bcd241df
-SHA256sum: a20f08ff1a77a9143e10ec4787aee12120b2f5003a5543a9d95b17575e4eac4c
+Size: 13637
+MD5Sum: ab0955c508b05a5d423c6f5913724ad6
+SHA256sum: 947f59520e7807267a5e4a1278bb327a7341e18c59dc2344f7c91d7554630f80
 Description:  Kernel modules for IPsec support in IPv4.
  Includes:
  - ah4
@@ -1179,11 +1236,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 36640
+Installed-Size: 36636
 Filename: kmod-ipsec_3.14.26-1_lantiq.ipk
-Size: 37535
-MD5Sum: 009cb65cce113f3e5bb906bb3cd049e4
-SHA256sum: fa3c1f9b62f544dc4a2b3299724113978c484fe6a4c6d02e5e6f846989c165d9
+Size: 37525
+MD5Sum: 91c02b1e6ab21065ad3a27a4ac023e7e
+SHA256sum: a42d550cfcaf9faf282f9494df489d0e85813503cfae7972b3c51886c4e6b711
 Description:  Kernel modules for IPsec support in both IPv4 and IPv6.
  Includes:
  - af_key
@@ -1198,11 +1255,11 @@ License: GPL-2.0
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 824
+Installed-Size: 825
 Filename: kmod-ipt-compat-xtables_3.14.26+2.5-1_lantiq.ipk
-Size: 1625
-MD5Sum: 48620a051444167c82ae61dcb932fbdd
-SHA256sum: 5d1514329b6c312579a30321e1e512d2f9fe12c1c2bfba29507a2fd333f248a5
+Size: 1631
+MD5Sum: 18c88078fad75c5a77084bb694e05ca8
+SHA256sum: a2724106924964bbfbe033195dca07005dec90d39b0b7d03eb25f2d821e8a571
 Description:  API compatibilty layer netfilter module
 
 Package: kmod-ipt-conntrack-extra
@@ -1213,11 +1270,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 10666
+Installed-Size: 10667
 Filename: kmod-ipt-conntrack-extra_3.14.26-1_lantiq.ipk
 Size: 11472
-MD5Sum: 95822e99e4b5c0b4497c4596b1fb8ddf
-SHA256sum: 993d34e39bb60ffbe8c11c4af5ce8454d098ef71c88807b24648daf72d357955
+MD5Sum: b4b1c1724b8505a6651c5d5930ecba92
+SHA256sum: c44ac24aa838eba6df2d030f97ada0487cb352d498cbd4009e7c0e329a416a79
 Description:  Netfilter (IPv4) extra kernel modules for connection tracking
  Includes:
  - connbytes
@@ -1234,11 +1291,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 4953
+Installed-Size: 4954
 Filename: kmod-ipt-conntrack_3.14.26-1_lantiq.ipk
-Size: 5734
-MD5Sum: 87097f2a66f64c1303e21e355c8241c3
-SHA256sum: cfad003e5d92604bfc332bad8f40b0c94b3fa62bfb1ef0693af88a78e54c2115
+Size: 5733
+MD5Sum: b0c7d7b2f01394d3cf529ce4effe3680
+SHA256sum: ba533e9ae131f3eafe57abe44888c10ce1fcdb5b8fe87999b714a5960e265928
 Description:  Netfilter (IPv4) kernel modules for connection tracking
  Includes:
  - conntrack
@@ -1255,11 +1312,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 18100
+Installed-Size: 18099
 Filename: kmod-ipt-core_3.14.26-1_lantiq.ipk
-Size: 18874
-MD5Sum: b1eae47b503d3da8d82bb033fd29ada9
-SHA256sum: fb7177766db5593d439835d07a213b7372d31a9b8dd35a50010ca6c206b58ac0
+Size: 18867
+MD5Sum: 5532bc6f6e9047169b71c6978735c4e0
+SHA256sum: 500f4283be118a0f429c882da76de2425e0adb2a481fe8d7c73dd80b0fb9b95f
 Description:  Netfilter core kernel modules
  Includes:
  - comment
@@ -1278,11 +1335,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 3427
+Installed-Size: 3429
 Filename: kmod-ipt-extra_3.14.26-1_lantiq.ipk
-Size: 4262
-MD5Sum: 827670a413e4ebe5355ba381e51e2e9d
-SHA256sum: bb4ebf94eb4afa28a02d19ebef9bb0e6b45390426456a754d97479389b0bbadf
+Size: 4260
+MD5Sum: 6f8709adb690d9f9d83c99f7288f5d27
+SHA256sum: fc1ccbcfb1dbe8a41c27a44b0fe36e9d643a2c0a9fe403b357c32445e924f608
 Description:  Other Netfilter (IPv4) kernel modules
  Includes:
  - addrtype
@@ -1299,11 +1356,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 1103
+Installed-Size: 1104
 Filename: kmod-ipt-filter_3.14.26-1_lantiq.ipk
-Size: 1910
-MD5Sum: 0e72edda4515ac19093466bd10a84a01
-SHA256sum: 97be9065dab64aed98d82f74e9204ca8c46ec89217d849b9f0fd44bb69eb50b8
+Size: 1916
+MD5Sum: d07a0591b52639119587f672d5e68c63
+SHA256sum: 4a01e2713926fd41408a2b32e2f16b463e32b8c8dcaec2a4469f207fe39a777e
 Description:  Netfilter (IPv4) kernel modules for packet content inspection
  Includes:
  - layer7
@@ -1317,11 +1374,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 6193
+Installed-Size: 6198
 Filename: kmod-ipt-ipopt_3.14.26-1_lantiq.ipk
-Size: 7087
-MD5Sum: df245ab9e76f6c348107b3de9f49778a
-SHA256sum: 69628a3e68a4cf3f71813c28984ebd27f06aacb77492ea9fa88857b6f294fc32
+Size: 7084
+MD5Sum: 46e3b684e36244c5f337e690c4ea956b
+SHA256sum: 2729591e60fc6055ed46ce3919fa200bac33f33e86fd042bf3db2ef36b360ef5
 Description:  Netfilter (IPv4) modules for matching/changing IP packet options
  Includes:
  - CLASSIFY
@@ -1344,11 +1401,11 @@ License: GPL-2.0
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 5388
+Installed-Size: 5387
 Filename: kmod-ipt-ipp2p_3.14.26+2.5-1_lantiq.ipk
-Size: 6064
-MD5Sum: a92dd0788aa3d67b2e51749d4ff87787
-SHA256sum: 750c3b6e15d018cc9a2f06e745069a51de1b0da4e6361d3844049a44c71e904f
+Size: 6074
+MD5Sum: 1c4efee700f251b2d267662be32072f1
+SHA256sum: 982142029a570da1f91930df9fe174d8de3b7931560b5abe29d3ede902403665
 Description:  IPP2P netfilter module
 
 Package: kmod-ipt-led
@@ -1359,11 +1416,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 1807
+Installed-Size: 1809
 Filename: kmod-ipt-led_3.14.26-1_lantiq.ipk
-Size: 2598
-MD5Sum: 4e37b40f7703c05e6bcfb36e3961eca8
-SHA256sum: 4c7b1087d2fc385b4caa08abf37ab8a9a5bb2d27a7c05d4fdb5b0b41dce33415
+Size: 2604
+MD5Sum: 681e2a9291ca971390c26c5143102b46
+SHA256sum: ae6be5ef8b6dc69bbc1f922675893d0348fc44d22cf6efb6a338ecbbd1ba8fe8
 Description:  Netfilter target to trigger a LED when a network packet is matched.
 
 Package: kmod-ipt-nat-extra
@@ -1374,11 +1431,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 1355
+Installed-Size: 1358
 Filename: kmod-ipt-nat-extra_3.14.26-1_lantiq.ipk
-Size: 2173
-MD5Sum: 6cf46d531cbdefa8cc79783c90d9452e
-SHA256sum: 89754d4aa2ea024e329a9b9059d45bd856a075c85784db9d6d39c5c4efc6475f
+Size: 2176
+MD5Sum: d1193674bbbaf2ef81a929748b62b211
+SHA256sum: 7c7640dfb58cdc39362cde3ffc945ef825b145a6ec166a433af88bc84d4f5b0b
 Description:  Netfilter (IPv4) kernel modules for extra NAT targets
  Includes:
  - NETMAP
@@ -1392,11 +1449,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 4600
+Installed-Size: 4593
 Filename: kmod-ipt-nat_3.14.26-1_lantiq.ipk
-Size: 5357
-MD5Sum: ac02098784f950b92fac2ffb85fc51e4
-SHA256sum: c28a1ce0ae26d6b1227645a31c7cd150b7ed05b01d3ed2ca6b32c20ddeb38b9e
+Size: 5354
+MD5Sum: 577f0d5a2d4bd93101db72096940bd8b
+SHA256sum: eac0664d50135337cbf603d7e596627a3554a09f957c7e6c9aeb619aba8da429
 Description:  Netfilter (IPv4) kernel modules for basic NAT targets
  Includes:
  - MASQUERADE
@@ -1409,11 +1466,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 1245
+Installed-Size: 1246
 Filename: kmod-ipt-u32_3.14.26-1_lantiq.ipk
-Size: 1999
-MD5Sum: 7b78b074dd1f89b4a68436e8ef0cab2d
-SHA256sum: 775950b84796189bb1bd8240667bf98a138fd431c5271b2133f203ff0917aca6
+Size: 1996
+MD5Sum: a6c04558c26540ecf5f4b72f1e7a8200
+SHA256sum: 2e988381af3594df998ebf0a01808eee186cae19c75f91f07e57dcce8c262479
 Description:  Kernel modules for U32
 
 Package: kmod-iptunnel4
@@ -1424,11 +1481,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 1881
+Installed-Size: 1882
 Filename: kmod-iptunnel4_3.14.26-1_lantiq.ipk
-Size: 2647
-MD5Sum: 3f3425d9df437f90b7203ccf1a9c7e39
-SHA256sum: 8447808c6b1ffc1f89616db71bb4169c8be456e5605187fa8ae3a01b61383c15
+Size: 2653
+MD5Sum: 6478d38f20930ee3e75cb342001452e9
+SHA256sum: 1e321d9f63dc07e7321bd9c1a3823976d6300a49ca5ce24d4efaf19b0894d2b4
 Description:  Kernel modules for IPv4 tunneling
 
 Package: kmod-iptunnel6
@@ -1442,8 +1499,8 @@ Architecture: lantiq
 Installed-Size: 105
 Filename: kmod-iptunnel6_3.14.26-1_lantiq.ipk
 Size: 839
-MD5Sum: 6240e4993acc5099b921f0fff3dcc054
-SHA256sum: acafe03c0c4d9f6e627ed317bfc20fe3dcf8f7c147f4edec68214edb6d9dd595
+MD5Sum: 0e08be2c42266a79d158cbdb98914ac4
+SHA256sum: 0a7d8ff31283716958230314d622a4e5a684db86f75c256aaeeba1ddfb066c42
 Description:  Kernel modules for IPv6 tunneling
 
 Package: kmod-iptunnel
@@ -1454,11 +1511,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 8223
+Installed-Size: 8224
 Filename: kmod-iptunnel_3.14.26-1_lantiq.ipk
-Size: 8983
-MD5Sum: 234f522731389e706afb9ce7c1e5085d
-SHA256sum: a35d37254a928d7ddfacd056b649d97d6a20a1ad3649e90011f41f868da8a141
+Size: 8986
+MD5Sum: 0852779b45dcadc9fe151bf2ce38de36
+SHA256sum: 797ef22a8edce8eae5e791487b71edddc8b905957876b46d7ca11c6b0bdd8786
 Description:  Kernel module for generic IP tunnel support
 
 Package: kmod-ipv6
@@ -1471,9 +1528,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 180352
 Filename: kmod-ipv6_3.14.26-1_lantiq.ipk
-Size: 179927
-MD5Sum: b14b732201e0699f802fc1f58a43d090
-SHA256sum: b6c2b3cafa985c2f8b6a5fe9163b285ef69397693b608c4b317f4fae8bf2a843
+Size: 179949
+MD5Sum: 8779790ccf8ea1d99dbd36b161df9681
+SHA256sum: 5e055e400cd360244898aabedb6a0c2b2cd1b35ba461436a1bb6268356774c41
 Description:  Kernel modules for IPv6 support
 
 Package: kmod-l2tp
@@ -1484,11 +1541,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 15669
+Installed-Size: 15667
 Filename: kmod-l2tp_3.14.26-1_lantiq.ipk
-Size: 16383
-MD5Sum: 3c5baeda8402abfa5081558e20dd492d
-SHA256sum: 49b5daea061660e725b56417ae6ffd5aa6fa8c00fee6b54901d8553be075b6d9
+Size: 16376
+MD5Sum: 9d823143e7f58b728ccff05587059b0b
+SHA256sum: db3dd15114815c9ef17ebdb67bdd398a2475f229fb3b5b5197b07a9850071af6
 Description:  Kernel modules for L2TP V3 Support
 
 Package: kmod-leds-gpio
@@ -1501,9 +1558,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 235
 Filename: kmod-leds-gpio_3.14.26-1_lantiq.ipk
-Size: 976
-MD5Sum: 506614e5cfd0b7f14c261cbdd7f03c3c
-SHA256sum: 50ee42e0fb2bbc1dcc369c855b321af9b48067307c43d09200526fde0a970746
+Size: 971
+MD5Sum: 7c4d8016e163dc976355031208555475
+SHA256sum: 7d562832fdedb39955d7f83407542b763457b86d68d2b6ee46eee2fb72dc18c1
 Description:  Kernel module for LEDs on GPIO lines
 
 Package: kmod-ledtrig-default-on
@@ -1514,11 +1571,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 241
+Installed-Size: 242
 Filename: kmod-ledtrig-default-on_3.14.26-1_lantiq.ipk
 Size: 1004
-MD5Sum: 57e3892cfd36b4d7de56f69a30f63f1d
-SHA256sum: 8bd821808e1e50916efa59b27abd628af5986a4e89d2f7d916a04753ecfbfef2
+MD5Sum: 4ddab7b63079680194e05bde5f557a91
+SHA256sum: 8c83ddca3f09fcf2c09a616522dda1406ec2d1b5b925775d8a9fc0b89f438819
 Description:  Kernel module that allows LEDs to be initialised in the ON state
 
 Package: kmod-ledtrig-gpio
@@ -1529,11 +1586,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 2336
+Installed-Size: 2339
 Filename: kmod-ledtrig-gpio_3.14.26-1_lantiq.ipk
-Size: 3085
-MD5Sum: 7ff40c0250a83b7668b6a025e8097e29
-SHA256sum: 7ede57cf6f7b00426ed1631108fa1b173a2564099b2a1915af289be2941ec790
+Size: 3084
+MD5Sum: f74d872ca5f9305ff1a86dea623acaae
+SHA256sum: 998bba050368dec574bf97ca3792410052e9d5bdb94c54e2841d76afd24034d9
 Description:  Kernel module that allows LEDs to be controlled by gpio events
 
 Package: kmod-ledtrig-heartbeat
@@ -1546,9 +1603,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 195
 Filename: kmod-ledtrig-heartbeat_3.14.26-1_lantiq.ipk
-Size: 928
-MD5Sum: d56cc79941a7de0b3efebf0c85329d44
-SHA256sum: 753edbc2c226e4d4817b0a550fb6256a4dfdab23f751f2e4fc2fb1da1cf667e8
+Size: 923
+MD5Sum: d69567fc857075a2c95d93b1a7112fc6
+SHA256sum: 510ee9cdabedca922d8dcc6c5baef17d7717b902a04f342c53bb708a46265419
 Description:  LED Heartbeat Trigger
 
 Package: kmod-ledtrig-morse
@@ -1561,9 +1618,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 2147
 Filename: kmod-ledtrig-morse_3.14.26-1_lantiq.ipk
-Size: 2927
-MD5Sum: c9d1630c83591125cd4b00c6d6eeb6f8
-SHA256sum: 649c9a64fa2574dd1d9eda01991bae0a5e9100c7380f7c306ffd7d816315abaf
+Size: 2926
+MD5Sum: 35c84ab883666f5df86a3e3b07106382
+SHA256sum: 4efb5ddb09432f9415b7df4e1e4d84e850108692b793871b3323af1a079994d0
 Description:  Kernel module to show morse coded messages on LEDs
 
 Package: kmod-ledtrig-netdev
@@ -1576,9 +1633,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 193
 Filename: kmod-ledtrig-netdev_3.14.26-1_lantiq.ipk
-Size: 951
-MD5Sum: ca923ccd35e102fa75bf020c5eb8cb06
-SHA256sum: 3e09d2375ce2ce8274bd504eed2c7c500f28582ce9504a162323561dfdc002c7
+Size: 952
+MD5Sum: 98d2b45f03e38d30f249349ff2b8bfe1
+SHA256sum: bbf64f782156fe4fd43fb84a43eb88137e3022af1f808dcbcb4293b625da3737
 Description:  Kernel module to drive LEDs based on network activity
 
 Package: kmod-ledtrig-netfilter
@@ -1589,11 +1646,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 1820
+Installed-Size: 1822
 Filename: kmod-ledtrig-netfilter_3.14.26-1_lantiq.ipk
-Size: 2785
-MD5Sum: 1bc9aa3fd576566be4a4dd912e659e32
-SHA256sum: a6fa962cfed077586bbbbf4fec06a4974b3b63679ce224aaa497aac84c483f1e
+Size: 2790
+MD5Sum: f0360a97b0e2e8a594959e5042697018
+SHA256sum: 98817fdddb7d1ecb5e4c5e9a47be3e3370e03b6e65fe3ae379c7186b75bd7eff
 Description:  Kernel module to flash LED when a particular packets passing through your machine.
  
  For example to create an LED trigger for incoming SSH traffic:
@@ -1609,11 +1666,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 1661
+Installed-Size: 1662
 Filename: kmod-ledtrig-oneshot_3.14.26-1_lantiq.ipk
-Size: 2470
-MD5Sum: df7389d4076be3ab974d8eb78fd5328e
-SHA256sum: 894ae3a7f719f265b13759b768651020c3c0ce10f4f29f847eeb80dfe2bb1430
+Size: 2471
+MD5Sum: 061f2a2250c31d13bf06d445ce0dc392
+SHA256sum: 7567505a676593d950fe336ed5df45279fac89e6eb88951dd4335b57d04a61df
 Description:  Kernel module that allows LEDs to be triggered by sporadic events in
  one-shot pulses
 
@@ -1627,9 +1684,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 236
 Filename: kmod-ledtrig-timer_3.14.26-1_lantiq.ipk
-Size: 1006
-MD5Sum: b14daa5cd62c716b8a15fcfbdd3bcec7
-SHA256sum: 89bd4645b1e80f8a5e6799c89c7a4d39d6b7842036531b56400cc1c72eac50ea
+Size: 1009
+MD5Sum: 9143fa56720032caab2c0c53a64b6963
+SHA256sum: 1d66942dfddcc544b11da025f0065e0827e5d9a553fad82aebfafbd429fb2830
 Description:  Kernel module that allows LEDs to be controlled by a programmable timer
  via sysfs
 
@@ -1643,9 +1700,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 2212
 Filename: kmod-ledtrig-usbdev_3.14.26-1_lantiq.ipk
-Size: 2981
-MD5Sum: 1945e267da4429b6ca5ac5199da3804c
-SHA256sum: 83c71e2dc230c74982b216053a7d861a56eafac2cfe2671cfc68ec3531391e2b
+Size: 2979
+MD5Sum: 832f6fa29b414adcf41564b128e90f08
+SHA256sum: d5366449ac59624418feee817330667acf812f721e9d94969a55e647cb06f982
 Description:  Kernel module to drive LEDs based on USB device presence/activity
 
 Package: kmod-lib-crc-ccitt
@@ -1656,11 +1713,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 1342
+Installed-Size: 1343
 Filename: kmod-lib-crc-ccitt_3.14.26-1_lantiq.ipk
-Size: 2112
-MD5Sum: 029165de0eb53a4589e175435b19fbad
-SHA256sum: d14154b4c44afa4633e0dde919fea24b72770dd0758e49931718eea95ad49835
+Size: 2110
+MD5Sum: b7ef564929566ea7abd31285915b022c
+SHA256sum: 33f4c97f100325ac0a0ce33293b49359b4ac7be9d374a56adbd206a4135117fb
 Description:  Kernel module for CRC-CCITT support
 
 Package: kmod-lib-crc16
@@ -1673,9 +1730,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 187
 Filename: kmod-lib-crc16_3.14.26-1_lantiq.ipk
-Size: 922
-MD5Sum: 91c8f47b8bfc2dd8ef19b4172216fa01
-SHA256sum: 92107318033062835ed543c934db7969225e1b23a09a4a1f1d6b6f070ee8486f
+Size: 924
+MD5Sum: a1dae863093353a2209934d1b6b59328
+SHA256sum: ec689d1e358bfaac3ed13c46a753fdfa71061a43f2204d94d0b688fd8835ac12
 Description:  Kernel module for CRC16 support
 
 Package: kmod-lib-lzo
@@ -1688,9 +1745,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 201
 Filename: kmod-lib-lzo_3.14.26-1_lantiq.ipk
-Size: 946
-MD5Sum: 45698bd973eb848e52ffecda58c705e6
-SHA256sum: 1b0ac78de7774726546481dad22d06bc3590e5a796035142402c779ea80ba8d3
+Size: 947
+MD5Sum: c957937e6b6bd2b11ed07d747a676483
+SHA256sum: 5d6bba9764eaa0506cd99b313189e2e88a906df6c0f1fc0886a6e4c66442289d
 Description:  Kernel module for LZO compression/decompression support
 
 Package: kmod-lib-textsearch
@@ -1701,11 +1758,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 3714
+Installed-Size: 3715
 Filename: kmod-lib-textsearch_3.14.26-1_lantiq.ipk
-Size: 4465
-MD5Sum: cc4c534deeda84b9634d235d0c63d9a6
-SHA256sum: a4f726735e737d0171306cddd161a49560452833f4a97b91a90fd39f8f442ea3
+Size: 4466
+MD5Sum: a5fe2ba412ef2100f1d68ee2b663e7c6
+SHA256sum: e1980548f67a005da33d5d7ba66c62f4643526a35bd2c2934e80af5dc723465a
 Description:  Textsearch support
 
 Package: kmod-lib-zlib
@@ -1718,9 +1775,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 200
 Filename: kmod-lib-zlib_3.14.26-1_lantiq.ipk
-Size: 924
-MD5Sum: a688319a1b98375b5c582d9a31d4e254
-SHA256sum: 4c1daae6ae2e64d4fc00aebb1d1291da5b03f864c7bdc0949041c844fe438d2b
+Size: 923
+MD5Sum: c71df45a71e3e5ba89a5cfa4ebf46930
+SHA256sum: 0c0cf700b5f8a6981d8d4e82ef556d0993a7af8001f8fd541eef6e2251a52744
 Description:  Zlib support
 
 Package: kmod-lib80211
@@ -1732,9 +1789,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
 Installed-Size: 11380
 Filename: kmod-lib80211_3.14.26+2014-11-04-1_lantiq.ipk
-Size: 12189
-MD5Sum: 6aa496bd6d975c0cfb96431a142332bb
-SHA256sum: bdec32f825005e51de93b570f45795e4aa385bf7804b1ff08aa025b232186fe3
+Size: 12190
+MD5Sum: 5754dfab33fb0611b6386b75e785a3be
+SHA256sum: bd759b4b63b2c147ef7b4463ef0a16b71e743b00f3446e768895199e13ffa0bf
 Description:  Kernel modules for 802.11 Networking stack
  Includes:
  - lib80211
@@ -1752,9 +1809,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 232
 Filename: kmod-libphy_3.14.26-1_lantiq.ipk
-Size: 953
-MD5Sum: 64033232e75395c6652d7477b4b863e3
-SHA256sum: f9a03cc142cc45dc04b5a4d062013318397391a1755225185f57dcf3dd9b55f6
+Size: 954
+MD5Sum: e692b9ed13abf8dfeeabe867be97a95b
+SHA256sum: 79688057ef36e74bac7426c964f6ae5f900ed69edb277d53a285c72f15604780
 Description:  PHY library
 
 Package: kmod-llc
@@ -1765,11 +1822,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 194
+Installed-Size: 195
 Filename: kmod-llc_3.14.26-1_lantiq.ipk
-Size: 937
-MD5Sum: d0dfa3afb11ee833d9c5f752608ff646
-SHA256sum: c55b0f911da19418def8e06dcaf147971f9d05520b9a00c6bf646e0cbebd5491
+Size: 935
+MD5Sum: 420679117cdd79745239dc35d56e0243
+SHA256sum: 31cccd143facc44e55498f7e071190b8933d19fcc875b5a0cea3938c398a2f17
 Description:  Kernel module for ANSI/IEEE 802.2 LLC support.
 
 Package: kmod-loop
@@ -1780,11 +1837,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 10841
+Installed-Size: 10842
 Filename: kmod-loop_3.14.26-1_lantiq.ipk
-Size: 11610
-MD5Sum: 8c4af8357963fc40861ad2ff3690bdcc
-SHA256sum: ec6b2049a9aa03d8b6ab5f4419332a7f25fec1fdca0f5bb0532853deee29d869
+Size: 11612
+MD5Sum: c04686fb641957500f0f0247d1955bca
+SHA256sum: 7180faaf36eb93298dccb695cb55ad1b1454aa88ac0c893884a7c5679e04774d
 Description:  Kernel module for loopback device support
 
 Package: kmod-ltq-atm-vr9
@@ -1794,11 +1851,11 @@ Source: package/kernel/lantiq/ltq-atm
 Section: sys
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: lantiq
-Installed-Size: 18463
+Installed-Size: 18468
 Filename: kmod-ltq-atm-vr9_3.14.26-1_lantiq.ipk
-Size: 19185
-MD5Sum: f427aa84d42e92a4c6957665bfbfeccc
-SHA256sum: 464b7b7adff651c87105b0549d3b8de2b80589a1b8e69c76ae9442a0c360ce2e
+Size: 19200
+MD5Sum: a71a8183bd7498beef301b00daf05c24
+SHA256sum: 3cb20267f74f51d8a124385aaea51f84d82d9c06ad8c4a0e00eb85321b46369c
 Description:  atm driver for vr9
 
 Package: kmod-ltq-deu-vr9
@@ -1808,11 +1865,11 @@ Source: package/kernel/lantiq/ltq-deu
 Section: sys
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: lantiq
-Installed-Size: 9998
+Installed-Size: 9999
 Filename: kmod-ltq-deu-vr9_3.14.26-1_lantiq.ipk
-Size: 10739
-MD5Sum: 79a308fb29accbacfbd81c6dd453da36
-SHA256sum: 490eb575941768ec5fb34bb125873a32f5a2354e7f24615d099a046120bc625e
+Size: 10740
+MD5Sum: ad420d795a29214354ec73a6f199dd21
+SHA256sum: 593320959309aa49b1b7b32f841986334b407ca5e3997e767b81179e2b0d638c
 Description:  deu driver for vr9
 
 Package: kmod-ltq-hcd-vr9
@@ -1824,9 +1881,9 @@ Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: lantiq
 Installed-Size: 24954
 Filename: kmod-ltq-hcd-vr9_3.14.26-1_lantiq.ipk
-Size: 25639
-MD5Sum: 1fbab0c4cc6669cdefd6fc28ce2835df
-SHA256sum: e4980fb56ab9b1e244b8d8b1ed87550b05e95a5f23bf83f7d3a25a044dbe97d1
+Size: 25647
+MD5Sum: 371c1b90fc0a82e6127d05d54a8734db
+SHA256sum: 43c5bac97f413f4a3b94b3b95226a93383ffc7496b1013811a9b85ec25ae30c7
 Description:  USB driver for vr9
 
 Package: kmod-ltq-ifxos
@@ -1836,11 +1893,11 @@ Source: package/kernel/lantiq/ltq-ifxos
 Section: sys
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: lantiq
-Installed-Size: 8826
+Installed-Size: 8824
 Filename: kmod-ltq-ifxos_3.14.26+1.5.14-3_lantiq.ipk
-Size: 9610
-MD5Sum: c315508a37bb00d48dc5b6cca8554522
-SHA256sum: 4b08f3e463af6cfce1a0c35c9767921deca5ad215c987f212a28b4077a935138
+Size: 9614
+MD5Sum: 15241ce2b3a30260ff3efe54ad681d01
+SHA256sum: a12354ecc9079a08f37dd9fffb5d0500f772a8eaf492f22288af425a47ce56d8
 Description:  Lantiq OS abstraction library
 
 Package: kmod-ltq-ptm-vr9
@@ -1850,11 +1907,11 @@ Source: package/kernel/lantiq/ltq-ptm
 Section: sys
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: lantiq
-Installed-Size: 15877
+Installed-Size: 15884
 Filename: kmod-ltq-ptm-vr9_3.14.26-1_lantiq.ipk
-Size: 16609
-MD5Sum: e2f20279ee6f41fc3022e9c184f0c7fa
-SHA256sum: 72760637b3e54d6dcc20ee7d5229631be431d924686d5ac5a60cc87c859f72a1
+Size: 16611
+MD5Sum: f177de4be8010f3fb5caabb90743d5eb
+SHA256sum: 7b182aa1e53478b26343106efd7099a1821a495ff8e26fcff190ab241692629e
 Description:  ptm driver for vr9
 
 Package: kmod-ltq-vdsl-vr9-mei
@@ -1864,11 +1921,11 @@ Source: package/kernel/lantiq/ltq-vdsl-mei
 Section: sys
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: lantiq
-Installed-Size: 56492
+Installed-Size: 56493
 Filename: kmod-ltq-vdsl-vr9-mei_3.14.26+1.2.0-1_lantiq.ipk
 Size: 56352
-MD5Sum: 6b147b6de1f5162c88841a0cdd2c5b67
-SHA256sum: d993cd36b9c86a9d4731fa06817aadfd39b0f39632179acadbaad04753ebfc71
+MD5Sum: bf8375b800224421994c11dfa72c37d6
+SHA256sum: 12034b7bd13829ece4839d0b8d0414b32d6273c83635910f7af167d4d146efc6
 Description:  Lantiq MEI CPE Kernel Module Driver
 
 Package: kmod-ltq-vdsl-vr9
@@ -1878,11 +1935,11 @@ Source: package/kernel/lantiq/ltq-vdsl
 Section: sys
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: lantiq
-Installed-Size: 70291
+Installed-Size: 70293
 Filename: kmod-ltq-vdsl-vr9_3.14.26+4.11.4-1_lantiq.ipk
-Size: 70995
-MD5Sum: ceaf3e8c4e7624b7020f5e84aff415f4
-SHA256sum: 4f35879b507fbe1df158776c2ee8a19f6cee075500f049fc6461b0e18daa5ac8
+Size: 70987
+MD5Sum: e839fb91eb17811a18a14336aa607766
+SHA256sum: d2e443b9f544eb2bed82a3f6fed18e1b48ae37919265e52e51097790ef172738
 Description:  vdsl driver
 
 Package: kmod-mac80211
@@ -1892,11 +1949,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 188394
+Installed-Size: 188392
 Filename: kmod-mac80211_3.14.26+2014-11-04-1_lantiq.ipk
-Size: 187600
-MD5Sum: 1830bfddd983bd034fe81736b39e7ddf
-SHA256sum: 5177940d3497cfddad9bf2b8953a19cb72f86355962a3230eb415ed1df61fcb5
+Size: 187568
+MD5Sum: f8415c834a1284c7a40beedbe7b0af72
+SHA256sum: 0d0cd2fc2e8fa92ae5c641b8581654337c8efdc2eadb8cf5c45f7e9b8f021c8c
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-mii
@@ -1907,11 +1964,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 2890
+Installed-Size: 2893
 Filename: kmod-mii_3.14.26-1_lantiq.ipk
-Size: 3610
-MD5Sum: bcdb975e53dbb34e491839dbff2332d5
-SHA256sum: ab763935b6e0e39dbb33575557a50e58d4b79377f7d1a19d7a9e30826c88c678
+Size: 3611
+MD5Sum: ea70d1ebf8c58387691d0191658f8edd
+SHA256sum: 650cddce8bfafb6f241ddb915bf89d63ee2751a8bf5ac6d8e336e26ae2f41601
 Description:  MII library
 
 Package: kmod-nf-conntrack6
@@ -1922,11 +1979,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 9223
+Installed-Size: 9217
 Filename: kmod-nf-conntrack6_3.14.26-1_lantiq.ipk
-Size: 10001
-MD5Sum: 478f63dc5945b01b68be88744abf9acd
-SHA256sum: cf730d55827bc234618062ccd4cc49aec0254e8257d3f1ca299239f567d62b8b
+Size: 9992
+MD5Sum: a528fb1d00e3cd5470275accb57b771c
+SHA256sum: e2edacaa6ee3f26c5a8fc6313b2564f4c650f7e613a2dda94417001e6761a3a2
 Description:  Netfilter IPv6 connection tracking
 
 Package: kmod-nf-conntrack
@@ -1939,9 +1996,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 38951
 Filename: kmod-nf-conntrack_3.14.26-1_lantiq.ipk
-Size: 39741
-MD5Sum: c4589b5d46a3e755dd8abfb45139c492
-SHA256sum: 6d5b901a51b5f6c6237ebc5655137831a41c4ce71c28310239e927f118d7d253
+Size: 39725
+MD5Sum: a56a7b1342e1dda8128cf1a19d860692
+SHA256sum: 04aa5c5e6169982d242b993224706eefd8f3fc8084b08f6b255c0ddd6534d1ea
 Description:  Netfilter connection tracking
 
 Package: kmod-nf-ipt6
@@ -1952,11 +2009,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 7711
+Installed-Size: 7715
 Filename: kmod-nf-ipt6_3.14.26-1_lantiq.ipk
-Size: 8461
-MD5Sum: c2ec4fb3cb156b250a267de94b50ba13
-SHA256sum: b3807d637213c25ecfd12e1a9d4840694834460e648eefd0a07d746deaf5a620
+Size: 8464
+MD5Sum: 47a55c82f07720e55b3b0c46cc806d95
+SHA256sum: 6909b23994c6c2219e9ad99c67575ca8e73d4d7d6fb90b4253eff24c9e3f2aa3
 Description:  Ip6tables core
 
 Package: kmod-nf-ipt
@@ -1967,11 +2024,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 14865
+Installed-Size: 14861
 Filename: kmod-nf-ipt_3.14.26-1_lantiq.ipk
-Size: 15550
-MD5Sum: 7d87eb677887a444babec28729c0d012
-SHA256sum: 35875757587cf370fb349bc70bd3735436199d2941539ce71f89d8daf0711427
+Size: 15547
+MD5Sum: 4b088d618486719a681178302e27b669
+SHA256sum: 8df057e5824aa92c0db3e6d120ae7ced7ec2e32cb2745a5c171d154397e8074e
 Description:  Iptables core
 
 Package: kmod-nf-nat
@@ -1982,11 +2039,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 10020
+Installed-Size: 10018
 Filename: kmod-nf-nat_3.14.26-1_lantiq.ipk
-Size: 10797
-MD5Sum: 4d83b7d8ceba31bfe8149e50e680ed7e
-SHA256sum: dad5e80fbd41d102cbe7b11a51cd329f4b59ec8714c6fb8d54fc7877c036e22d
+Size: 10796
+MD5Sum: 1801717830933617aade0a34f7d2a12f
+SHA256sum: 5721c9fe867e4e888fc9e2539cb680f96c274ece1f561e2b27f6d47108f2fc16
 Description:  Netfilter NAT
 
 Package: kmod-nf-nathelper
@@ -1997,11 +2054,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 8297
+Installed-Size: 8296
 Filename: kmod-nf-nathelper_3.14.26-1_lantiq.ipk
-Size: 9097
-MD5Sum: dde1f8a23e281d9c6504d7907ff2c116
-SHA256sum: cc858df5e04ed3a1abf7876b03e5d49497935116ffe5f9d59415a5c9c8d6f225
+Size: 9081
+MD5Sum: 53f3af8037372f595b2df8c4181d3e06
+SHA256sum: 53640000b8ce6769adda910045dbaf10633f2fbf8ebe34a4f08e984f311a3e13
 Description:  Default Netfilter (IPv4) Conntrack and NAT helpers
  Includes:
  - ftp
@@ -2016,11 +2073,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 3522
+Installed-Size: 3524
 Filename: kmod-nfnetlink_3.14.26-1_lantiq.ipk
-Size: 4272
-MD5Sum: 5040b32b669320cd5b418c68bf71b3ee
-SHA256sum: 2a1f700f2d30f0c3d57faa98c7b5c1ed89de6741e720455862e6e8718daba9d2
+Size: 4271
+MD5Sum: ca22a197a031c55ec84cfb97790f596a
+SHA256sum: 30fe138fcf667c115a5e9e0dd138cc9304b0e17743492b29a31b01487f3112e2
 Description:  Kernel modules support for a netlink-based userspace interface
 
 Package: kmod-nft-core
@@ -2031,11 +2088,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 35879
+Installed-Size: 35877
 Filename: kmod-nft-core_3.14.26-1_lantiq.ipk
-Size: 36685
-MD5Sum: d120c0da26e33ff0bacf5a4c89e75fcf
-SHA256sum: 61cdc992cd3f766fa16b29d398d4230d03dc334a322999c57c9ae68056bb4f97
+Size: 36689
+MD5Sum: 01734f2179fa4d238b32b06a64cda368
+SHA256sum: aecac6ec6134a75f05027605396d33ae62a8f8c3e5c65fa4d40fbcd53cc2fbff
 Description:  Kernel module support for nftables
 
 Package: kmod-nft-nat
@@ -2046,11 +2103,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 2873
+Installed-Size: 2874
 Filename: kmod-nft-nat_3.14.26-1_lantiq.ipk
-Size: 3619
-MD5Sum: 58c637089c21ebee133c1749b4483d4b
-SHA256sum: ec84e38b873a82004617857113309f398a9c77a58069db59ea573a24d7e58383
+Size: 3618
+MD5Sum: a5f02b048187af35556ab2216caacc7f
+SHA256sum: c6a47be87464c7d5c39ecbdb63784081e8e5957c0235a418609c00431cb9e1e4
 Description:  Netfilter nf_tables NAT support
 
 Package: kmod-nls-base
@@ -2063,9 +2120,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 105
 Filename: kmod-nls-base_3.14.26-1_lantiq.ipk
-Size: 852
-MD5Sum: 0cc2c663ea12a495ba6e536e51405cf9
-SHA256sum: 3319fd5d50a04c2167f01270d6df60989bfab0ee60f83dd5749de0278f789d86
+Size: 847
+MD5Sum: 4e8408619dfa2e901fc9c53e0abee954
+SHA256sum: ed359c689ffdf98c9665a888196ed6878ac561ce75368b333775b030555f2ca3
 Description:  Kernel module for NLS (Native Language Support)
 
 Package: kmod-nls-iso8859-15
@@ -2078,9 +2135,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 1823
 Filename: kmod-nls-iso8859-15_3.14.26-1_lantiq.ipk
-Size: 2585
-MD5Sum: 6d2f64b579de64de9755cfe34cbc30e5
-SHA256sum: 6a41418b02b5e0b6d786c2d07b76cce7c32d5959812d74f3d9b1bfcc055bc5d0
+Size: 2581
+MD5Sum: 20af32923702812676f56a48d8956d2e
+SHA256sum: 508b10761a9969d5305c218b02112f60995fb19f717d48b084c2bd7ace82224b
 Description:  Kernel module for NLS ISO 8859-15 (Latin 9)
 
 Package: kmod-nls-iso8859-1
@@ -2091,11 +2148,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 1710
+Installed-Size: 1711
 Filename: kmod-nls-iso8859-1_3.14.26-1_lantiq.ipk
-Size: 2486
-MD5Sum: 4ec6d8d8577242c9fdc74fe4e1e59082
-SHA256sum: 680d1c91298399d3357e5f1e89ecf9cfc684603a02d87e4dceed3dd73e905e06
+Size: 2494
+MD5Sum: 56a014d818c4fb04db67953224d0db30
+SHA256sum: a43c75a2c0f108f11a7c4472dd66a976fd219a5faded0d3783d7f2385c2f3dbe
 Description:  Kernel module for NLS ISO 8859-1 (Latin 1)
 
 Package: kmod-nls-utf8
@@ -2106,11 +2163,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 999
+Installed-Size: 998
 Filename: kmod-nls-utf8_3.14.26-1_lantiq.ipk
-Size: 1761
-MD5Sum: 756ae563008a3397369e11f62fd550e4
-SHA256sum: 45756fa6e5e14bb238d26c9f8835def98bb38c23797092c6362dacb24d9908d1
+Size: 1763
+MD5Sum: bef6cae83c08f9ca55965da9a7fbc433
+SHA256sum: 6cfeeb21fdfbad958fa70d7014bb54979195f064521ada6b014d2feb2b0ea5da
 Description:  Kernel module for NLS UTF-8
 
 Package: kmod-ppp
@@ -2121,11 +2178,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 21767
+Installed-Size: 21766
 Filename: kmod-ppp_3.14.26-1_lantiq.ipk
-Size: 22504
-MD5Sum: 6edba065d667375906aed4e69c9fe499
-SHA256sum: c89f8eab34a455e69bdd91526ef7fb93e2355b9e082ea1c7e750c35a24330b94
+Size: 22501
+MD5Sum: 91eeabff0a7b0dfc0ef18e90052c667c
+SHA256sum: b9d6feb744eb8927d9bac502ee0ea2d07b7efdf7c4aedbaaf99d1a46fb9c51b2
 Description:  Kernel modules for PPP support
 
 Package: kmod-pppoa
@@ -2136,11 +2193,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 3269
+Installed-Size: 3268
 Filename: kmod-pppoa_3.14.26-1_lantiq.ipk
-Size: 4014
-MD5Sum: 7c44a148f40da3b8b17430dc5e45d92f
-SHA256sum: 9bf3dbadb257dcfea32c54a531698dbc01cf6eefc92be7cfea364f578c77581e
+Size: 4009
+MD5Sum: a3cdc052e0b7807869bdd973eb8e2673
+SHA256sum: ded654df96346da3e1d8f6b27d07f12540eda4195c8fd8d98cc42585bb616665
 Description:  Kernel modules for PPPoA (PPP over ATM) support
 
 Package: kmod-pppoe
@@ -2154,8 +2211,8 @@ Architecture: lantiq
 Installed-Size: 7183
 Filename: kmod-pppoe_3.14.26-1_lantiq.ipk
 Size: 7960
-MD5Sum: 1ff59065b11476f9bef8917c9321fed2
-SHA256sum: c754f4b0f3279a20ebb1d6783feee6759f65c063c849eb83ad1392ac16df8a33
+MD5Sum: bfb0214e75b74ccd9fb984153fbf048a
+SHA256sum: 7f37c6d1fb6fc97ceae3d4ca0117ec45e498892af99cea9fdbf1bf056747aa10
 Description:  Kernel module for PPPoE (PPP over Ethernet) support
 
 Package: kmod-pppol2tp
@@ -2168,9 +2225,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 10943
 Filename: kmod-pppol2tp_3.14.26-1_lantiq.ipk
-Size: 11694
-MD5Sum: b290e7b3e5dbb57585f94f59f8d048e4
-SHA256sum: a63e325320e21299cdea43ded068b11f3f3b2c76d0009ace4b9e17d4b1b7f51d
+Size: 11691
+MD5Sum: 9e639b76e493bdd8d975a917a993baf7
+SHA256sum: 107166f6db27d1d3f60e7d74f940949852dc4783e972cdf9fe974a0b27b60bd1
 Description:  Kernel modules for PPPoL2TP (PPP over L2TP) support
 
 Package: kmod-pppox
@@ -2181,11 +2238,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 1613
+Installed-Size: 1612
 Filename: kmod-pppox_3.14.26-1_lantiq.ipk
-Size: 2389
-MD5Sum: f01aef297c8300251eeb0c09171ac671
-SHA256sum: 321524e4a59b935cf65c91eedd7dff229ece374accffa4f57a367a9f7da90d6d
+Size: 2384
+MD5Sum: 40114f8a09c92cfba47a9ebcfc75f33a
+SHA256sum: 33a528c664b1eb9e3b9c73b3e151cc93a982d4ea8dce4c9ad601c1d6ef5ffdbb
 Description:  Kernel helper module for PPPoE and PPTP support
 
 Package: kmod-pptp
@@ -2196,11 +2253,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 5449
+Installed-Size: 5448
 Filename: kmod-pptp_3.14.26-1_lantiq.ipk
-Size: 6199
-MD5Sum: 5615540d856d2dddc9ba64056a1f5375
-SHA256sum: da39be4d205ca8b7025beb4e9828ac3c2394f419eab527aa84a84e479a377437
+Size: 6196
+MD5Sum: c6a22cc138b6dcc850098c4213f0efb5
+SHA256sum: a37c312275764edee0a222b206dfeaa1e681ec03325058248cf2b7d5b36b328f
 Description:  PPtP support
 
 Package: kmod-sched-connmark
@@ -2213,9 +2270,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 1427
 Filename: kmod-sched-connmark_3.14.26-1_lantiq.ipk
-Size: 2210
-MD5Sum: 6090139c8a53411446bbde7002cba963
-SHA256sum: 839912104edd510b2bdab6355f84c507a4aebb1a54e908697cd55feac7d87409
+Size: 2213
+MD5Sum: 4d41e4914815bb09aab60e02fe5ab6a6
+SHA256sum: 099095a92c37f29197ea5475b05ad766abd4d47996763f1e1b8c350c2ead3768
 Description:  Traffic shaper conntrack mark support
 
 Package: kmod-sched-core
@@ -2226,11 +2283,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 31859
+Installed-Size: 31858
 Filename: kmod-sched-core_3.14.26-1_lantiq.ipk
-Size: 32614
-MD5Sum: bd2a3b1739ca4939cd04f377fe1eae7d
-SHA256sum: f127634680a1932c58ec863acda43144b3a1ba3657337ab8d5a3af6b17bf1727
+Size: 32606
+MD5Sum: f043494a2108e0c928ff24fd3144f39c
+SHA256sum: 2a95e04c921c9ab863c74a0b1252bb7e4eff40d5400f017c2c20062cbcd7120e
 Description:  Core kernel scheduler support for IP traffic
 
 Package: kmod-sched
@@ -2241,11 +2298,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 49715
+Installed-Size: 49710
 Filename: kmod-sched_3.14.26-1_lantiq.ipk
-Size: 50529
-MD5Sum: d3dafd67ff6c4b420dcd775cb44dfa63
-SHA256sum: b8fd3f4867035358ede152e7332fc3d51473a3d5cd4c953107e97fcb44f3ce56
+Size: 50498
+MD5Sum: d03ade9c96d9a0187ec86462b38d77f7
+SHA256sum: 3251f413f7e7ae75f807893ef3e64344d93ac9a7c9b0769fcd9a5cf57313092e
 Description:  Extra kernel schedulers modules for IP traffic
 
 Package: kmod-scsi-core
@@ -2256,11 +2313,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 80011
+Installed-Size: 80012
 Filename: kmod-scsi-core_3.14.26-1_lantiq.ipk
-Size: 80298
-MD5Sum: 28c1677f0e5652c02dd439ffdad26ef1
-SHA256sum: e37299f3367ae160e11470c7d4bc3a0ee171d101b129a719d8a94273fbc0fb40
+Size: 80309
+MD5Sum: 318a20c683505170ad9848d96d4ef14f
+SHA256sum: 540ee700f0dad1bc8ca705b7a508c408e763e829c4e819f559096b43d2b4f72e
 Description:  SCSI device support
 
 Package: kmod-scsi-generic
@@ -2271,11 +2328,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 16129
+Installed-Size: 16127
 Filename: kmod-scsi-generic_3.14.26-1_lantiq.ipk
-Size: 16864
-MD5Sum: 8e95b0f01341c26f7b080bb33d282d9a
-SHA256sum: 3c1d1930ecfb5220c246312b03cb7cb8d6466e9a92e4d833378c3502cc853677
+Size: 16854
+MD5Sum: f1ead138a6251a185a9a7307099154b2
+SHA256sum: 4b6c314f76b2c59ae0588b0a8a1886e4b41a8bbd8f11e91c30476e3c696f31bf
 Description:  Kernel support for SCSI generic
 
 Package: kmod-slhc
@@ -2286,11 +2343,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 3805
+Installed-Size: 3808
 Filename: kmod-slhc_3.14.26-1_lantiq.ipk
-Size: 4527
-MD5Sum: 5da192d25c73d5549b565fa0efc26805
-SHA256sum: 957633489142b400050891441828bced88fda4b6d192eb94a0445fc1ab2e9495
+Size: 4532
+MD5Sum: eb6700960329521828c80ef1450fb9a6
+SHA256sum: e4e66b42d5c2f57c2ab7b4d4a1e90a55703884cc86e9822fe9e6dc5a1dda3408
 Description:  Serial Line Header Compression
 
 Package: kmod-sound-core
@@ -2301,11 +2358,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 133428
+Installed-Size: 133431
 Filename: kmod-sound-core_3.14.26-1_lantiq.ipk
-Size: 133994
-MD5Sum: a3aa6f44c99707dd8b08dd833a0200ed
-SHA256sum: c60c755d406bb7e2c4e2b6ce164cffa1128c188e6098279261b33df04ea289ca
+Size: 133950
+MD5Sum: f12b0ce4bc03803aa3a6641aa7158431
+SHA256sum: fd8259ed0490a2ac6ec6db3d2b08bf940d97e6c19b72a0909489154c58c48001
 Description:  Kernel modules for sound support
 
 Package: kmod-stp
@@ -2318,9 +2375,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 182
 Filename: kmod-stp_3.14.26-1_lantiq.ipk
-Size: 938
-MD5Sum: e7880a978ed499a49deebfe305bac583
-SHA256sum: 9f1d316deff615a389eebbf018e52ea20430b5470b3383725adc4e96afb8033a
+Size: 936
+MD5Sum: 4782f9facefd14a0486ae92f3fcfb63f
+SHA256sum: afaa76b3adf7623bf067c16147278c73aabc947bc5329fff561ce0ca759abfc6
 Description:  Kernel module for Ethernet Spanning Tree Protocol support.
 
 Package: kmod-swconfig
@@ -2333,9 +2390,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 190
 Filename: kmod-swconfig_3.14.26-1_lantiq.ipk
-Size: 933
-MD5Sum: c7ca27d6afa5e1a0dd42f7c7da1c01f9
-SHA256sum: 502bdda697db3457c228b6098c7f38eafdf8712fb23c9b64f8d113f29c5ee1a1
+Size: 934
+MD5Sum: a02b1308460608f618bc170506fa1ba0
+SHA256sum: 049cba356e683467497ce5f1f31902a2491afa413a0f5f692e0eec9aae3199c7
 Description:  Switch configuration API module
 
 Package: kmod-tun
@@ -2346,11 +2403,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 12799
+Installed-Size: 12797
 Filename: kmod-tun_3.14.26-1_lantiq.ipk
 Size: 13543
-MD5Sum: 88356fe3c1d8f6edd4990407cd6a35cc
-SHA256sum: 8f27bd35d4dd90eabfbf184b3e8280c192622319fc837d8bfa5cf266dfa4615b
+MD5Sum: 275887baedf50ed435b56c0fb99a3fea
+SHA256sum: 2001f458f1173d676db0867df360b60fd4a40a356ddd22130f16ce3a12b0bc44
 Description:  Kernel support for the TUN/TAP tunneling device
 
 Package: kmod-usb-acm
@@ -2361,11 +2418,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 10421
+Installed-Size: 10419
 Filename: kmod-usb-acm_3.14.26-1_lantiq.ipk
-Size: 11204
-MD5Sum: d77525d4f81be51c87d68a56e7f0fecd
-SHA256sum: 85a9d88d8874c88b0e3dd15912039012f896c4b0fa0921ced1b312682ac618f7
+Size: 11203
+MD5Sum: a499233523f7c16b9872db9a4518cbc3
+SHA256sum: 08e3d5e82844e2323ef10b17ae26e6e461d876be52e27fb99a6c37116403214a
 Description:  Kernel support for USB ACM devices (modems/isdn controllers)
 
 Package: kmod-usb-core
@@ -2376,11 +2433,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 238
+Installed-Size: 239
 Filename: kmod-usb-core_3.14.26-1_lantiq.ipk
-Size: 976
-MD5Sum: f94ba91c1b4c8a22c8330af4e3463732
-SHA256sum: cdc958559da4498a81bad8a080b5fcced9fb706a2f2b670c88c08fe5613fade8
+Size: 980
+MD5Sum: 9ca4ff99cd60ae4e1f3e1eb9a69e1030
+SHA256sum: 56bfa8574ec0db6bd0e130d8d6b9852c0eb61185a758f88bbfdf2f244791a637
 Description:  Kernel support for USB
 
 Package: kmod-usb-net-asix
@@ -2391,11 +2448,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 10524
+Installed-Size: 10525
 Filename: kmod-usb-net-asix_3.14.26-1_lantiq.ipk
-Size: 11271
-MD5Sum: 602b590cd76ecd4472145fb691e429df
-SHA256sum: fed1994bb7ad5a528097f4f862ebef542a9bfacd056c24276b785b7c3744bc17
+Size: 11273
+MD5Sum: 8b3cbe9a697b4eade369de8182549b76
+SHA256sum: 3e872276ad6b76c523543ae7014f7714500ebfb0555ad9e76ca738c71b6f9c87
 Description:  Kernel module for USB-to-Ethernet Asix convertors
 
 Package: kmod-usb-net-cdc-eem
@@ -2406,11 +2463,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 2408
+Installed-Size: 2411
 Filename: kmod-usb-net-cdc-eem_3.14.26-1_lantiq.ipk
-Size: 3152
-MD5Sum: c00cdf096c41d4db7e63ab7a22361420
-SHA256sum: 36d4a3fa9234fcf68f05d4859050b17899fef33ed4f906ec934aad04a623f71a
+Size: 3151
+MD5Sum: b97b4fcc3b6e1d8835b30e1cbfd873b8
+SHA256sum: 8e98ecb1f9854fb9e268a560bc50f54cae2a6694b96c0875ddab5c00b8b0a841
 Description:  Kernel support for USB CDC EEM
 
 Package: kmod-usb-net-cdc-ether
@@ -2421,11 +2478,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 3323
+Installed-Size: 3327
 Filename: kmod-usb-net-cdc-ether_3.14.26-1_lantiq.ipk
-Size: 4074
-MD5Sum: 3f1f8600f91efb30f147ba43911fc25f
-SHA256sum: 134c08c6134d0c88cbd7a57e2e15433c2a6eb7144b4c02813d564b238b838a5d
+Size: 4079
+MD5Sum: e285b0d23437568bd558c33d7d01355c
+SHA256sum: 66b4793a75a95b5e842ad89c0b783ddbdf812c484705aaac8ea49beb7fc08783
 Description:  Kernel support for USB CDC Ethernet devices
 
 Package: kmod-usb-net-cdc-mbim
@@ -2438,9 +2495,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 3692
 Filename: kmod-usb-net-cdc-mbim_3.14.26-1_lantiq.ipk
-Size: 4457
-MD5Sum: cbd6ae8465f7b445cc86905b77e0a3b3
-SHA256sum: f46cc16db02746090830117aa3d912965f9e1a33e90f40e3d41a3f68082d74d3
+Size: 4459
+MD5Sum: 747cdf06a8b3a17201b6bf5bd6cf9f5e
+SHA256sum: 717459406e45408e667b333406aeb7bd7caa9c2d9efe2f784628a488fb3a2fff
 Description:  Kernel module for Option USB High Speed Mobile Devices
 
 Package: kmod-usb-net-cdc-ncm
@@ -2451,11 +2508,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 6882
+Installed-Size: 6883
 Filename: kmod-usb-net-cdc-ncm_3.14.26-1_lantiq.ipk
-Size: 7695
-MD5Sum: e1fd35ecfc675e59ceb2abb3d080f8ce
-SHA256sum: 39dba81e8c2255ed88c9bdd39a89a98b382a8dae84d4f19981205007ffc4c1fb
+Size: 7699
+MD5Sum: 8abb84be9e16dc30df1e39c3397365e5
+SHA256sum: d1ac593af8426b2322cabb644d3b351f84b471f446d1421d78a54122ace05703
 Description:  Kernel support for CDC NCM connections
 
 Package: kmod-usb-net-cdc-subset
@@ -2466,11 +2523,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 1192
+Installed-Size: 1193
 Filename: kmod-usb-net-cdc-subset_3.14.26-1_lantiq.ipk
-Size: 1996
-MD5Sum: f112dd6d753cf2c74af06078026fc812
-SHA256sum: d6cbfd132c27b78500f4b3ac31a029ebade365a7177d9dad0bf39924e1892ed5
+Size: 1997
+MD5Sum: aeb9247091912256c3901a07efe93b26
+SHA256sum: 08b38c6d9f804f6b4bb787ff0418d675548f1a23b8afa046d66a36a70d625567
 Description:  Kernel support for Simple USB Network Links (CDC Ethernet subset)
 
 Package: kmod-usb-net-dm9601-ether
@@ -2483,9 +2540,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 4070
 Filename: kmod-usb-net-dm9601-ether_3.14.26-1_lantiq.ipk
-Size: 4828
-MD5Sum: 1323ebc472785d07b820ced51baa5f4e
-SHA256sum: 3000e9f111907ea66d3acbcbf5500aa17c606a6d97795b4126fbbc972ffd7c22
+Size: 4824
+MD5Sum: e300960ebc49cbe952f4108eeddf065b
+SHA256sum: e9553271b91dae2ce419cb31b6d860867ea47e48a1fc65b752947054c77b7306
 Description:  Kernel support for USB DM9601 devices
 
 Package: kmod-usb-net-hso
@@ -2498,9 +2555,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 105
 Filename: kmod-usb-net-hso_3.14.26-1_lantiq.ipk
-Size: 859
-MD5Sum: 7537ec7a3825b7e2d5ea2beff07435fd
-SHA256sum: 2b60985a8e441aaf97243a8f32d808abf8d23229d44718b34613c2bcd13f4990
+Size: 860
+MD5Sum: 711a604cc4b9a0b79ed7719e46cf86b6
+SHA256sum: 5e111acb3c978b61ddac90345ad4c6c312e892d1a6b065a50e30eae47a7a1254
 Description:  Kernel module for Option USB High Speed Mobile Devices
 
 Package: kmod-usb-net-ipheth
@@ -2511,11 +2568,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 4475
+Installed-Size: 4474
 Filename: kmod-usb-net-ipheth_3.14.26-1_lantiq.ipk
-Size: 5226
-MD5Sum: bdd7ae8d8e2b8570581b6f7374a2c9e2
-SHA256sum: 509e0ef9b3eb9047a1dce48bef8d1142363a531c1439b73277ef8905b1f50867
+Size: 5225
+MD5Sum: bd5add63d375617319f58b5d8c069e87
+SHA256sum: 40840017b8ce4bb70e666be0b430947f835b0881f9b534d74c9dd6dc80bce020
 Description:  Kernel support for Apple iPhone USB Ethernet driver
 
 Package: kmod-usb-net-kalmia
@@ -2526,11 +2583,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 2686
+Installed-Size: 2685
 Filename: kmod-usb-net-kalmia_3.14.26-1_lantiq.ipk
-Size: 3447
-MD5Sum: d1f4d66738f89d96c6de65c29f80d4d5
-SHA256sum: 8a8fb0b89670e52eaa3ea8d5abbd52b41e499955504a66746bdeccd24e1f8780
+Size: 3449
+MD5Sum: a19884f3748c804676def8fff5b43b14
+SHA256sum: 4aedaa058e938442ec5d237c4e4e2e8e848b41d5cf3bd089d6f613a765f7344e
 Description:  Kernel support for Samsung Kalmia based LTE USB modem
 
 Package: kmod-usb-net-kaweth
@@ -2541,11 +2598,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 7157
+Installed-Size: 7155
 Filename: kmod-usb-net-kaweth_3.14.26-1_lantiq.ipk
-Size: 7917
-MD5Sum: cd4accf02b7ab5077f8804164718d040
-SHA256sum: e1f3429f086bb0f8177180e5e8e0af20c52fcff64d4b9ad990b5510895c9d1c4
+Size: 7915
+MD5Sum: 2d278d3179d8d7b2cfab892e17de8335
+SHA256sum: 22c9b2775e5e744ff2f3e22d7fc67a07c99dcb710cd91bcd5b0a5c4ca1bd7aaf
 Description:  Kernel module for USB-to-Ethernet Kaweth convertors
 
 Package: kmod-usb-net-mcs7830
@@ -2556,11 +2613,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 3417
+Installed-Size: 3416
 Filename: kmod-usb-net-mcs7830_3.14.26-1_lantiq.ipk
-Size: 4178
-MD5Sum: 8019dc939a1b2931e25657b7560b3232
-SHA256sum: 81c8b442609f4139bf695b62a83fab13105e1e8e3f6d844da9647bf591d48579
+Size: 4175
+MD5Sum: 4deb8bb5561753de31e3f19ad8e08e6d
+SHA256sum: 35095d81bc34a9176b0d6227f86ef5b59755918c53c520a413459078cfab61e9
 Description:  Kernel module for USB-to-Ethernet MCS7830 convertors
 
 Package: kmod-usb-net-pegasus
@@ -2571,11 +2628,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 10209
+Installed-Size: 10210
 Filename: kmod-usb-net-pegasus_3.14.26-1_lantiq.ipk
-Size: 10971
-MD5Sum: 4ee50f3f081514495f940b96768f15ee
-SHA256sum: 052ca9a92145be7a0b704016dd8fcf23f1eb9dcfa6918fdaa235aa98f023b986
+Size: 10979
+MD5Sum: a1f97cf31965dcb4f8688b7ac4869f98
+SHA256sum: c7986ee918a6f164919a79df8e5bd0065bcf9aa0ccd2ccdf590793cecb45d45a
 Description:  Kernel module for USB-to-Ethernet Pegasus convertors
 
 Package: kmod-usb-net-qmi-wwan
@@ -2586,11 +2643,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 4966
+Installed-Size: 4965
 Filename: kmod-usb-net-qmi-wwan_3.14.26-1_lantiq.ipk
-Size: 5472
-MD5Sum: 9c8b79044cf181f5867cd5edf7d28c45
-SHA256sum: c2cfcb06447541293c2f12975a6fda358c559f69121f67d7c5f16d2034ba4c1d
+Size: 5463
+MD5Sum: 480620a26dacde0500219eed05cacff1
+SHA256sum: 1824ab57c8488d7dd46ccc85b769337ee8123451b0e98aa31997d8e579cccc8f
 Description:  QMI WWAN driver for Qualcomm MSM based 3G and LTE modems
 
 Package: kmod-usb-net-rndis
@@ -2603,9 +2660,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 4490
 Filename: kmod-usb-net-rndis_3.14.26-1_lantiq.ipk
-Size: 5223
-MD5Sum: f218e5e803b6d7ab68c2f52c86dc89b3
-SHA256sum: c9adfd8be9ee46cfce75a8f24226d6752ee1167e62aa18e915d2dca8824af413
+Size: 5218
+MD5Sum: 7aa31bc3c0d3fad2eb2a3db29d929584
+SHA256sum: c67ff2c4dca9ed2699162925207aeb655de976cbb8329ec5249ebda65716935c
 Description:  Kernel support for RNDIS connections
 
 Package: kmod-usb-net-sierrawireless
@@ -2616,11 +2673,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 5485
+Installed-Size: 5484
 Filename: kmod-usb-net-sierrawireless_3.14.26-1_lantiq.ipk
-Size: 6252
-MD5Sum: b3be7f4e39f300f9fd9dd4f91e5a92d9
-SHA256sum: 920d0a1b46dc67a00aaec53b72c8456d9911a70e502c8fa0d0ec29eeaf5d1d44
+Size: 6246
+MD5Sum: 5b56887024df31e7a6eaa91573f9d3ca
+SHA256sum: d3c852ddcd7dcd6a09dadeab9430ad37e88cf81ac7b049b2bcb4ace5ee843bd0
 Description:  Kernel support for Sierra Wireless devices
 
 Package: kmod-usb-net-smsc95xx
@@ -2631,11 +2688,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 9931
+Installed-Size: 9930
 Filename: kmod-usb-net-smsc95xx_3.14.26-1_lantiq.ipk
-Size: 10726
-MD5Sum: 70a89b9c1d6233c6fd9b59967041de11
-SHA256sum: 4fea5410900d4c2f39699fc80ccf91beb134da4b5c1c809e6fac99e0fd4a49e5
+Size: 10714
+MD5Sum: 15782788bbf76c1346ac5e903813004e
+SHA256sum: c732cab04aac66662822eb1738b1d5ab655ce901e5f9f1447ed234fe6049e6f9
 Description:  Kernel module for SMSC LAN95XX based devices
 
 Package: kmod-usb-net
@@ -2646,11 +2703,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 13436
+Installed-Size: 13444
 Filename: kmod-usb-net_3.14.26-1_lantiq.ipk
-Size: 14190
-MD5Sum: 092fe7e9f720c59125d5ab8e6d0c6e45
-SHA256sum: e7918fb8bf1b6525841d9016a362817e1905864854f1ac75130b5196911fee2b
+Size: 14197
+MD5Sum: 96d62e6dd8d0376682d164958a45ff05
+SHA256sum: 60f0e907254965ab87089691cb123d104d8ee407f31ec406f146b6c9b1100e3f
 Description:  Kernel modules for USB-to-Ethernet convertors
 
 Package: kmod-usb-ohci
@@ -2661,11 +2718,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 13578
+Installed-Size: 13580
 Filename: kmod-usb-ohci_3.14.26-1_lantiq.ipk
-Size: 14312
-MD5Sum: 0acea5293845754e74891c549620d15d
-SHA256sum: 5cf8b176b4b61d5511f39f77de027b0e4ecb7d8208635b9d787fd610078f08d0
+Size: 14314
+MD5Sum: 9c8b1f2802978fd73695185c781edc83
+SHA256sum: 2e2f18d52dbca4aeb96ada859701dfa29579d9ab7f57ab4de1958ac14e5a666f
 Description:  Kernel support for USB OHCI controllers
 
 Package: kmod-usb-printer
@@ -2676,11 +2733,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 7218
+Installed-Size: 7219
 Filename: kmod-usb-printer_3.14.26-1_lantiq.ipk
-Size: 7980
-MD5Sum: d78c3cc07638b9d77f6e68fcfdfc8c71
-SHA256sum: 2653f8bce6ba07199b512d4607d22c5692cc3c908423cc5211d5e4ab1e241898
+Size: 7983
+MD5Sum: 4210d63c9e078675f179059973003251
+SHA256sum: fbc3894b7c294ceb9e471d7ebc9899cff65c457dfc6d4952f9abffe036e6dbdb
 Description:  Kernel support for USB printers
 
 Package: kmod-usb-serial-ark3116
@@ -2691,11 +2748,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 4301
+Installed-Size: 4299
 Filename: kmod-usb-serial-ark3116_3.14.26-1_lantiq.ipk
-Size: 5077
-MD5Sum: f034c1fa8fd4b62a498656f7f464f94e
-SHA256sum: 590fa8022431cab47594298ccb7e6cc1d00208b69e6423a876b10d7469cea0ab
+Size: 5074
+MD5Sum: 9016c24aa57ae49369548c0eb1078f17
+SHA256sum: 907872169cf7a9f30249d13a0c4ba4ec6978612c41ec4618fa17b2a6ae10a3e0
 Description:  Kernel support for ArkMicroChips ARK3116 USB-to-Serial converters
 
 Package: kmod-usb-serial-belkin
@@ -2708,9 +2765,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 3513
 Filename: kmod-usb-serial-belkin_3.14.26-1_lantiq.ipk
-Size: 4268
-MD5Sum: 7ea6064a215f794d017f98468b017323
-SHA256sum: 77a227fae2db6e3575bed9a48491fe0c3e7774daae1847db32d1d5903bdc1a9b
+Size: 4270
+MD5Sum: 3b5360a4598fd012a06a5dbdde0f3426
+SHA256sum: 888e271c34e36e33deba7dbf48c1b5cc92c88d954e530a6ccd0e9b8a42c7d14b
 Description:  Kernel support for Belkin USB-to-Serial converters
 
 Package: kmod-usb-serial-ch341
@@ -2721,11 +2778,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 3288
+Installed-Size: 3287
 Filename: kmod-usb-serial-ch341_3.14.26-1_lantiq.ipk
-Size: 4047
-MD5Sum: 52551a0f3cabb1bc72e02bce29530b6b
-SHA256sum: 79a2fbd45b4c5fd442a8367329e40af2aac6e7b57e7fd5bb908324ed0eb660a0
+Size: 4046
+MD5Sum: 03ecc38d8a42d6af0d88d91f05979823
+SHA256sum: 83e3c6c649481fd96e90e520ba468ee6e31b46c3b3e1fcd553790b97fa73e440
 Description:  Kernel support for Winchiphead CH341 USB-to-Serial converters
 
 Package: kmod-usb-serial-cp210x
@@ -2736,11 +2793,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 3988
+Installed-Size: 3984
 Filename: kmod-usb-serial-cp210x_3.14.26-1_lantiq.ipk
-Size: 4753
-MD5Sum: acc546646eb0170409817ab6f770e08d
-SHA256sum: 3889a25841d6bb60643d07a39a4950bdf12a6255094454b09120fe417e26d0f7
+Size: 4755
+MD5Sum: cd9d664baa3e9ce0d89a0b1ec607e09e
+SHA256sum: e1673a2e5a0f882c62df561a538bb941898172b463911125de0706ad6f54af84
 Description:  Kernel support for Silicon Labs cp210x USB-to-Serial converters
 
 Package: kmod-usb-serial-cypress-m8
@@ -2751,11 +2808,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 6289
+Installed-Size: 6283
 Filename: kmod-usb-serial-cypress-m8_3.14.26-1_lantiq.ipk
 Size: 7200
-MD5Sum: 704cafd5dc5cb6960e9617e76b4cfaa8
-SHA256sum: 128300578d5a2094794c2e2cea757b3a6b6e2ae31239b22791796a0046242829
+MD5Sum: f22c7fa4135928609a1b8a07e23fae0f
+SHA256sum: 42ab5561f929e050111c2ff8b945250e3793f3b771d4676a9eb9d2b7dbecf297
 Description:  Kernel support for devices with Cypress M8 USB to Serial chip
  (for example, the Delorme Earthmate LT-20 GPS)
  Supported microcontrollers in the CY4601 family are:
@@ -2769,11 +2826,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 11084
+Installed-Size: 11082
 Filename: kmod-usb-serial-ftdi_3.14.26-1_lantiq.ipk
-Size: 11698
-MD5Sum: 431fe3479944db06f103aea0f212cb15
-SHA256sum: 606f0aad9b47555ebb92c36ae6654b4e4b6a958ed0a46f72683334c7cadfec30
+Size: 11704
+MD5Sum: 5fa2479f60ecabefbcdf782050bafaee
+SHA256sum: 49ff789ddb8e1fa9f244dca29c7078814ee8b192baa5e4d93b81616317180959
 Description:  Kernel support for FTDI USB-to-Serial converters
 
 Package: kmod-usb-serial-ipw
@@ -2784,11 +2841,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 2026
+Installed-Size: 2022
 Filename: kmod-usb-serial-ipw_3.14.26-1_lantiq.ipk
-Size: 2774
-MD5Sum: 150a3ad4f8ea09daac58a30c944c3e95
-SHA256sum: b605c7b9e54cfe8f3a587fb02e5db391fa987e618c71d0134d087d4b98be1d95
+Size: 2770
+MD5Sum: 86d2c5b751529ab2cbbcd2a458604634
+SHA256sum: 39c3b2db00e6b385b068f82467518261787cb498ac7ec5c0d28f9176c209d34b
 Description:  Support for IPWireless 3G devices
 
 Package: kmod-usb-serial-keyspan
@@ -2799,11 +2856,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 10989
+Installed-Size: 10990
 Filename: kmod-usb-serial-keyspan_3.14.26-1_lantiq.ipk
-Size: 11756
-MD5Sum: 26593abe6295fc9be18e3a973fe4b9d4
-SHA256sum: 05a2c6f52a8676e7c027434ec630bb5fb4e39db866a9f481a23b5daf93f54ecd
+Size: 11762
+MD5Sum: b58321e2d68cc5d27c8db9810818f949
+SHA256sum: 023ea2daf553f020d1ae9e920dc8a00c37ed0df78e55b72d059acfeea44ee493
 Description:  Kernel support for Keyspan USB-to-Serial devices
 
 Package: kmod-usb-serial-mct
@@ -2814,11 +2871,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 3923
+Installed-Size: 3920
 Filename: kmod-usb-serial-mct_3.14.26-1_lantiq.ipk
-Size: 4684
-MD5Sum: 0b7017083a98259c7647fd1536939b72
-SHA256sum: ef6481c2c74af0b76d8f3491bc4576f97f7233785aa2f9c42fdc54c2cbeb7535
+Size: 4683
+MD5Sum: 3a47d9e19befa4a592b453e83e388f62
+SHA256sum: 51d6f86e28b5b257bcd0f0d5f40bd26215b5d40d20f60e02cfc1c8c7c74d353a
 Description:  Kernel support for Magic Control Technology USB-to-Serial converters
 
 Package: kmod-usb-serial-mos7720
@@ -2829,11 +2886,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 5276
+Installed-Size: 5277
 Filename: kmod-usb-serial-mos7720_3.14.26-1_lantiq.ipk
-Size: 6037
-MD5Sum: 1c219efaeb267e194c235ea60ef7a07d
-SHA256sum: 4eed3d2ded65ffd4ebd30a85843b3ee582e14c08f753d6390d7525b4416ddf3c
+Size: 6041
+MD5Sum: 0599cbe08168123744c51b380cd4d410
+SHA256sum: 1920287ffea2a1306a11226477f319981f5e73d6fa0ecda395aeb540621b2d1e
 Description:  Kernel support for Moschip MOS7720 USB-to-Serial converters
 
 Package: kmod-usb-serial-motorola-phone
@@ -2846,9 +2903,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 105
 Filename: kmod-usb-serial-motorola-phone_3.14.26-1_lantiq.ipk
-Size: 852
-MD5Sum: c5753525edf1b09ec965f284b8f5ce2f
-SHA256sum: f47c5735e51330ae88e672ea105ebf813af01ab4e152cab768d01c9da99a36a6
+Size: 850
+MD5Sum: da7cc75546865dbd85d321deefc5056d
+SHA256sum: 6875c33735ccd8b064912dab0770229bfd4174dfb368ff7a4d058e65b862d23d
 Description:  Kernel support for Motorola usb phone
 
 Package: kmod-usb-serial-option
@@ -2859,11 +2916,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 6041
+Installed-Size: 6038
 Filename: kmod-usb-serial-option_3.14.26-1_lantiq.ipk
-Size: 5828
-MD5Sum: 36b769f9951d6c7e4ec5ccf4d981585b
-SHA256sum: 14a8cc33d30eac8321f103b4ad83601cbd7471d0bfbeae3a3d21c8b67845243f
+Size: 5826
+MD5Sum: 53e4d5c392fa51a29a7b0e74aa3cb274
+SHA256sum: f2ccf9ace9e02fbf43ff765c8f8b724e2db0c58133bfb4e283f6acd0842898bf
 Description:  Kernel support for Option HSDPA modems
 
 Package: kmod-usb-serial-oti6858
@@ -2874,11 +2931,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 4440
+Installed-Size: 4438
 Filename: kmod-usb-serial-oti6858_3.14.26-1_lantiq.ipk
-Size: 5208
-MD5Sum: 665e5450aa93cdbe646ffc770606114e
-SHA256sum: 00831388d1f54e85787474f1f1a72d42acf1e91110cff85496b5602fbf5d1087
+Size: 5203
+MD5Sum: d34a494b35ca1737ee7bb2fbaf0dcbfb
+SHA256sum: 72812d499e6f00feab50931d1c5ad22acffa3a8863ff5d3df7ebd949a55f57ed
 Description:  Kernel support for Ours Technology OTI6858 USB-to-Serial converters
 
 Package: kmod-usb-serial-pl2303
@@ -2889,11 +2946,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 5039
+Installed-Size: 5036
 Filename: kmod-usb-serial-pl2303_3.14.26-1_lantiq.ipk
-Size: 5802
-MD5Sum: 06f393f7f893b52bb17c0d18f6935b9f
-SHA256sum: 40fbd324fcc816b759985cf3f9c7ff0b8e72c251c2a2922e30befbc4bce62e0d
+Size: 5804
+MD5Sum: d0f08f03815587735c2565f7fff88310
+SHA256sum: fcc8c6a0d3f01730fe5bf43a2f1d3e29f5ce3d5c729f691518471e7551702deb
 Description:  Kernel support for Prolific PL2303 USB-to-Serial converters
 
 Package: kmod-usb-serial-qualcomm
@@ -2906,9 +2963,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 2159
 Filename: kmod-usb-serial-qualcomm_3.14.26-1_lantiq.ipk
-Size: 2907
-MD5Sum: 7a8e22806ed2908c6aeeba13c8c2c254
-SHA256sum: 9b0797c4d5f7659c61b71f24401422bc6dadaa5429c1111601dbb20b12c3ba4c
+Size: 2903
+MD5Sum: 223e0590c026a90056b2e601d9efab13
+SHA256sum: aaa8b66e773151043c4d39568a8cf59232c3c28150fe0922656f92009982ff7e
 Description:  Kernel support for Qualcomm USB Serial devices (Gobi)
 
 Package: kmod-usb-serial-sierrawireless
@@ -2919,11 +2976,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 4692
+Installed-Size: 4687
 Filename: kmod-usb-serial-sierrawireless_3.14.26-1_lantiq.ipk
-Size: 5445
-MD5Sum: c238b76d76740e95c6bf4f705f706174
-SHA256sum: 783528fe6367b1f77247308b6630f5e395f9cf560bed2378b302aa7d969c542a
+Size: 5438
+MD5Sum: 1b3c7036b7a4e435ee57f7fa3dda4913
+SHA256sum: 0d9196e3af708aadea95dfb07b950469096c7652e1b4434dda2fdefc74eaa7db
 Description:  Kernel support for Sierra Wireless devices
 
 Package: kmod-usb-serial-ti-usb
@@ -2934,11 +2991,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 8088
+Installed-Size: 8087
 Filename: kmod-usb-serial-ti-usb_3.14.26-1_lantiq.ipk
-Size: 8866
-MD5Sum: e58aa0a61cfcf32d3cbd2f4b795b1f50
-SHA256sum: d89d97bf800a8c74ad9f37cbe2f7671ee852023605f0392e24f752a89e09de75
+Size: 8857
+MD5Sum: 3b085f156b31eec00601b231d6589c4b
+SHA256sum: 2554379c1a8e45170aad65b7c81ef612bf4e497451be18dfc7e7f8b509c2ffd5
 Description:  Kernel support for TI USB 3410/5052 devices
 
 Package: kmod-usb-serial-visor
@@ -2949,11 +3006,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 3915
+Installed-Size: 3912
 Filename: kmod-usb-serial-visor_3.14.26-1_lantiq.ipk
-Size: 4652
-MD5Sum: 3036ccfab75ed9a3b9f7f722c2a23766
-SHA256sum: 324f0b78a9d8ab40b71dd14a7e62cf11208a28c31328ddf23780a8091eead956
+Size: 4650
+MD5Sum: 01ac195fb77d37f33dd10a755e2b54db
+SHA256sum: a732f42bfbe0f748f74eec9d8f37b08cecdef95bc183729717746bb8b9ca28d9
 Description:  Kernel support for Handspring Visor PDAs
 
 Package: kmod-usb-serial-wwan
@@ -2964,11 +3021,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 4023
+Installed-Size: 4019
 Filename: kmod-usb-serial-wwan_3.14.26-1_lantiq.ipk
-Size: 4779
-MD5Sum: f0d94b26e8cfd50e237ed0540a370308
-SHA256sum: 403634449d21cb70e06d192651cd9f7feee7b664306eda6af49a8b282d1790fe
+Size: 4772
+MD5Sum: 0f331496a585ee7f877c7de3c5d06e17
+SHA256sum: 76ce56effd43d5eca28b69f859d5d2ed0c67ae3691ac88f979926aa049cddabc
 Description:  Kernel support for USB GSM and CDMA modems
 
 Package: kmod-usb-serial
@@ -2979,11 +3036,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 14118
+Installed-Size: 14122
 Filename: kmod-usb-serial_3.14.26-1_lantiq.ipk
 Size: 14874
-MD5Sum: cb86e3b7d2901693ebdcb6e9dcebd0c1
-SHA256sum: e88870973209619086cab57145f97e7c6b49579b96ffd5b05485969a95f7d9a0
+MD5Sum: 2c95cf3b21c71c1d29a03b0efd99ef6b
+SHA256sum: 1af72e0e2424c1a7b7dbfe4c2ace3047d06a2023ea2168d7faf946bf5f044883
 Description:  Kernel support for USB-to-Serial converters
 
 Package: kmod-usb-storage-extras
@@ -2994,11 +3051,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 32990
+Installed-Size: 32994
 Filename: kmod-usb-storage-extras_3.14.26-1_lantiq.ipk
-Size: 33699
-MD5Sum: 1b7e8ed2eed8838c4d63fe25ca4015c1
-SHA256sum: b967b645da261869cbeae8a5da9158b45599e118ba91f52a089997747ea48066
+Size: 33697
+MD5Sum: 09f5476d479791be968292f9a93a4c23
+SHA256sum: 3b360fb6339bbabe1ee010cfc2679e421f32deaf83c1509ace9315a8b0723c98
 Description:  Say Y here if you want to have some more drivers,
  such as for SmartMedia card readers
 
@@ -3012,9 +3069,9 @@ Status: unknown hold not-installed
 Architecture: lantiq
 Installed-Size: 23194
 Filename: kmod-usb-storage_3.14.26-1_lantiq.ipk
-Size: 23109
-MD5Sum: 5a536e8a2d74ac9d720bb2a6f8060d51
-SHA256sum: ca5309bbeafba86bdca1462534e2e29a2ba392f11fbc89baaf4046dbd971b941
+Size: 23100
+MD5Sum: d38c376c739997592bbed46e4208c8b8
+SHA256sum: fa330285a7439e05cb2644d1e920bc4eecf7a0f56934b45dfd411b5748035a0a
 Description:  Kernel support for USB Mass Storage devices
 
 Package: kmod-usb-uhci
@@ -3025,11 +3082,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 14543
+Installed-Size: 14547
 Filename: kmod-usb-uhci_3.14.26-1_lantiq.ipk
-Size: 15247
-MD5Sum: 8b968f9ea57cb0bc6c3da4e908ed2e40
-SHA256sum: 0391e7399076465ddfc74398a94430214026ae79f1a9f6cee3266af2209f8593
+Size: 15255
+MD5Sum: 168108195fab452660b8ace1186983a0
+SHA256sum: 99ae7e2643a2bcc340a187d40dde1120c406dd53a80005d738cc0465a415c541
 Description:  Kernel support for USB UHCI controllers
 
 Package: kmod-usb-wdm
@@ -3040,11 +3097,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 6719
+Installed-Size: 6720
 Filename: kmod-usb-wdm_3.14.26-1_lantiq.ipk
-Size: 7503
-MD5Sum: cf46c0361e5d6ee73db0f3d651d6f975
-SHA256sum: 2a629700fcd9de23f31267beacedd091122f8220425a817c7f9592d52bef3563
+Size: 7497
+MD5Sum: 4b9e16cd066145fb2c358a18c965ff55
+SHA256sum: 9612d281e9508130c1cd98f8775405b69b040481400bb2f0c544becdb130560a
 Description:  USB Wireless Device Management support
 
 Package: kmod-usb2
@@ -3055,11 +3112,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 26527
+Installed-Size: 26529
 Filename: kmod-usb2_3.14.26-1_lantiq.ipk
-Size: 27232
-MD5Sum: 6551f20350c799f6c8966aecca5a47fb
-SHA256sum: 8c721a08f2662012771d292a2dea6b19fb08e86dda2a88bcabcef163481de28c
+Size: 27230
+MD5Sum: ed754e1b9e4d6b1dd43a85e8b8ced2ee
+SHA256sum: 6fecd7d44663fcca45acfb2aecc979934a4a039da90c3ab58e6a018933788b88
 Description:  Kernel support for USB2 (EHCI) controllers
 
 Package: kmod-zram
@@ -3070,11 +3127,11 @@ License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: lantiq
-Installed-Size: 10386
+Installed-Size: 10384
 Filename: kmod-zram_3.14.26-1_lantiq.ipk
-Size: 11170
-MD5Sum: bb88986a2258b80108d50362eca5035c
-SHA256sum: a3546b3a1853d7bf9e70ba9757eddc3797fd17df3f534d70354ded003a295eea
+Size: 11168
+MD5Sum: c24ce9979fa2311de9ac6e430f1a187a
+SHA256sum: 6de5b4dc902cea52396d19f6f9d14e0435806a5e2fa9f0962d0ae9c0de22546b
 Description:  Compressed RAM block device support
 
 Package: libblkid
@@ -3085,11 +3142,11 @@ License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: libs
 Architecture: lantiq
-Installed-Size: 102057
+Installed-Size: 102059
 Filename: libblkid_2.25.2-2_lantiq.ipk
-Size: 102869
-MD5Sum: 6e8cf08760c31a35f1ee3f8a449f42f5
-SHA256sum: 6b7968343266af6156145d5abda210fffeee48db3f7a24e3773bb3f9bc5e661a
+Size: 102863
+MD5Sum: 436e73f144c3bee2b0c1e234cd0a1c9b
+SHA256sum: abe7b0876f9ac192d0a003935f5f179719ff634e9a71008abf751f9ae8547904
 Description:  The libblkid library is used to identify block devices (disks) as to their
  content (e.g. filesystem type, partitions) as well as extracting additional
  information such as filesystem labels/volume names, partitions, unique
@@ -3103,11 +3160,11 @@ License: ISC
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 3463
+Installed-Size: 3464
 Filename: libblobmsg-json_2014-11-23-f09ae76445e32511433fdab0a1bcda73aa84986d_lantiq.ipk
-Size: 4240
-MD5Sum: 9d233b7eed89b03954099ef9fcc9a17e
-SHA256sum: 0aefcecd8c27b568f6389952c547efafb2e87b4491de0567aa4425e2d7327149
+Size: 4246
+MD5Sum: 40808cb56a74ecb9314d8318a4adc05e
+SHA256sum: 33f7eab0f9353ad63cceba0f8260e86b23e9ff9ba96f319cffa699d38147947c
 Description:  blobmsg <-> json conversion library
 
 Package: libcurl
@@ -3119,11 +3176,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Imre Kaloz <kaloz@openwrt.org>
 Architecture: lantiq
-Installed-Size: 98136
+Installed-Size: 98137
 Filename: libcurl_7.38.0-1_lantiq.ipk
-Size: 98947
-MD5Sum: de34c8b2700823e5602599bdc6fdf597
-SHA256sum: 792e0b045252cb12fb1e37bb652f5b20d485414585dcc2f012816b3a2e30025f
+Size: 98949
+MD5Sum: 36da78af94845b110dfabb71132440a9
+SHA256sum: 134251b8edcd8919d79cc4c8566e400fd80a33c76cd5e2559310d6dd57fd4180
 Description:  A client-side URL transfer library using PolarSSL
 
 Package: libevent2
@@ -3134,11 +3191,11 @@ License: BSD-3-Clause
 Section: libs
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 99367
+Installed-Size: 99364
 Filename: libevent2_2.0.21-1_lantiq.ipk
-Size: 100546
-MD5Sum: fb2adb08e8277a78513f1193d5b29fea
-SHA256sum: d2977edcf4c55673cc39c96359481b5d01e91b0efa11c33886f94441c801a423
+Size: 100539
+MD5Sum: e1e87eacbe7f9d134bbf1ff6a73ed51e
+SHA256sum: e11f3e3006709590d5d55639743f3526cb1bfd11bf5a2503c6cffd48ff795dce
 Description:  The libevent API provides a mechanism to execute a callback function
  when a specific event occurs on a file descriptor or after a timeout
  has been reached. Furthermore, libevent also support callbacks due
@@ -3158,11 +3215,11 @@ Depends: libc
 Source: package/utils/e2fsprogs
 Section: libs
 Architecture: lantiq
-Installed-Size: 120218
+Installed-Size: 120216
 Filename: libext2fs_1.42.4-1_lantiq.ipk
-Size: 120818
-MD5Sum: dd5e3bcf8accc57811c2d8f7890c08ff
-SHA256sum: f0299fc1f7616a31b57ec5781b9d54752564246cb127293a1c9d54e8edd45b1a
+Size: 120828
+MD5Sum: d91222f48b7cd87bd4226b7e08a68bed
+SHA256sum: afcebfdd150ab74aec33e8ba6e818342ebd33fbeb5b618ce3c718930fc354c92
 Description:  libext2fs is a library which can access ext2, ext3 and ext4 filesystems.
 
 Package: libfuse
@@ -3173,11 +3230,11 @@ License: LGPLv2.1 GPLv2
 LicenseFiles: COPYING.LIB COPYING
 Section: libs
 Architecture: lantiq
-Installed-Size: 58762
+Installed-Size: 58764
 Filename: libfuse_2.9.0-2_lantiq.ipk
-Size: 59499
-MD5Sum: 6f33168283d24564f9d2ea15e9cefd04
-SHA256sum: cab06bd933985faaa7869aeec8ba5d58759217d7c26dfb018dd462e0f3e8c9f9
+Size: 59497
+MD5Sum: 66a5051ac486477f84f06febcc5622ba
+SHA256sum: 14b6b332793377af5f8d2963a02f2146f01710fe94778d68f2188f1f71728882
 Description:  FUSE (Filesystem in UserSpacE)
  This package contains the FUSE shared libraries, needed by other programs.
  - libfuse
@@ -3192,11 +3249,11 @@ Status: unknown hold not-installed
 Essential: yes
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 35286
+Installed-Size: 35287
 Filename: libgcc_4.8-linaro-1_lantiq.ipk
-Size: 36103
-MD5Sum: c06bde3f32cda017b119e9516225e5f5
-SHA256sum: ea24b248bc2b3f65dfabdbb2b3df55658b8a9a21b4ab04babe2d0eb99240ffa3
+Size: 36107
+MD5Sum: 258908620c34b91427b3b882761ebb2e
+SHA256sum: 7d1bb6f6904c0157a9e7fe327608862acfa21385dbc95dd1df51118c5808afc8
 Description:  GCC support library
 
 Package: libgmp
@@ -3206,11 +3263,11 @@ Source: package/libs/gmp
 License: GPL-2.0+
 Section: libs
 Architecture: lantiq
-Installed-Size: 233140
+Installed-Size: 233139
 Filename: libgmp_6.0.0-1_lantiq.ipk
-Size: 233891
-MD5Sum: d4696243b753c71eafb7ed180c21a0c3
-SHA256sum: 0f5445da35991f8be8e1c6aa43728a8c3bcaacac585144b83737303742f33798
+Size: 233886
+MD5Sum: 19433e8ccb1e51bbb9787246f6928220
+SHA256sum: bc7fcd949c75016739089517ca4e1664914f18509c294d8c4be169b5eea2660a
 Description:  GMP is a free library for arbitrary precision arithmetic, operating on
  signed integers, rational numbers, and floating point numbers.
 
@@ -3221,11 +3278,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: libs
 Architecture: lantiq
-Installed-Size: 10554
+Installed-Size: 10555
 Filename: libip4tc_1.4.21-1_lantiq.ipk
-Size: 11240
-MD5Sum: 832994419f16387a444c415746d40d96
-SHA256sum: 0ec3de1bfa8ffe25332492cb014b3e9b61938d3bec464952425d744ebc8f094d
+Size: 11250
+MD5Sum: 866e3b5d5600c254c8f8989cafe8a8c6
+SHA256sum: ef530999a68f3fe7538abfd3fc3eaba200f152d9ebfda4d0f80ec446128c6d7a
 Description:  IPv4 firewall - shared libiptc library
 
 Package: libip6tc
@@ -3235,11 +3292,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: libs
 Architecture: lantiq
-Installed-Size: 11001
+Installed-Size: 11002
 Filename: libip6tc_1.4.21-1_lantiq.ipk
-Size: 11696
-MD5Sum: dfd2c1c3be50f0387564df9cee9ba222
-SHA256sum: e1081c72a0c7a55a984a98b9b61c81205e5da19dad319666b8ba49278a9bedb1
+Size: 11691
+MD5Sum: aeda9895ed7865f750ca1362d9e9254a
+SHA256sum: e2e08e66d276778e77b2a33c5fa39b9a92b7b5b122f6d2abb7769e16043e6051
 Description:  IPv6 firewall - shared libiptc library
 
 Package: libiptc
@@ -3249,11 +3306,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: libs
 Architecture: lantiq
-Installed-Size: 1185
+Installed-Size: 1187
 Filename: libiptc_1.4.21-1_lantiq.ipk
-Size: 1914
-MD5Sum: 1e4c2da3320609e1834b6e8a461cdc19
-SHA256sum: 2221ab48261798d2e99b1d0c7dbc43dbca9b2d493f35476964c8ebd6814a0c7f
+Size: 1917
+MD5Sum: def2f43c2ed365b86b307f554d410137
+SHA256sum: 69aff233b4060497d2d415eafa306cb23911061b398de8a0e1ab716ec8618600
 Description:  IPv4/IPv6 firewall - shared libiptc library (compatibility stub)
 
 Package: libiwinfo-lua
@@ -3264,11 +3321,11 @@ License: GPL-2.0
 Section: lang
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 6307
+Installed-Size: 6308
 Filename: libiwinfo-lua_2014-12-12-50370d9e698696770b021caf0b5f6482bacb45ce_lantiq.ipk
-Size: 7040
-MD5Sum: ca4bed4179796fd4d475c3f37dc9876c
-SHA256sum: c0e32a50697a3b19c23cc3fe9b33c75859f4f2803cc1bb3133731081e3f62147
+Size: 7042
+MD5Sum: 3ece12fe2e986f93b74ac06734fd9d74
+SHA256sum: 97c92b6768ae26fd1ef353c734f389f396b9756cb38cb5720d8a474fc0c7573c
 Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
  backends.
 
@@ -3280,11 +3337,11 @@ License: GPL-2.0
 Section: libs
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 22940
+Installed-Size: 22949
 Filename: libiwinfo_2014-12-12-50370d9e698696770b021caf0b5f6482bacb45ce_lantiq.ipk
-Size: 23696
-MD5Sum: 6be4ab113cb4f38b1e49fdf1b7733290
-SHA256sum: f970949ba05448925729ace70d157a100dae3116c1006574b0a21a34744ea72d
+Size: 23705
+MD5Sum: 6793e96fa9c461a74c1bf26e60272d83
+SHA256sum: 42b35c9612ae577b6f7bcb25bf4859cf073339cb41274fe504dcd336875d1797
 Description:  Wireless information library with consistent interface for proprietary Broadcom,
  madwifi, nl80211 and wext driver interfaces.
 
@@ -3297,11 +3354,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 13736
+Installed-Size: 13737
 Filename: libjson-c_0.11-2_lantiq.ipk
-Size: 14501
-MD5Sum: 8d4a089d95415a6cdfaaf8eb8643cd2b
-SHA256sum: 51613b43d489f5e02335fde052dbfdbbc91a1554bb9d9455d4906206d91bd4db
+Size: 14499
+MD5Sum: 5350aa124113f0e6361d14ad7b43624d
+SHA256sum: 9759193067c2771454d412e84ab347d55b9b018155a9c9b066268cbe7539dfe0
 Description:  This package contains a library for javascript object notation backends.
 
 Package: libjson-script
@@ -3312,11 +3369,11 @@ License: ISC
 Section: utils
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 4653
+Installed-Size: 4656
 Filename: libjson-script_2014-11-23-f09ae76445e32511433fdab0a1bcda73aa84986d_lantiq.ipk
 Size: 5397
-MD5Sum: 8c329d448a6e4321ee49ffd3621499a8
-SHA256sum: 5bdad9822b9aa91100b54df581dca0241fcd460ade1d7069768fa5eefbc45305
+MD5Sum: c5744c239463771b00c74a9eef2d353b
+SHA256sum: 446d2bd1fadd34cd32cf46ce033485966ac8a38dffbd667a49a27908d7937721
 Description:  Minimalistic JSON based scripting engine
 
 Package: libltdl
@@ -3327,11 +3384,11 @@ License: GPL-2.0+
 LicenseFiles: COPYING
 Section: libs
 Architecture: lantiq
-Installed-Size: 13257
+Installed-Size: 13261
 Filename: libltdl_2.4-1_lantiq.ipk
-Size: 13977
-MD5Sum: 5c93bb6f0932ece78b257adef5975cc4
-SHA256sum: 8266deb77a93376ec1fece1c116cec80ab644744996b201931cb804d9c15694d
+Size: 13986
+MD5Sum: 9521d7dd2ffdbe65d36fbfd76d4ab6b2
+SHA256sum: 7b340b857ff8ab92702117c12ce6b20e001a0026f625be6591fc0aa24bb0dd26
 Description:  A generic dynamic object loading library
 
 Package: liblua
@@ -3345,9 +3402,9 @@ Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
 Installed-Size: 70992
 Filename: liblua_5.1.5-1_lantiq.ipk
-Size: 71500
-MD5Sum: df4da3bcf7185f6c9c56a10349addf77
-SHA256sum: be726b1a782a709e18aac29a20b7c354cad1a20adbc632b19081f58672d7c156
+Size: 71504
+MD5Sum: 4c71629f066a061ea90cf492cfc13015
+SHA256sum: 7ad0dde7da11df68fa56dd978b7a37990424339d4729da32f462ad5b8c8a9606
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
@@ -3362,9 +3419,9 @@ Section: libs
 Architecture: lantiq
 Installed-Size: 42197
 Filename: liblzo_2.08-1_lantiq.ipk
-Size: 43025
-MD5Sum: 24da1153568cac7420bee9f80207fa93
-SHA256sum: 99daf1f6bef3c6aec98ff39e8e08cb87a82e36b11b2b487d1d6c6927334604e8
+Size: 43026
+MD5Sum: 528cfd879bcaa99bffe6c57ddb722c4d
+SHA256sum: 8a7714f85cc10d61f9fc6c90be99398977fc174616ab6aca793b31d4482ea673
 Description:  LZO is a data compression library which is suitable for data de-/compression
  in real-time. This means it favours speed over compression ratio.
 
@@ -3376,11 +3433,11 @@ License: MIT
 LicenseFiles: README
 Section: libs
 Architecture: lantiq
-Installed-Size: 137196
+Installed-Size: 137199
 Filename: libncurses_5.9-1_lantiq.ipk
-Size: 133608
-MD5Sum: c80c534573df3cd8dc6105a13c188461
-SHA256sum: eb2d1e7d816fb70b0a1866976561da03589546315b5257e941da8a51480dcfc9
+Size: 133595
+MD5Sum: 46e2d994ec193dd67314676684c973a0
+SHA256sum: 47e192d0f779f6d4173b72ddd292fc1686921429828435d31843ecc8cec36cec
 Description:  Terminal handling library
 
 Package: libncursesw
@@ -3391,11 +3448,11 @@ License: MIT
 LicenseFiles: README
 Section: libs
 Architecture: lantiq
-Installed-Size: 164136
+Installed-Size: 164139
 Filename: libncursesw_5.9-1_lantiq.ipk
-Size: 160166
-MD5Sum: bb6769e5973dd0bfa8b7edbe5a109060
-SHA256sum: 17131af782dea69700f660cab37397391ca3c4e1659eb5f809ba55a2ea2c5cbc
+Size: 160161
+MD5Sum: 9575c0b5432460e20f923ec8d04c801e
+SHA256sum: 4748977bd61ddf1f82fb140c3165f6adea43a30e9e9114deace7ca6b6fa8a487
 Description:  Terminal handling library (Unicode)
 
 Package: libnettle
@@ -3407,11 +3464,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
 Architecture: lantiq
-Installed-Size: 238350
+Installed-Size: 238347
 Filename: libnettle_2.7.1-1_lantiq.ipk
-Size: 238330
-MD5Sum: 03b07b53160002b6950eb75b28dc79e5
-SHA256sum: 6164c7ec8d3b696aa29c7ac17657cf68d3165ef8536f1b3e747c94032260888c
+Size: 238326
+MD5Sum: 81cf2023cd0d2c1095725ba989abf4a1
+SHA256sum: 4573893c343a5d1fc5e99ac2d1ba9433d7d84eb1dad2ba12b869bf7c1e005a4d
 Description:  GNU crypto library
 
 Package: libnfnetlink
@@ -3422,11 +3479,11 @@ License: GPL-2.0+
 Section: libs
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 8571
+Installed-Size: 8570
 Filename: libnfnetlink_1.0.1-1_lantiq.ipk
-Size: 9484
-MD5Sum: 02fa9a6967bcdf0ff2e28c9bf046ab39
-SHA256sum: f3ab9375259d18921f468d9ffd85685f30c4b7a89cacd76fd77f66766df713f6
+Size: 9481
+MD5Sum: 8de7e398a2ac0029be9e89b429fb1b72
+SHA256sum: cf8183d9a27717d4c5a2125122d9c8a00843c4d11d09eba1a99bd858d9a00512
 Description:  libnfnetlink is is the low-level library for netfilter related kernel/userspace communication.
  It provides a generic messaging infrastructure for in-kernel netfilter subsystems
  (such as nfnetlink_log, nfnetlink_queue, nfnetlink_conntrack) and their respective users
@@ -3440,11 +3497,11 @@ License: LGPL-2.1
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 12333
+Installed-Size: 12336
 Filename: libnl-tiny_0.1-4_lantiq.ipk
-Size: 13066
-MD5Sum: ecd8ad106f9e0ad7bdf85e155049de8c
-SHA256sum: 8bcd9523ddf6378a64220fe2365b0e53bc81c88c498848271dc35da719e5f315
+Size: 13081
+MD5Sum: a84592610064984b68de6dbbd791adac
+SHA256sum: 890c71b6bf0077df703508f0a1139de845a4a0cfa4f8a5cb79315e8bec3e0d4b
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl
@@ -3457,9 +3514,9 @@ Section: libs
 Architecture: lantiq
 Installed-Size: 690560
 Filename: libopenssl_1.0.1j-3_lantiq.ipk
-Size: 685089
-MD5Sum: 272321175f217b80b2603ff3123b53c4
-SHA256sum: 10baf0e3b5c2aa963b11b50a2c21a111ad5bae582cdccb67847e4f1f9d684175
+Size: 685062
+MD5Sum: 176fafa91288732d7f00f91c648138fc
+SHA256sum: 4bc8570d4ace050ab0892df0ac32df67ca5386cc7330e0a4f5e70daef201e415
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the Secure
  Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
@@ -3476,9 +3533,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
 Installed-Size: 86853
 Filename: libpcap_1.5.3-1_lantiq.ipk
-Size: 87485
-MD5Sum: fda9ec3f8e09d6722b4bec3fb0410d76
-SHA256sum: 6862cd96d04c009efb2b61eb2bd75a0f3842096b0a83eacfa38a89c31c710518
+Size: 87482
+MD5Sum: 1b160220734f9c73e44dc4e0ff34331a
+SHA256sum: b0a1de2510405b7ad6d350852e6b2740288fd13cd788ee853223c4d796fccd60
 Description:  This package contains a system-independent library for user-level network packet
  capture.
 
@@ -3489,11 +3546,11 @@ Source: package/libs/polarssl
 License: GPL-2.0+
 Section: libs
 Architecture: lantiq
-Installed-Size: 139207
+Installed-Size: 139209
 Filename: libpolarssl_1.3.9-1_lantiq.ipk
-Size: 139836
-MD5Sum: 79374c3b03ce0751e6912ea7f531d1e2
-SHA256sum: 429fa8bf5f1501cce7fb7ce0ab35a26e329264b4b0e11de71f9458f40e9a8bb0
+Size: 139835
+MD5Sum: 12b701d21562cc9429a10b3e653ce219
+SHA256sum: 73a5173d9584c80a6a380ceef8befff6f0f24e24dc34818926e48c2d7404dbb0
 Description:  The aim of the PolarSSL project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the PolarSSL library.
@@ -3505,11 +3562,11 @@ Source: package/libs/popt
 License: MIT
 Section: libs
 Architecture: lantiq
-Installed-Size: 13215
+Installed-Size: 13214
 Filename: libpopt_1.7-5_lantiq.ipk
-Size: 13891
-MD5Sum: 4b43f850cc7ada4142a41e7c25747784
-SHA256sum: f24c9b51967f22dc85b7343a490801d203d05b79f96b631c0327b8f93ec3f1e6
+Size: 13893
+MD5Sum: 952e8e0ef6b12abd832df95c49ca4f3b
+SHA256sum: ddb66d8698415460662584fdc1d3cbeed1c58f4e536571f8049d35d0f64dbdf1
 Description:  A command line option parsing library
 
 Package: libpthread
@@ -3522,11 +3579,11 @@ Status: unknown hold not-installed
 Essential: yes
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 30475
+Installed-Size: 30472
 Filename: libpthread_0.9.33.2-1_lantiq.ipk
-Size: 31229
-MD5Sum: 2c1f4cfce8a113f61bec6f97b96fbcd4
-SHA256sum: bd36be6f66f2e5c0911c371b91c2cc3014605ef9edcb77fdbde983f70c5f7624
+Size: 31224
+MD5Sum: 7ca7150dc38e574293c5e910247d96ba
+SHA256sum: 15bf0c3aa26b2b29c837262e76bd8c07ffc7d18bd833ee4b190c2e7573d1b4e5
 Description:  POSIX thread library
 
 Package: libreadline
@@ -3537,11 +3594,11 @@ License: GPL-3.0
 LicenseFiles: COPYING
 Section: libs
 Architecture: lantiq
-Installed-Size: 132783
+Installed-Size: 132782
 Filename: libreadline_6.3-1_lantiq.ipk
-Size: 132859
-MD5Sum: 10a2b3baf9e8ef809673fd76315ab910
-SHA256sum: 3c20a29db2b031101571a56d95130f98bfe98a82d49435d7bdd26e3381049554
+Size: 132841
+MD5Sum: 710cb6d243ee5a0b68cb73eee6f38634
+SHA256sum: 7066452216a31d140369041c00d96f3adae9055b9658d3c71aecf64fff0564c3
 Description:  The Readline library provides a set of functions for use by applications 
  that allow users to edit command lines as they are typed in. Both Emacs 
  and vi editing modes are available. The Readline library includes 
@@ -3559,9 +3616,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
 Installed-Size: 32716
 Filename: librpc_0.9.32-rc2-0a2179bbc0844928f2a0ec01dba93d9b5d6d41a7_lantiq.ipk
-Size: 33471
-MD5Sum: a2e466390482c338f29d2e655110c7b2
-SHA256sum: bc4c6e19c2a225d626e50b8aff1037b9bd96958cb651c3da37fd16decbfad436
+Size: 33470
+MD5Sum: 533fbaa2e86dead51efbafcd7d9ed325
+SHA256sum: 070246843aeab3518cbf5d3e221a7eef3ae6ba053890b241655f699875c17111
 Description:  uClibc RPC library
 
 Package: librt
@@ -3574,11 +3631,11 @@ Status: unknown hold not-installed
 Essential: yes
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 4929
+Installed-Size: 4930
 Filename: librt_0.9.33.2-1_lantiq.ipk
-Size: 5687
-MD5Sum: d8e77253803486a752beb2e5a3db0f45
-SHA256sum: 435676e92343212351e66ae84bc0750da68990c254a73f35ce008e0a4be447c4
+Size: 5689
+MD5Sum: 8f3b02575af9bb368e820bdb94e46d82
+SHA256sum: 71a015252072daeba573ed9c99f585e1fed0dd79070344374fd72816dfa65dad
 Description:  POSIX.1b RealTime extension library
 
 Package: libsmartcols
@@ -3589,11 +3646,11 @@ License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: libs
 Architecture: lantiq
-Installed-Size: 49226
+Installed-Size: 49227
 Filename: libsmartcols_2.25.2-2_lantiq.ipk
-Size: 50129
-MD5Sum: 2c0c5822be3eef3b1ed92a7d2910fd2a
-SHA256sum: 693d7f0bd29ea3a16568e0cc1797e3fa4a37d2919a90b00abb8dd3eaf76d99fc
+Size: 50121
+MD5Sum: 45aadd9d4ff1f6b3b9917bba19556007
+SHA256sum: c39c7983e84021957518d676e2f1e28337c2ca470dfeae8cd7190ca09e93865e
 Description:  The smartcols library is used to print tables and trees in a pretty way.
 
 Package: libstdcpp
@@ -3605,11 +3662,11 @@ Status: unknown hold not-installed
 Essential: yes
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 290909
+Installed-Size: 290911
 Filename: libstdcpp_4.8-linaro-1_lantiq.ipk
-Size: 289918
-MD5Sum: 60164d53065fcd4abc314aca8a29ff46
-SHA256sum: 6f9eb5ea03772226765ec3b1aa46ee3f86da6ddb6f84a01ece8282dc23846a9b
+Size: 289934
+MD5Sum: b5cf5a4dfe057693f56b6213f97f8886
+SHA256sum: 78616e5c4fc607a648f8bab4d074c5cbb87c08085f1bab5d895bc8c2ef3feb2b
 Description:  GNU Standard C++ Library v3
 
 Package: libubox
@@ -3620,11 +3677,11 @@ License: ISC
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 15655
+Installed-Size: 15652
 Filename: libubox_2014-11-23-f09ae76445e32511433fdab0a1bcda73aa84986d_lantiq.ipk
-Size: 16404
-MD5Sum: bbf00cc1ecdfdb2395be6b7701df4b41
-SHA256sum: 0ef6e0a7543fe6267c0a94b83f1d63cc1e35b5d764243007f00be80abc218e64
+Size: 16399
+MD5Sum: a4eb75a0cef23b503bf60fd8696a7cfd
+SHA256sum: 0cb84ca0e4e7710e0b787e8fac65fa491ea41a8868ad332ebfc1ff6f585054c7
 Description:  Basic utility library
 
 Package: libubus-lua
@@ -3635,11 +3692,11 @@ License: LGPL-2.1
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 5567
+Installed-Size: 5566
 Filename: libubus-lua_2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3_lantiq.ipk
-Size: 6347
-MD5Sum: a1d7ac3876c9cd6e2b3c0a15acd4f53d
-SHA256sum: 1bb7a5da27e181bad79bfc8d8856cfb7e2ac5c56221b93a6c5d6ff48db9e363e
+Size: 6338
+MD5Sum: 2b2bad12c16af2a133a7996c3564d063
+SHA256sum: 6d6cdaca19b9c470441b4f2e52f60601a81be33cf0bea578f40e832b23f102cb
 Description:  Lua binding for the OpenWrt RPC client
 
 Package: libubus
@@ -3650,11 +3707,11 @@ License: LGPL-2.1
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 8105
+Installed-Size: 8104
 Filename: libubus_2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3_lantiq.ipk
 Size: 8893
-MD5Sum: 5b89325e5c4f768a67e9dcf0da52a82f
-SHA256sum: eaedeb9f223bfe4fd5863db47113f0210203caab2351c3d49a373629836be34e
+MD5Sum: 67304a6ea1273bb6be76c633cf9dbd12
+SHA256sum: 20056aad530945b5bfcb83ef80d2986a4843dec771e159c653f58c38f296e721
 Description:  OpenWrt RPC client library
 
 Package: libuci-lua
@@ -3665,11 +3722,11 @@ License: LGPL-2.1
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 5936
+Installed-Size: 5937
 Filename: libuci-lua_2014-04-11.1-1_lantiq.ipk
-Size: 6665
-MD5Sum: 3be129121715f7295f7db0bbddabc27f
-SHA256sum: 8a381796fc8976bcc7aff7c694b28eddf5afd0f8ce508d6fe713e404ac2814ee
+Size: 6659
+MD5Sum: 18ef39f244d74572bffc3f1fb3e9706f
+SHA256sum: 8391761164d57cb458df5ebce64122a616bec261b51447c0e8cedc3217d29c1a
 Description:  Lua plugin for UCI
 
 Package: libuci
@@ -3680,11 +3737,11 @@ License: LGPL-2.1
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 14278
+Installed-Size: 14279
 Filename: libuci_2014-04-11.1-1_lantiq.ipk
-Size: 15039
-MD5Sum: cf01e3df3f146688ba00c6859b7da69d
-SHA256sum: bf0558d94dcdadbd5fc688b005f9abc24e168f6906ed2b4c49de7da30d855d83
+Size: 15046
+MD5Sum: 7223bd1a149dc83b25a74f600bb5c95f
+SHA256sum: 2fc729be8697fb035269fdd3e0b3378cba6cf26e55b05d85aa947a9b462be6a8
 Description:  C library for the Unified Configuration Interface (UCI)
 
 Package: libusb-1.0
@@ -3695,11 +3752,11 @@ License: LGPL-2.1
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 22471
+Installed-Size: 22474
 Filename: libusb-1.0_1.0.9-1_lantiq.ipk
-Size: 23259
-MD5Sum: 3a960c21cb049be2710f31ca8b266bf5
-SHA256sum: 31fdc55a164d9d96702c0dc8ac1fa4add5a4c7f5b0b8a19146946dbbbded3425
+Size: 23267
+MD5Sum: afdfab3027c317e41eb86b6a4462c041
+SHA256sum: 218418fab6ef2bb081078b7fa9f2b6b4de42be58739dc0c9b337f05369776ab2
 Description:  libusb is a C library that gives applications easy access to USB devices on
  many different operating systems.
 
@@ -3711,11 +3768,11 @@ License: LGPL-2.1
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 6403
+Installed-Size: 6407
 Filename: libusb-compat_0.1.4-1_lantiq.ipk
 Size: 7225
-MD5Sum: 817a98f769e8ced9a3c697d0f3517546
-SHA256sum: dde6fa4aa711fcb82111608a1966314a76ae8a105e8131f13537ddb09e931c10
+MD5Sum: de63a97e9f012d7b08a007b881522d5e
+SHA256sum: c572c2ff4f54d39d108dc9bf91308f25f6db44bd92d0d9051a13322498ff59a2
 Description:  libusb is a C library that gives applications easy access to USB devices on
  many different operating systems.
 
@@ -3727,11 +3784,11 @@ License: ISC
 Section: libs
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 3562
+Installed-Size: 3565
 Filename: libustream-polarssl_2014-03-25-fc0b5ec804ee43c532978dd04ab0509c34baefb0_lantiq.ipk
 Size: 4343
-MD5Sum: b4e9145bf0942d145dc358de9c9ea7a1
-SHA256sum: 7bc69c2c99694943490eeb1c7789237b7cd0f4c144041bc4522efe863a42591e
+MD5Sum: 3b3cc6d5db90502790002b5193e501fa
+SHA256sum: e892b5a222f0da47a38f832356ec41de3d9519639fcafad36f5545b2f2f483a7
 Description:  ustream SSL Library (polarssl)
 
 Package: libuuid
@@ -3744,9 +3801,9 @@ Section: libs
 Architecture: lantiq
 Installed-Size: 5768
 Filename: libuuid_2.25.2-2_lantiq.ipk
-Size: 6659
-MD5Sum: d893cbbd7a32bf3111471a9c181cb1ba
-SHA256sum: b1ef6846fbd1a4b63534aef7a93329089b7921f1ad5a1540578aceeae4011b3b
+Size: 6660
+MD5Sum: 756a909cbf1a4d4107cf61ffabf2262d
+SHA256sum: f223986b5d7f574de56cc81c922806d2d6171da42280248d314e7cd7aaffbcb8
 Description:  The UUID library is used to generate unique identifiers for objects
  that may be accessible beyond the local system. This library
  generates UUIDs compatible with those created by the Open Software
@@ -3759,11 +3816,11 @@ Source: package/network/utils/iptables
 License: GPL-2.0
 Section: libs
 Architecture: lantiq
-Installed-Size: 16628
+Installed-Size: 16627
 Filename: libxtables_1.4.21-1_lantiq.ipk
-Size: 17299
-MD5Sum: 98220b525e591f68c4b6cef8671d7d28
-SHA256sum: c5880fd589a0f205a52f1df0a5860f25c0e0e8b2c28bd28823d645484d114929
+Size: 17305
+MD5Sum: e35a5b5f5dd93080fa06e5a4231a0395
+SHA256sum: 95b622af34b7d6fa5bebb994ef09e1cac2543084f0d6b21c94523f8ff0d1f0cb
 Description:  IPv4/IPv6 firewall - shared xtables library
 
 Package: linux-atm
@@ -3773,11 +3830,11 @@ Source: package/network/utils/linux-atm
 License: GPL-2.0+
 Section: libs
 Architecture: lantiq
-Installed-Size: 15925
+Installed-Size: 15922
 Filename: linux-atm_2.5.2-5_lantiq.ipk
-Size: 16652
-MD5Sum: b0834d1c8deeba4c4169373b2dc6d62f
-SHA256sum: e8b77606508951b2cf95e267df8a53d4645dd07c4cf211f8b939113e76b4a210
+Size: 16650
+MD5Sum: 2f69f885480c9bebaa953b98785641c6
+SHA256sum: c24bf73f5bfa1d9954c67a611d5e2f983e5ae11001de5954c38486035b5812c5
 Description:  This package contains a library for accessing the Linux ATM subsystem.
 
 Package: ltq-vdsl-app
@@ -3787,11 +3844,11 @@ Source: package/network/config/ltq-vdsl-app
 License: BSD-2-Clause
 Section: net
 Architecture: lantiq
-Installed-Size: 44536
+Installed-Size: 44538
 Filename: ltq-vdsl-app_4.11.4-1_lantiq.ipk
-Size: 44986
-MD5Sum: 5bd14e310a38285d5fcf002687d0cba4
-SHA256sum: dc2d5d84502728cf7d8e639f0311489353968516fe9bd57d433cb9dddc8c421a
+Size: 44988
+MD5Sum: e5935a5f0495fda8a7b2c947fd17fb32
+SHA256sum: 698a6b16c7d2f9e89cb88563911d1366768eb229bf15fbafd4f914f6b81b1ef3
 Description:  Userland tool needed to control Lantiq VDSL CPE
 
 Package: ltq-vdsl-vr9-fw-installer
@@ -3801,11 +3858,11 @@ Source: package/kernel/lantiq/ltq-vdsl-fw
 Section: net
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: lantiq
-Installed-Size: 5532
+Installed-Size: 5530
 Filename: ltq-vdsl-vr9-fw-installer_1-1_lantiq.ipk
-Size: 6228
-MD5Sum: 318828de71c5dd39da8abf6c1b90d595
-SHA256sum: d6d01c6e0eeefea23635c520d12e42703fe0d351b9cedd96b7b768f9a9369612
+Size: 6227
+MD5Sum: 38af87ee58808a46faf5028e74bee38a
+SHA256sum: a529306880b4eb061cabf6192636cf02a23e01ef81ba84fb9bc339f6fdaa9db0
 Description:  Firmware installer
 
 Package: lua
@@ -3817,11 +3874,11 @@ LicenseFiles: COPYRIGHT
 Section: lang
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 4828
+Installed-Size: 4830
 Filename: lua_5.1.5-1_lantiq.ipk
-Size: 5646
-MD5Sum: 7f7f8551370b890957d36d9459aeec28
-SHA256sum: 29708cbe16c9be9ca27a5a7e6a573662df04d5288a03311eab0fe0af80122766
+Size: 5656
+MD5Sum: 645f819af8dbcfa70f2277819223f6b2
+SHA256sum: 52cf501453a9e18295ddb42c8b971964418834e5a7c5c11da9047bb52cbdb42f
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
@@ -3836,9 +3893,9 @@ Section: utils
 Architecture: lantiq
 Installed-Size: 11526
 Filename: mtd_20_lantiq.ipk
-Size: 12243
-MD5Sum: f32e9ed7a25fba8d44e047daf8c38188
-SHA256sum: 854362e5f5e44f10b05dad5928a36b8599ff537498c1305defc7b1fe70421bd4
+Size: 12242
+MD5Sum: 88ddcea61ae9d2533a4e995d2d312c84
+SHA256sum: ea32d314a5dbd7b2f868cf79a8ea0bc397992675b58400ccf74ce08f69ada8b2
 Description:  This package contains an utility useful to upgrade from other firmware or 
  older OpenWrt releases.
 
@@ -3850,11 +3907,11 @@ License: GPL-2.0
 Section: base
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 52791
+Installed-Size: 52792
 Filename: netifd_2014-12-08-19c53807d9dc62782d03c5564630ed1bcb953cd8_lantiq.ipk
-Size: 53334
-MD5Sum: c38b46ef85ac89e146d1c29401487db6
-SHA256sum: edce3c5a659ac68f17abccaf4ab00f872547e19a473adb2ef33deca4ec26b28f
+Size: 53330
+MD5Sum: 6f6125b0a3d52d8a5ab96e3568f36afe
+SHA256sum: 12eb47bf2395d38cf098f9f531d06402dc41c378ff42aa85b0f96179d786ce5d
 Description:  OpenWrt Network Interface Configuration Daemon
 
 Package: odhcpd
@@ -3865,11 +3922,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Steven Barth <steven@midlink.org>
 Architecture: lantiq
-Installed-Size: 30873
+Installed-Size: 30875
 Filename: odhcpd_2014-11-06-3b628005e66e90770b2757a4a02c1dee25ccb883_lantiq.ipk
-Size: 31716
-MD5Sum: d9631cfb27200dc5c8d164e51fb8c17e
-SHA256sum: 73000599fbdff05aa128d729d881691b8f10123cb2aafc50aa88079293451b53
+Size: 31720
+MD5Sum: 0c9eeea909887541ef41b886a4b3955a
+SHA256sum: 8e3e2d3f739d95ffc7e7ecfe3f0162e9a73390dd2271da69eed052bfb5e57ea6
 Description:  odhcpd is a daemon for serving and relaying IP management protocols to
  configure clients and downstream routers. It tries to follow the RFC 6204
  requirements for IPv6 home routers.
@@ -3886,11 +3943,11 @@ License: OpenSSL
 LicenseFiles: LICENSE
 Section: utils
 Architecture: lantiq
-Installed-Size: 196747
+Installed-Size: 196751
 Filename: openssl-util_1.0.1j-3_lantiq.ipk
-Size: 195409
-MD5Sum: dd2091fa3be2384463440df46965a8ae
-SHA256sum: ede4b73a24cf7e9d11b556d1b3734bb3c0a3d05d3ea82871be55f6a3c9cc8ac2
+Size: 195404
+MD5Sum: 015f9ccdc0573e8f3658f3bb6d97a23b
+SHA256sum: 95a88fb552ea0628086433d4bf1b81f3d598d8467b9fc625bc2cfa68d878b576
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the Secure
  Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
@@ -3904,11 +3961,11 @@ Source: package/network/services/openvpn-easy-rsa
 License: GPL-2.0
 Section: net
 Architecture: lantiq
-Installed-Size: 10068
+Installed-Size: 10073
 Filename: openvpn-easy-rsa_2013-01-30-2_lantiq.ipk
-Size: 10874
-MD5Sum: 539838ef339c763cd445920c482e4765
-SHA256sum: d4302d256d64e601789d9da36e8509592111a25810caf719c8888440d295e945
+Size: 10877
+MD5Sum: b41103d8fc63ab39b8245c090ae72aae
+SHA256sum: 67f049e7057d5cfc14a9a4fc2929a56e995566e20b4157f45e14133049cb7c80
 Description:  Simple shell scripts to manage a Certificate Authority
 
 Package: openvpn-nossl
@@ -3919,11 +3976,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Mirko Vogt <mirko@openwrt.org>
 Architecture: lantiq
-Installed-Size: 78229
+Installed-Size: 78228
 Filename: openvpn-nossl_2.3.6-1_lantiq.ipk
-Size: 78984
-MD5Sum: f8fb36dd2f5fd7f82980fd12c1d5c1a3
-SHA256sum: 273c7c88c90bffa04eafad837c71fa6c0f2326b29dc847fd7be92491eb8ee973
+Size: 78974
+MD5Sum: ceb14abe959dd8f8c4985cf3e96ae7c4
+SHA256sum: 25e23eb8fb809c17d4735cae32313a659e1f2f68bc29023e354d9f398bb727a7
 Description:  Open source VPN solution using plaintext (no SSL)
 
 Package: openvpn-openssl
@@ -3934,11 +3991,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Mirko Vogt <mirko@openwrt.org>
 Architecture: lantiq
-Installed-Size: 159264
+Installed-Size: 159263
 Filename: openvpn-openssl_2.3.6-1_lantiq.ipk
-Size: 159537
-MD5Sum: 509db413b2fe25966a00ac15d1c9aa88
-SHA256sum: 997fe934f3b6def6f565ba9d392b4d9a2a10cc983a823be63d2ac26e02cd4ae1
+Size: 159555
+MD5Sum: 90c69916e7c16845a03f7198078784cb
+SHA256sum: 2aa3fd68fbad88cb9657c96e55eeb34f742840a68f258785c5b7c04f5442b1f2
 Description:  Open source VPN solution using OpenSSL
 
 Package: openvpn-polarssl
@@ -3949,11 +4006,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Mirko Vogt <mirko@openwrt.org>
 Architecture: lantiq
-Installed-Size: 155532
+Installed-Size: 155527
 Filename: openvpn-polarssl_2.3.6-1_lantiq.ipk
-Size: 156067
-MD5Sum: 98547d43fff826155fc5dd7057a8ed45
-SHA256sum: 7b84f9effabb45251668937365fdeab86eb484b70064802132bd66a68559e23f
+Size: 156059
+MD5Sum: 5b0885fe68edb477506c767589a404a4
+SHA256sum: a90b144460171ec2c0caab998426c142299f876623ffd8b822fa85692ddfe203
 Description:  Open source VPN solution using PolarSSL
 
 Package: opkg
@@ -3965,11 +4022,11 @@ LicenseFiles: COPYING
 Section: base
 Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: lantiq
-Installed-Size: 55001
+Installed-Size: 54981
 Filename: opkg_9c97d5ecd795709c8584e972bfdf3aee3a5b846d-7_lantiq.ipk
-Size: 55935
-MD5Sum: 38b41a77a3ffed3c9fe5edeff11d81c1
-SHA256sum: 48ae9a688ebc9f6d63e11eb55dd8e73ad91993ef8974d7e4d484b5fa56254249
+Size: 55915
+MD5Sum: cf0396fd7bafe3365aa0de5436905452
+SHA256sum: e1baddd4adb06f420df7916c83099ab6384f55453a6ca47f6cb4f0244d19ced1
 Description:  Lightweight package management system
  opkg is the opkg Package Management System, for handling
  installation and removal of packages on a system. It can
@@ -3988,9 +4045,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
 Installed-Size: 7065
 Filename: ppp-mod-pppoa_2.4.7-4_lantiq.ipk
-Size: 7858
-MD5Sum: 2d9d3958b623de59e51c03c3ff212ec3
-SHA256sum: 3d30900ba9bace8d6b9d192f7b7a444cca6a255cfc30f3aadb9ffa3e00a8347b
+Size: 7862
+MD5Sum: e1a98981d6ed297b1fd9b3ca668de2cc
+SHA256sum: 1ed85e092df2045f4840faa7ebca20979b21e57168bd369e46876f6f64b10781
 Description:  This package contains a PPPoA (PPP over ATM) plugin for ppp.
 
 Package: ppp-mod-pppoe
@@ -4003,9 +4060,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
 Installed-Size: 9560
 Filename: ppp-mod-pppoe_2.4.7-4_lantiq.ipk
-Size: 10325
-MD5Sum: 1e68ea366909e3587fe18c8cdc59dc17
-SHA256sum: 6d2556a0d2d2bbb454afce7ee5affc36c78dd791d9f72bc917bd33d190229bc4
+Size: 10322
+MD5Sum: e422d9b3594ca19dbbcdfe8d8f34bce8
+SHA256sum: fe0cc07a87df48338a14269a2be8ebac7b292edb162acead0cc6e369ae16e83e
 Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
 
 Package: ppp-mod-pppol2tp
@@ -4016,11 +4073,11 @@ License: BSD-4-Clause
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 4704
+Installed-Size: 4705
 Filename: ppp-mod-pppol2tp_2.4.7-4_lantiq.ipk
-Size: 5452
-MD5Sum: a49cb3de8e107d31d74473037fce0e05
-SHA256sum: be0afa40c7fe796259d63b29613d24e4c9daa803e1722dd436d2f306db26e270
+Size: 5460
+MD5Sum: 378d28554be98622bd2a0ddbc71a6e1b
+SHA256sum: fd94b0be438f5f3fdc38b1e78760159f60de34f804cd22ebeb80c2d6fa7c4f57
 Description:  This package contains a PPPoL2TP (PPP over L2TP) plugin for ppp.
 
 Package: ppp
@@ -4033,9 +4090,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
 Installed-Size: 102196
 Filename: ppp_2.4.7-4_lantiq.ipk
-Size: 102931
-MD5Sum: 3b669ff92eebe949ef8dcf2f91d03ba1
-SHA256sum: d57c37dfbd1d0e1a7fe7733bb2f4c5d9d4c39134ac9e3f702b62b9188cabd791
+Size: 102930
+MD5Sum: eb4be86ce2810bf68d3b4128d6a89675
+SHA256sum: 0103d12631639486934b8ae68f8a4b46a179b435cd90987f53b9730c4328cde1
 Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
 
 Package: procd
@@ -4046,11 +4103,11 @@ License: GPL-2.0
 Section: base
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: lantiq
-Installed-Size: 31046
+Installed-Size: 31048
 Filename: procd_2014-12-15-61cfe0d093056b85a311f06d44ac149e5dbb4d1a_lantiq.ipk
-Size: 31511
-MD5Sum: de7e5a99a058e0094e94bde8758b56bf
-SHA256sum: 6f7021863667779f68bfac271a246fbab7080579d4de27003008020b6b8e028d
+Size: 31440
+MD5Sum: e77509d1ea4e123269794d3b3fedb20f
+SHA256sum: 489927042f9cc2612dab04d2af808918fa4139666288bf4d2fc4d07264bb3b88
 Description:  OpenWrt system process manager
 
 Package: px5g
@@ -4060,11 +4117,11 @@ Source: package/utils/px5g
 Section: utils
 Maintainer: Jo-Philipp Wich <xm@subsignal.org>
 Architecture: lantiq
-Installed-Size: 4252
+Installed-Size: 4250
 Filename: px5g_2_lantiq.ipk
-Size: 5025
-MD5Sum: bb1f45c688de1fe3dcce739448e751ed
-SHA256sum: a49158f11d0e99da275dc337c6947e33366e28d06d158cf2326556fd21bd74c6
+Size: 5022
+MD5Sum: 8675fbc6c10851163100d4e7cc0cf72b
+SHA256sum: 45e98eb00cabe0cd6b98bc48de38135eacb4b4cf98880dd3d9a9c228fa7cd84d
 Description:  Px5g is a tiny standalone X.509 certificate generator.
  It suitable to create key files and certificates in DER
  and PEM format for use with stunnel, uhttpd and others.
@@ -4076,11 +4133,11 @@ Source: package/network/config/qos-scripts
 Section: utils
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: all
-Installed-Size: 6419
+Installed-Size: 6420
 Filename: qos-scripts_1.2.1-6_all.ipk
-Size: 7309
-MD5Sum: c82eee53c823a4db265db15ce4f629d1
-SHA256sum: 5c8e6465d58b74013bd8689f1e954cef7de463c5b42c9cbfba05066b4cf710b5
+Size: 7308
+MD5Sum: b8308b9f066570756e9bdf6a9b2a858e
+SHA256sum: dcbe4f068c2a690ff35510cc9352a9ab496c15c3e4e1cdd35abcca6422d4971c
 Description:  A set of scripts that abstract QoS configuration into a simple 
  configuration file supporting stanzas that specify any number of QoS 
  entries.
@@ -4093,11 +4150,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 8892
+Installed-Size: 8893
 Filename: relayd_2014-10-05-767c54d5957a2db0b847add771e8e890b82569c0_lantiq.ipk
-Size: 9670
-MD5Sum: 8d81de0793dea98a04d6e19835c1df79
-SHA256sum: a72fd6ed91a2fcfc1cbc5773025423d65a8360375636942329c99773ebd9d762
+Size: 9674
+MD5Sum: 835cd94e3e498245994be2412def75b5
+SHA256sum: f4ea5615f0b5b38a02638bce05af0f7e3ceea4064d7a4ed8749d9348dbf88a96
 Description:  Transparent routing / relay daemon
 
 Package: resolveip
@@ -4108,11 +4165,11 @@ License: GPL-2.0
 Section: utils
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: lantiq
-Installed-Size: 1865
+Installed-Size: 1866
 Filename: resolveip_2_lantiq.ipk
-Size: 2734
-MD5Sum: 0b0b1ef43c1d38eb1b237ba4c0aca32c
-SHA256sum: 73ee904f0b16a744e2f87b1d15031ce5c0a3113432b450ef9494cfd76c5d7155
+Size: 2735
+MD5Sum: 1bc00b4e318faef578d573322e2bce95
+SHA256sum: 918f5ce2f71f323eca18d0fdfcfaf9dc59df78de6aa32f6ff4bf5e30fd92f7a3
 Description:  This package contains the small resolveip utility which
  can be used by scripts to turn host names into numeric
  IP addresses. It supports IPv4 and IPv6 resolving and
@@ -4128,11 +4185,11 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 411300
+Installed-Size: 411302
 Filename: samba36-client_3.6.24-1_lantiq.ipk
-Size: 411461
-MD5Sum: 2082a43419d9458e02bcc18abd0cc417
-SHA256sum: b5f6265457dfead01341cfb80955f7b43e37e4dc2f3e1f3fc035a6b795d67fee
+Size: 411478
+MD5Sum: 63f7102c8fa119c1a6a55b3cebc1e017
+SHA256sum: 9877a9d07809884a94491cf2af4ff85d39e6f5db579ef72f8433e724ea163d94
 Description:  Samba 3.6 SMB/CIFS client
 
 Package: samba36-server
@@ -4144,11 +4201,11 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 863499
+Installed-Size: 863489
 Filename: samba36-server_3.6.24-1_lantiq.ipk
-Size: 850735
-MD5Sum: 180fd7391e17a4541414d31723ce1ec5
-SHA256sum: c17f75d8f13dae63f320f125564881fa41780a1e5074ffbad2faa35882ace2b5
+Size: 847912
+MD5Sum: e7ef61c051b382f71398bd8e09a71839
+SHA256sum: cc415de9cf4c8d09b2d3643b3b81fbc7ccce8188934cecb9da60c66e68d298d5
 Description:  The Samba software suite is a collection of programs that implements the
  SMB protocol for UNIX systems, allowing you to serve files and printers to
  Windows, NT, OS/2 and DOS clients. This protocol is sometimes also referred
@@ -4162,11 +4219,11 @@ License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: utils
 Architecture: lantiq
-Installed-Size: 35742
+Installed-Size: 35740
 Filename: sfdisk_2.25.2-2_lantiq.ipk
-Size: 36608
-MD5Sum: 2b63740368bf5f1189fac993a4c712c8
-SHA256sum: b2023a2f854ac45efb257c5a3a09681b08212f29c18af9d9f9ded2c8aebeff44
+Size: 36610
+MD5Sum: b9bf5af816748d814ba7a819bf160831
+SHA256sum: cef2f4b81911000e833c6af7cc1b66d78acea2601c1fed4e8560c0f1f5879924
 Description:  list the size of a partition, list the partitions on a device, check the
  partitions on a device and repartition a device
 
@@ -4178,11 +4235,11 @@ License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: utils
 Architecture: lantiq
-Installed-Size: 26450
+Installed-Size: 26453
 Filename: swap-utils_2.25.2-2_lantiq.ipk
-Size: 27133
-MD5Sum: 469744b31bdb6feef83e351e25b36c9d
-SHA256sum: fe5543b451feb77cdf09558aa69b88ff83dba4404d56ef23ff4c73c1899166b5
+Size: 27134
+MD5Sum: 35fc8158b932e2d8b60637028f894a39
+SHA256sum: 7eb8925eb71962c65d43b09a56c70495509eec6466879ccfbe5f2e4a1a7d7ddc
 Description:  contains: mkswap, swaplabel
 
 Package: swconfig
@@ -4193,11 +4250,11 @@ License: GPL-2.0
 Section: base
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 7016
+Installed-Size: 7017
 Filename: swconfig_10_lantiq.ipk
-Size: 7780
-MD5Sum: ab05c32c57fefe268ac431224cd65bb3
-SHA256sum: 947ceaed453bc07fc61fb65183f58c872c9d194c695d56acc4ab8473a54bab11
+Size: 7781
+MD5Sum: ae4bb0b7e1dab3f0df85081a23a1bfb9
+SHA256sum: 81cdfc59355ec5bf9754fd7ba46c012b7c2949293e7a288ac620062e7e9e9182
 Description:  Switch configuration utility
 
 Package: tc
@@ -4210,9 +4267,9 @@ Maintainer: Russell Senior <russell@personaltelco.net>
 Architecture: lantiq
 Installed-Size: 92750
 Filename: tc_3.17.0-1_lantiq.ipk
-Size: 93621
-MD5Sum: e131ddd37507cf15d70be841dfe21e0a
-SHA256sum: 36c950d9c68f43b18fb4001043cafb45ba7d2e7f51d1d239c670c28e6dc79380
+Size: 93618
+MD5Sum: e7eb5b15eb2da5623c1981c52fe06ed6
+SHA256sum: 1170427253663ace4861720c95379a6e92b4168e6d4190c9a6e4fd7cc2f907b1
 Description:  Traffic control utility
 
 Package: terminfo
@@ -4223,11 +4280,11 @@ License: MIT
 LicenseFiles: README
 Section: libs
 Architecture: lantiq
-Installed-Size: 5830
+Installed-Size: 5824
 Filename: terminfo_5.9-1_lantiq.ipk
-Size: 6517
-MD5Sum: e50e58f5a6d36e7c176cc97665257dbb
-SHA256sum: a7e01fc0c4f758ecd0dc2b2dd65284f79b55e1ee25e172354748b624b76f8e67
+Size: 6520
+MD5Sum: 0d436f9a9102aec9fecd5a5125ef0b6c
+SHA256sum: c35c47b778be6008a1c36366c464af86c1e3ccf8a79609b77ed9bad4444d671f
 Description:  Terminal Info Database (ncurses)
 
 Package: tune2fs
@@ -4236,11 +4293,11 @@ Depends: libc, e2fsprogs
 Source: package/utils/e2fsprogs
 Section: utils
 Architecture: lantiq
-Installed-Size: 42199
+Installed-Size: 42201
 Filename: tune2fs_1.42.4-1_lantiq.ipk
-Size: 42893
-MD5Sum: 96364dd7d98872afd0af7aa9f2583c7a
-SHA256sum: f075b3e3ff96db7ca4b3b3926caea0ee5b1cacd75a288ff02538a3e2993b987b
+Size: 42892
+MD5Sum: 1fbbb11256d77cf7c8c206a5ff79620f
+SHA256sum: eb2290df883d9d9d4d44187605825d0f05005dd4bc04160e8df860041fe7750c
 Description:  Ext2 Filesystem tune utility
 
 Package: ubox
@@ -4251,11 +4308,11 @@ License: GPL-2.0
 Section: base
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: lantiq
-Installed-Size: 21185
+Installed-Size: 21184
 Filename: ubox_2014-10-06-0b274c16a3f9d235735a4b84215071e1e004caa9_lantiq.ipk
-Size: 21831
-MD5Sum: 87e4e8b5367bc9f3baa45dd3ac0823ee
-SHA256sum: fee6ab51ecf4a99d198da982fa220da7c546e22a913878d126dbba0ef1351c32
+Size: 21836
+MD5Sum: d4cbc1adb3ad9a91d5be9c5bafa18c7c
+SHA256sum: 297115fbcca3c7b5ba5d22c69146004989cf6bc789ce7df503f8128622b669dd
 Description:  OpenWrt system helper toolbox
 
 Package: ubus
@@ -4269,8 +4326,8 @@ Architecture: lantiq
 Installed-Size: 3712
 Filename: ubus_2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3_lantiq.ipk
 Size: 4505
-MD5Sum: 82f88650255c8f5c1c9d7f5d3028ff25
-SHA256sum: 97bd1206dde16ea95d7d5f3a8e578dd458bb5219bd5ebc305ac949e60ceb03a9
+MD5Sum: 174e7a70767ade88c83b8c60c971934c
+SHA256sum: 23d70866ca42bf1afa9be61f3203c7041ce209a6f43ac68698a785201488e21c
 Description:  OpenWrt RPC client utility
 
 Package: ubusd
@@ -4281,11 +4338,11 @@ License: LGPL-2.1
 Section: base
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 6530
+Installed-Size: 6528
 Filename: ubusd_2014-09-17-4c4f35cf2230d70b9ddd87638ca911e8a563f2f3_lantiq.ipk
 Size: 7309
-MD5Sum: ab2c63c8c1cca8d3325260569f38d3ed
-SHA256sum: fc9c8d9e33bbfae1d2898becdcd9daa9cddb6155204f8da5fd4071d74b507733
+MD5Sum: 225bc0f12e86e01833b934562a394074
+SHA256sum: d507e5f82d12a061891fc89472dca69f99972f747a815bc213b391414e79d024
 Description:  OpenWrt RPC daemon
 
 Package: uci
@@ -4298,9 +4355,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
 Installed-Size: 6457
 Filename: uci_2014-04-11.1-1_lantiq.ipk
-Size: 7212
-MD5Sum: b85e48fbb011d9d4e27a05628048a010
-SHA256sum: 4381fdc7e44083b866c304344ba73637592e6326c808f86fda0109d52281c28b
+Size: 7211
+MD5Sum: a17fce0f379c42502f7147fea99fbd7d
+SHA256sum: aa6640c92a503c03406404271521869cfd0fabc89491bc0f3aaea5df0005d26d
 Description:  Utility for the Unified Configuration Interface (UCI)
 
 Package: uclibcxx
@@ -4310,11 +4367,11 @@ Source: package/libs/uclibc++
 License: LGPL-2.1+
 Section: libs
 Architecture: lantiq
-Installed-Size: 70751
+Installed-Size: 70752
 Filename: uclibcxx_0.2.4-1_lantiq.ipk
-Size: 71232
-MD5Sum: 5cdb06b3b1902f557c2cfc5a0c588b42
-SHA256sum: e4a9de1ad8bb59b44be295225def407cfc3987dafbc45a3b8eb9c2679a43099f
+Size: 71225
+MD5Sum: 5be9f0b97ef25b6864da10e3f60145ae
+SHA256sum: 22ee4dce4532313f529c2aac6f43fc769fb299d0083a9dc5c84f29ee7789c80e
 Description:  C++ library for embedded systems
 
 Package: uhttpd-mod-ubus
@@ -4325,11 +4382,11 @@ License: ISC
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 6258
+Installed-Size: 6257
 Filename: uhttpd-mod-ubus_2014-10-27-fd8e5e379c23c5fbcec3e76894b839233df09067_lantiq.ipk
-Size: 7141
-MD5Sum: 57d5800406a04996f285b5bbb6c116b1
-SHA256sum: 0b27a2245c270375de72b2179fa331c81bb08bc963d66dcd731ac2702dcf3378
+Size: 7136
+MD5Sum: ebf27f076b25a752e4266cf40ee5c1a7
+SHA256sum: 3dc2c70bc074e135e8b857291e65bffada13eec408de46e7ea30632e1fe1bed9
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
@@ -4341,11 +4398,11 @@ License: ISC
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 18806
+Installed-Size: 18810
 Filename: uhttpd_2014-10-27-fd8e5e379c23c5fbcec3e76894b839233df09067_lantiq.ipk
-Size: 19613
-MD5Sum: 7453cae0cad8ac5e479eeb416ba9bf0a
-SHA256sum: b67a803506c4fd41ad916c2b570fe017f0427b3571c4c9af7fe356c790981cee
+Size: 19618
+MD5Sum: 11737b6efae157618fb942dc55dc1226
+SHA256sum: b2d891a047d31e8a3567c2ced28c95a60c46a1ce816dc61d0319ab5da5c7c6a5
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
@@ -4358,11 +4415,11 @@ License: GPL-2.0
 Section: net
 Maintainer: Matti Laakso <malaakso@elisanet.fi>
 Architecture: lantiq
-Installed-Size: 17606
+Installed-Size: 17610
 Filename: uqmi_2014-12-03-86bcdb8cca652676a78b2df8b5e3fb27a40c60a4_lantiq.ipk
-Size: 18451
-MD5Sum: f11fef71dd931e856639a18a6d63b4ca
-SHA256sum: bb9a1a1499413f5d83eb6dbdf2710d64ad7d73f7892f851628439df753e2041f
+Size: 18447
+MD5Sum: 8f4328a0ed34890511ed7e0f80fd5d4e
+SHA256sum: 02ecc5dd2bad38e57fd9c0dd82447a5cfb477ae2dbc8defb154c0957fa6600b0
 Description:  uqmi is a command line tool for controlling mobile broadband modems using
  the QMI-protocol.
 
@@ -4374,11 +4431,11 @@ License: GPL-2.0
 Section: utils
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 11219
+Installed-Size: 11217
 Filename: usb-modeswitch_2014-08-26-993a9a542791953c4804f7ddbb3a07756738e37a_lantiq.ipk
-Size: 11999
-MD5Sum: 55892338462d9c15a451cf2e309947a6
-SHA256sum: f6c0252617f94adbba582a13e338337690bf67f0954f2499b9ca6b08a7038145
+Size: 12001
+MD5Sum: 42c4f7867de9e09e38fa9892875f3762
+SHA256sum: dc360285dce4b28b393b74b1d6f8c62ad39fe069b2573e3b4b7d943873da90ea
 Description:  USB mode switching utility
 
 Package: usbutils
@@ -4388,11 +4445,11 @@ Source: package/utils/usbutils
 Section: utils
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 208069
+Installed-Size: 208068
 Filename: usbutils_007-1_lantiq.ipk
-Size: 208938
-MD5Sum: ead0da2ac85077d6dc735a45fdd46a58
-SHA256sum: eee3b90d3e63b27a5cd601d3e94119c4cea38df50f820a58ca32579d16729e7b
+Size: 208935
+MD5Sum: f02ce626d616785ada2029bbfc3b4362
+SHA256sum: 56748c4b7af2c9f3bd4e9db23a958432f173b41fb6f7c9a2a5783d71855944b3
 Description:  USB devices listing utilities
 
 Package: uuidgen
@@ -4403,11 +4460,11 @@ License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: utils
 Architecture: lantiq
-Installed-Size: 2526
+Installed-Size: 2525
 Filename: uuidgen_2.25.2-2_lantiq.ipk
-Size: 3436
-MD5Sum: f0db3a958d00aa0ae7d14644723f639c
-SHA256sum: 66eadeebec0895771bf804ebca019c54c94d7a9d34afb0e24780af96a2dbeff6
+Size: 3435
+MD5Sum: 3951f6c78854db0838831f221feeb9db
+SHA256sum: f9a649b1d2d8e330c296c5380249592e8bc9284a25479bea4e3fb61ca7438c92
 Description:  The uuidgen program creates (and prints) a new universally unique identifier
  (UUID) using the libuuid library. The new UUID can reasonably be considered
  unique among all UUIDs created on the local system, and among UUIDs created on
@@ -4421,11 +4478,11 @@ License: GPL-2.0
 LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
 Section: utils
 Architecture: lantiq
-Installed-Size: 7510
+Installed-Size: 7509
 Filename: whereis_2.25.2-2_lantiq.ipk
 Size: 8320
-MD5Sum: 3b2f38a3c1a9fb28171ba2c61024ff8d
-SHA256sum: c57b6c3cfc1bfe86ee9d8c02ed45075d622ba1cbd3653db51cd6519018646c50
+MD5Sum: 69cd34987cb39957d3a34958823e7cc8
+SHA256sum: 38de712ec38d3af7697f966f1b9d0a20dc69a0136243fd3223f032aead881ec0
 Description:  whereis locates source/binary and manuals sections for specified files
 
 Package: wipefs
@@ -4438,9 +4495,9 @@ Section: utils
 Architecture: lantiq
 Installed-Size: 10064
 Filename: wipefs_2.25.2-2_lantiq.ipk
-Size: 10900
-MD5Sum: 53dcf9a49dd3d4d8053218f0321263b5
-SHA256sum: bccb8198cd4a001d3146cd2fd3df22f2c56b20e12149ad8067d3aefba4521fed
+Size: 10904
+MD5Sum: 419065146db16e3c3ad336b5dd1581c7
+SHA256sum: 365c5407526043029bdae8d20ca6b807aa263b64bb839b9fd14e97169c9d261d
 Description:  wipefs can erase filesystem, raid or partition table signatures (magic
  strings) from the specified device to make the signature invisible for
  libblkid.
@@ -4453,11 +4510,11 @@ License: BSD-3-Clause
 Section: net
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: lantiq
-Installed-Size: 215472
+Installed-Size: 215473
 Filename: wpad-mini_2014-10-25-1_lantiq.ipk
 Size: 216203
-MD5Sum: 06f9c45d0b8fbd7c370f3fd9a3d8d871
-SHA256sum: 893b347f66e3dd79cad25c0d5d4baca34fcd45f0483a1452362962f5b3b7a23f
+MD5Sum: 1b452a884ce50b6a5bc57b0e1c08483a
+SHA256sum: 621a7f554e512d7772fd30ee9147be882cc6cafa8514481c8cd8129010db9245
 Description:  This package contains a minimal IEEE 802.1x/WPA Authenticator and Supplicant (WPA-PSK only).
 
 Package: zlib
@@ -4468,11 +4525,11 @@ License: Zlib
 LicenseFiles: README
 Section: libs
 Architecture: lantiq
-Installed-Size: 40691
+Installed-Size: 40692
 Filename: zlib_1.2.8-1_lantiq.ipk
 Size: 41390
-MD5Sum: 5a7e8ffac86fd03b96253256808d628b
-SHA256sum: e630e3424edb04e34047dde9020c111585e5ad4c7506de0d5124d01381ae270e
+MD5Sum: e531bab83d63655e842d63329e713e86
+SHA256sum: 39038c080fc0f4a702abe2455468e6ee06755b9e16bd047a1ec2d56fb0ed751f
 Description:  Library implementing the deflate compression method
 
 Package: zram-swap
@@ -4481,11 +4538,11 @@ Depends: libc, kmod-zram, block-mount
 Source: package/system/zram-swap
 Section: utils
 Architecture: all
-Installed-Size: 1122
+Installed-Size: 1121
 Filename: zram-swap_1-2_all.ipk
-Size: 1868
-MD5Sum: d9b86299f90d764b41e7ece2a8232f76
-SHA256sum: 1abd5886ab0369676584f415dda657c02636d73b7f8d312eab1e604dc0970f40
+Size: 1872
+MD5Sum: 56216bf6b734dc4b516cc501039bff56
+SHA256sum: f37250aae30d7c4652d8622d2351e6447e2fed7c136e66c677866549004665f6
 Description:  A script to activate swaping on a compressed zram partition. This 
  could be used to increase the available memory, by using compressed 
  memory.
