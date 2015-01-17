@@ -14,10 +14,12 @@ che ringrazio per aver condiviso pubblicamente il loro lavoro.
 Il loro lavoro originale è posto in /extrapatch
 
 
-In "openwrt-TPLINK8970/bin" trovate l'immagine e i package da me compilati 
+In "BUILD" trovate l'immagine e i package da me compilati 
 e caricati su GitHub ciclicamente.
-Ho creato un mio personale repository per i pacchetti che dovrebbe essere accessibile
-direttamente dal router tramite opkg: http://ambrosa.ddns.net/openwrt8670/
+Ho creato un mio personale repository per i pacchetti gestiti da opkg accessibile
+direttamente dal router http://ambrosa.altervista.org/openwrt/tdw8970/VER/packages
+dove "VER" è la versione trunk compilata
+(esempio http://ambrosa.altervista.org/openwrt/tdw8970/43753/packages/base ....)
 
 
 In "openwrt-TPLINK8970/files" sono posti i vari custom files aggiunti al 

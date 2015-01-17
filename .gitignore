@@ -1,3 +1,4 @@
+/bin
 ambrosa-*
 *.o
 .DS_Store
