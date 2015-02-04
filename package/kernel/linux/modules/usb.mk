@@ -217,7 +217,9 @@ $(eval $(call KernelPackage,usb-phy-twl6030))
 define KernelPackage/usb-gadget
   TITLE:=USB Gadget support
   KCONFIG:=CONFIG_USB_GADGET
-  FILES:=$(LINUX_DIR)/drivers/usb/gadget/udc-core.ko
+  FILES:=\
+	$(LINUX_DIR)/drivers/usb/gadget/udc-core.ko@lt3.18 \
+	$(LINUX_DIR)/drivers/usb/gadget/udc/udc-core.ko@ge3.18
   AUTOLOAD:=$(call AutoLoad,45,udc-core)
   DEPENDS:=@USB_GADGET_SUPPORT
   $(call AddDepends/usb)
@@ -1023,6 +1025,23 @@ define KernelPackage/usb-net-asix/description
 endef
 
 $(eval $(call KernelPackage,usb-net-asix))
+
+
+define KernelPackage/usb-net-asix-ax88179
+  TITLE:=Kernel module for USB-to-Gigabit-Ethernet Asix convertors
+  DEPENDS:=+kmod-libphy
+  KCONFIG:=CONFIG_USB_NET_AX88179_178A
+  FILES:=$(LINUX_DIR)/drivers/$(USBNET_DIR)/ax88179_178a.ko
+  AUTOLOAD:=$(call AutoProbe,ax88179_178a)
+  $(call AddDepends/usb-net)
+endef
+
+define KernelPackage/usb-net-asix-ax88179/description
+ Kernel module for USB-to-Ethernet ASIX AX88179 based USB 3.0/2.0
+ to Gigabit Ethernet adapters.
+endef
+
+$(eval $(call KernelPackage,usb-net-asix-ax88179))
 
 
 define KernelPackage/usb-net-hso
